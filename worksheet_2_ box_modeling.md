@@ -4,7 +4,6 @@
 ### Before you start
 
 - All the machines in the lab have Maya installed, if you want you use your own machine follow the installation guide.
-- 
 - Make sure you have a mouse, you can use Maya with a track pad but it is much harder.
 
 
