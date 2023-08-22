@@ -17,6 +17,7 @@
 - This allows you to choose specific details when you create a new polygon
 - change the values as show bellow
 	![](images/worksheet_1/new_cylinder.jpg)
+
 - Press **Apply**
 - move the cylinder up so it is sitting on the grid
 
@@ -70,7 +71,6 @@
 ### Add edge loop - multi-cut tool
 
 - The multi-cut tool allow you to add more edges to your object.
-
 - In the modeling toolkit, select the multi-cut tool
 
 	![](images/worksheet_1/multi-cut.jpg)
@@ -80,14 +80,11 @@
 	![](images/worksheet_1/create_edge_loop.jpg)
 
 - Create three new edge loops to give your object more detail.
-
-
 - You can quit out of any tool by pressing q on the keyboard, or pressing the arrow button in the top left
 
 	![](images/worksheet_1/arrow.jpg)
 
 - Scale and move the new edge loops to create a rounder trophy.
-
 
 	![](images/worksheet_1/rounder_trophy.jpg)
 
@@ -97,7 +94,7 @@
 
 	![](images/worksheet_1/faces.jpg)
 
-- hold down shift and select two faces on the edge of the trophy, it is important that you select the faces that are in line with the z axis. The Thick grid line should be in line with the faces.
+- Hold down shift and select two faces on the edge of the trophy, it is important that you select the faces that are in line with the z axis. The Thick grid line should be in line with the faces.
 
 	![](images/worksheet_1/select_faces.jpg)
 
@@ -107,8 +104,10 @@
 	
 - Click and drag the blue arrow to extrude out the faces
 	![](images/worksheet_1/extrude_arrow.jpg)
+
 - Change the number of divisions to 3
 	![](images/worksheet_1/extrudeing.jpg)
+
 - Press q or press the arrow to quit out of the extrude tool
 
 ### Bridge the handle
@@ -131,7 +130,7 @@
 	![](images/worksheet_1/faces.jpg)
 
 - Select one of the faces in the middle of the top of the trophy
--  Then holding down tab on the keyboard and the left mouse button to paint selecting the rest.
+- Then holding down tab on the keyboard and the left mouse button to paint selecting the rest.
 
 	![](images/worksheet_1/paint_select.gif)
 
@@ -176,7 +175,7 @@
 
 	![](images/worksheet_1/half_trophy.jpg)
 
-- go to Mesh > Mirror and press the little square to the right, this is the options box.
+- Go to Mesh > Mirror and press the little square to the right, this is the options box.
 
 	![](images/worksheet_1/mirror.jpg)
 
@@ -193,7 +192,7 @@
 
 - Well done, you have now made a low poly trophy using many of the core box modeling tequniques
  
-- tap the space bar to view the tropy in the perspective view again. 
+- Tap the space bar to view the tropy in the perspective view again. 
 
 ## Challenge - Finish the trophy
 
