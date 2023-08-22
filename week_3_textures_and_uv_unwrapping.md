@@ -1,0 +1,28 @@
+# Week 3 - Textures and uv unwrapping
+
+- download project file
+- open scene and set project
+- on first object select faces and apply simple colour textures use blinn
+- edit specular attribute and change colour
+
+- on second object, select and apply new stingray material
+- choose colour map
+- look at result
+- automatic mapping
+- look at result
+
+- apply normal and roughness maps
+
+- on last object apply existing stringray material
+- open uv editor
+- turn on checkerboard
+- explain what we are trying to achieve
+- delete existing uvs and create new camer selection
+- cut and sew edges to create uv shells
+- unwrapp shells
+- arrange on tile
+- look at model again.
+
+- stretch goal 1 - find other textures online and apply to 4th object
+- stetch goal 2 - texture a model you made earlier in course.
+ 

@@ -1,0 +1,251 @@
+# Week 1 - Introduction to modelling in Maya
+
+### Before you start
+
+- All the machines in the lab have Maya installed, if you want you use your own machine follow the installation guide.
+- Make sure you have a mouse, you can use Maya with a track pad but it is much harder.
+
+## 1. Create a Robot
+
+### Create a new scene
+
+- Open up Maya
+- Create a new Scene
+
+  ![](images/worksheet_1/new_scene.jpg)
+
+### Add a polygon
+
+- Create a polygon cube
+
+![](images/worksheet_1/create_cube.jpg)
+
+ This will create a new polygon cube in the middle of your scene.
+ 
+### Navigate around the scene
+ 
+ On Windows
+ ![](images/worksheet_1/windows.png)
+ - mouse wheel zooms in and out
+ - hold down alt and left mouse button to orbit
+ - hold alt and press the scroll wheel to pan
+ 
+ On Mac 
+ ![](images/worksheet_1/mac.png)
+ - mouse wheel zooms in and out
+ - hold down alt and left mouse button to orbit
+ - hold alt and press the scroll wheel to pan
+
+### Manipulate the cube
+
+- Click on the cube to select it
+
+#### Move
+- Click on the move button, or press **w** on the keyboard.
+
+	![](images/worksheet_1/move.jpg)
+- Click and drag on the arrows to move the cube in the x, y or z direction. 
+- Never use the middle yellow square
+
+#### Rotate
+- Click on the rotate button, or press **e** on the keyboard 
+- use the red, green and blue rings to rotate the cube in x, y and z planes.
+- Never use the outer light blue ring unless you have a very good reason
+
+#### Scale
+- click on the scale button, or press **r** on the keyboard
+
+	![](images/worksheet_1/scale.jpg)
+- use center square to evenly scale the cube.
+- use the red, green and blue squares to scale the cube in the x, y and z directions only.
+
+### More shapes
+
+- Create a cylinder and a cone
+![](images/worksheet_1/cylinder and cone.jpg)
+
+### Outliner
+- At the bottom of the left panel click the outliner button
+
+	![](images/worksheet_1/outliner.jpg)
+
+- This will open the useful ouliner panel which which shows all the object in your scene.
+- Double click pCube1 and rename it to "body"
+- Double click pCylinder and rename it to "head"
+- Double click pCone and rename it to "Hat"
+
+
+### Grouping
+- Hold down shift and click the head and the body hat in the outliner.
+- press ctrl + G to create a group
+- double click the group and rename it "Robot"
+- You can move items in and out of groups by middle mouse clicking on them in the outliner and dragging them out of the group. try this with the head.
+- You can use the outline to select items that may be hard to select in the scene.
+- Position the head, body and hat appropriately in the scene, scale and rotate them as needed.
+
+### Saving
+- When using Maya you will want to save regularly.
+- It is also a very good idea to keep your work organised
+- Choose **File > Save scene As.." 
+- Create a folder on your network drive called "principles_of_3D"  
+- nave the scene "week_1_robot" and save it.
+
+
+## **Challenge 1** - Create a Robot
+- Your Maya skills will impove the more you practice, for this challenge practice the skill you have learnt so far.
+- Use cubes, cylinders and cones to create a simple retro robot.
+- name all the parts in the outliner
+- group them all appropriately
+- You should be regularly moving the camera around your object to check it looks good from all angles.
+-  get in the habit of saving regularly
+
+	![](images/worksheet_1/yik6eAopT.png)
+
+
+
+## 2. Create a low poly Trophy
+
+### Create a new scene
+- Select **File > New Scene" 
+
+### Create a more detailed cylinder
+- Double click on the create cylinder button to open the cylinder options window
+- This allows you to choose specific details when you create a new polygon
+- change the values as show bellow
+	![](images/worksheet_1/new_cylinder.jpg)
+- Press **Apply**
+- move the cylinder up so it is sitting on the grid
+
+### Faces, Edges and Vertices
+- So far we have been manipulating whole objects. However, each polygon is made of different components that we can manipulate individually to give us more control
+- The are **faces**, **Edges** and **Vertices**
+
+### Modeling toolkit
+- Open the modeling toolkit by press the button on the top right of the screen
+
+	![](images/worksheet_1/modeling_toolkit.jpg)
+
+- Select the faces button
+
+	![](images/worksheet_1/faces.jpg)
+
+- Click on an individual face on the cyclinder to select it ( you can also hold shift to select multiple faces)
+- use the move, scale and rotate tools to practice manipulating the face just as you did with the whole polygon
+
+	![](images/worksheet_1/move scale rotate.jpg)
+
+- try to do the same thing with the edge and vertex selection modes, try to move, scale and rotate individual or groups of eges and vertecies.
+
+	![](images/worksheet_1/vertex and edge.jpg)
+
+- To go back to selecting whole polygons,select the button next button on the left
+
+	![](images/worksheet_1/polygon.jpg)
+	
+- Delete your polygon by selecting it in the scene or in the outliner and pressing delete.
+
+### Edge loops
+
+- Go in to edge selection mode
+
+	![](images/worksheet_1/edge.jpg)
+	
+- Double click on one of the lower horizontal edges to select an entire edge loop.
+
+	![](images/worksheet_1/lower_edge_loop.jpg)
+
+- Using and preserving edge loops in your models is very important for creating high quality models quickly.
+- Scale the edge loop using the middle button to pinch the cylinder evenly.
+
+	![](images/worksheet_1/edge_loop_pinch.jpg)
+
+- Select the upper edge loop and evenly scale that in to make a trophy shape
+
+	![](images/worksheet_1/upper_edge_loop.jpg)
+
+### Add edge loop - multi-cut tool
+
+- The multi-cut tool allow you to add more edges to your object.
+
+- In the modeling toolkit, select the multi-cut tool
+
+	![](images/worksheet_1/multi-cut.jpg)
+	
+- Hold down the cnrl key and left mouse button and drag you mouse over your shape. when you relese the keys a new edge loop will be created. 
+
+	![](images/worksheet_1/create_edge_loop.jpg)
+
+- Create three new edge loops to give your object more detail.
+
+
+- You can quit out of any tool by pressing q on the keyboard, or pressing the arrow button in the top left
+
+	![](images/worksheet_1/arrow.jpg)
+
+- Scale and move the new edge loops to create a rounder trophy.
+
+
+	![](images/worksheet_1/rounder_trophy.jpg)
+
+### Extrude faces - make a handle
+
+- Press the face selection button in the modeling toolkit.
+
+	![](images/worksheet_1/faces.jpg)
+
+- hold down shift and select two faces on the edge of the trophy, it is important that you select the faces that are in line with the z axis. The Thick grid line should be in line with the faces.
+
+	![](images/worksheet_1/select_faces.jpg)
+
+- Press the extrude button on the modeling toolkit
+
+	![](images/worksheet_1/extrude.jpg)
+	
+- Click and drag the blue arrow to extrude out the faces
+	![](images/worksheet_1/extrude_arrow.jpg)
+- Change the number of divisions to 3
+	![](images/worksheet_1/extrudeing.jpg)
+- Press q or press the arrow to quit out of the extrude tool
+
+### Bridge the handle
+
+- Select the 2 end inside faces on the handle
+
+	![](images/worksheet_1/select_handle_faces.jpg)
+
+- Press the brige tool in the modeling toolkit
+
+![](images/worksheet_1/bridge.jpg)
+
+- change the divisions to 
+
+
+
+
+
+# make a trophy
+
+- create a new scene
+- Create a cylinder
+- go into edge mode
+- use multi cut to add edge loops
+- quit edge loop tool
+- select edge loops and rescale to make cup
+- navigate aroud cup to make sure its symetrical
+- go into face mode
+- extrude out handle
+- delete faces and bridge
+- add base
+- save
+
+# stretch goal - make a retro rocket 
+- make new project
+- start with a cylinder
+- multi cut to add detail
+- rescale edge loops to create rocket shape
+- add fins, booster rockets, windows
+- group it all together and name evything in the hieracy
+
+
+
+
