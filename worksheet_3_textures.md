@@ -1,5 +1,5 @@
 # Worksheet 3 - Textures
-#### worksheet length  - 1 hour
+#### Worksheet length  - 1 hour
 
 ### Before you start
 
@@ -8,7 +8,6 @@
 	https://www.uwe.ac.uk/study/it-services/software/specialist-software#autodesk_maya
 
 - Make sure you have a mouse.
-
 
 
 ## Add colour
@@ -45,13 +44,11 @@
 	![](images/worksheet_1/cube_material_1.jpg)
 
 - Change the colour of the material by double clicking on the box next to **Color**
-
 - The cube in your scene should now have the colour, if it doesn't make sure the **textured** button is turned on in the viewport
 
 	![](images/worksheet_1/textured_button.jpg)
 
 - Experiment with the **Diffuse Roughness** and **Metallic** sliders to see how they change the look of the cube.
-
 - If you loose your attribute editor panel, you can get it back by holding down the right mouse button on your object and selecting **Material Attributes**
 
 	![](images/worksheet_1/material_attributes.jpg)
@@ -59,12 +56,9 @@
 ## Adding an image map
 
 - Create another cube, move it next to the first and assign a new **Standard Surface** material just like we did above.
-
 - This time, name it "giraffe_skin_material"
 - Instead of a colour, we want to use an image.
 - Download the giraffe print image from blackboard and save it in the same folder as your scene. this is really important as the image will be loaded in each time you open Maya. 
-
-
 - Click the black and white button next to Color 
 
 	![](images/worksheet_1/change_colour_map.jpg)
@@ -104,7 +98,6 @@
 	![](images/worksheet_1/stretched_material.jpg)
 
 - The easiest solution to this is to use automatic mapping.
-
 - With the cactus still selected, select UV > Automatic from the top menu
 
 	![](images/worksheet_1/automatic_uv.jpg)
@@ -124,7 +117,6 @@
 	![](images/worksheet_1/uv_editor.jpg)
 
 - This will open up the editor allowing you to see how Maya has laid out your UV's.
-
 - You can select faces in the UV editor and see their corresponding face the perspective view
 
 	![](images/worksheet_1/uv_selection.jpg)
@@ -134,7 +126,6 @@
 ### Create a snapshot
 
 - In the uv editor, use the mouse to select all the uv's by drawing a square around them.
-- 
 - Now Take a snapshot of the uvs by pressing the camera icon at the top of the editor.
 
 	![](images/worksheet_1/camera.jpg)
@@ -146,7 +137,6 @@
 ### Open the snapshot in Photoshop
 
 - Open Photoshop on your machine
-
 - Use Photoshop to open the snapshot you just created.
 
 	![](images/worksheet_1/open_photoshop.jpg)
@@ -164,9 +154,7 @@
 	![](images/worksheet_1/choose_colour.jpg)
 	
 - Press ctrl + g on the keyboard to select the fill tool
-
 - Click anywhere on the screen to fill the layer.
-
 - Click and drag layer 1 so that it appears above layer 2 in the list. 
 
 
@@ -174,11 +162,8 @@
 
 
 - Download the face image from blackboard
-
-- click on layer 3 in photoshop to select it.
-
-- drag the face image file into photoshop and drop it in the middle of the screen
-
+- Click on layer 3 in photoshop to select it.
+- Drag the face image file into photoshop and drop it in the middle of the screen
 - Drag and scale it so that is in the right position on the snapshot.
 
 	![](images/worksheet_1/face_in_photoshop.jpg)
@@ -194,12 +179,11 @@
 - Go back into Maya
 - Close the uv editor panel if it is still open
 - Select your cactus
-- hold down the right mouse button and select **Assign new material**
+- Hold down the right mouse button and select **Assign new material**
 
 	![](images/worksheet_1/material_attributes.jpg)
 
 - Select **Maya > Standard Surface** as before
-
 - Add the colour map you just created
 
 	![](images/worksheet_1/change_colour_map.jpg)
