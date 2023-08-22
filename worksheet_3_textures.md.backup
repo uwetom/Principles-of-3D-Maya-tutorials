@@ -30,12 +30,12 @@
 
 ### Add a material
 
-- Maya has lots of materials we can choose. Different materials are useful for different outputs.We will ulimately be exporting our models for use in Unity and will therefore use StingRay PBR materials.
+
 - Select you cube, hold down the right mouse button and select 
 
 	![](images/worksheet_1/new_material.jpg)
 	
-- Select Maya > Stingray PBS
+- Select **Maya > Standard Surface**
 
 	![](images/worksheet_1/stingray_material.jpg)
 
@@ -44,13 +44,13 @@
 
 	![](images/worksheet_1/cube_material_1.jpg)
 
-- Change the colour of the material by double clicking on the box next to **Base Color**
+- Change the colour of the material by double clicking on the box next to **Color**
 
 - The cube in your scene should now have the colour, if it doesn't make sure the **textured** button is turned on in the viewport
 
 	![](images/worksheet_1/textured_button.jpg)
 
-- Experiment with the Roughness and Metallic sliders to see how they change the look of the cube.
+- Experiment with the **Diffuse Roughness** and **Metallic** sliders to see how they change the look of the cube.
 
 - If you loose your attribute editor panel, you can get it back by holding down the right mouse button on your object and selecting **Material Attributes**
 
@@ -58,30 +58,30 @@
 
 ## Adding an image map
 
-- Create another cube, move it next to the first and assign a new Stingray material just like we did above.
+- Create another cube, move it next to the first and assign a new **Standard Surface** material just like we did above.
 
 - This time, name it "giraffe_skin_material"
 - Instead of a colour, we want to use an image.
 - Download the giraffe print image from blackboard and save it in the same folder as your scene. this is really important as the image will be loaded in each time you open Maya. 
 
-- On the material attributes panel tick "use colour Map"
 
-	![](images/worksheet_1/use_colour_map.jpg)
+- Click the black and white button next to Color 
 
-- Click the black and white button next to Colour map to 
+	![](images/worksheet_1/change_colour_map.jpg)
 
-	![](images/worksheet_1/choose_colour_map.jpg)
+- The choose file
 
-- Then click on the folder icon an find the giraffe pattern you downloaded from blackboard earlier
+	![](images/worksheet_1/file.jpg)
+	
+- Then click on the folder icon and find the giraffe pattern you downloaded from blackboard earlier
+
+	![](images/worksheet_1/choose_folder.jpg)
 
 - You should now see the pattern applied to your cube
 
 	![](images/worksheet_1/giraffe_texture_applied.jpg)
 
-- You can change the scale and position of the texture by using the **Uv Scale** and **Uv offset** sliders. 
 
-	![](images/worksheet_1/texture_scale.jpg)
-	
 ## UV mapping
 
 ### Import model from Blackboard
@@ -198,11 +198,11 @@
 
 	![](images/worksheet_1/material_attributes.jpg)
 
-- Select **Maya > StingrayPBR** as before
+- Select **Maya > Standard Surface** as before
 
-- turn on **Use color map** and add the colour map you just created
+- Add the colour map you just created
 
-	![](images/worksheet_1/choose_colour_map.jpg)
+	![](images/worksheet_1/change_colour_map.jpg)
 
 ### Look at your applied texture
 
@@ -210,7 +210,7 @@
 
 	![](images/worksheet_1/finished_cactus.jpg)
 
-## What next
+## What have I Learnt
 
 - In this worksheet you have learnt
 	- applying simple colour Textues
@@ -218,4 +218,3 @@
 	- remapping uvs using automatic mapping
 	- editing textures using PhotoShop 
 	
-- If you want more practice, you
