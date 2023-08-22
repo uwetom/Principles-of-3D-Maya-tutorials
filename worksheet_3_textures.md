@@ -190,7 +190,7 @@
 
 ### Look at your applied texture
 
-- your finished cactus should look something like this
+- Your finished cactus should look something like this
 
 	![](images/worksheet_1/finished_cactus.jpg)
 
