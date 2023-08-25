@@ -29,13 +29,12 @@
  
 ### Navigate around the scene
  
-   On Windows 
- 
+**On Windows** 
  - Mouse wheel zooms in and out
  - Hold down alt and left mouse button to orbit
  - Hold alt and press the scroll wheel to pan
  
- On Mac 
+ **On Mac** 
  - Mouse wheel zooms in and out
  - Hold down alt and left mouse button to orbit
  - Hold alt and press the scroll wheel to pan
@@ -53,15 +52,15 @@
 
 #### Rotate
 - Click on the rotate button, or press **e** on the keyboard 
-- use the red, green and blue rings to rotate the cube in x, y and z planes.
+- Use the red, green and blue rings to rotate the cube in x, y and z planes.
 - Never use the outer light blue ring unless you have a very good reason
 
 #### Scale
-- click on the scale button, or press **r** on the keyboard
+- Click on the scale button, or press **r** on the keyboard
 
 	![](images/worksheet_1/scale.jpg)
-- use center square to evenly scale the cube.
-- use the red, green and blue squares to scale the cube in the x, y and z directions only.
+- Use the center square to evenly scale the cube.
+- Use the red, green and blue squares to scale the cube in the x, y and z directions only.
 
 ### More shapes
 
@@ -102,13 +101,13 @@
 ### Grouping
 - Hold down shift and click the body and nose cone in the outliner.
 - Press ctrl + G to create a group
-- double click the group and rename it "Rocket"
+- Double click the group and rename it "Rocket"
 - You can move items in and out of groups by middle mouse clicking on them in the outliner and dragging them out of the group. try this with the nose cone.
 - You can use the outline to select items that may be hard to select in the scene.
 - Position the nose cone and body appropriately in the scene, scale and rotate them as needed.
 
 ### Increment and save
-- go to File > Increment and save
+- Go to File > Increment and save
 - As you have already saved, you should now use Increment and save. This will create a new save file with a number at the end of the file name.
 - Increment and save it very helpful as it allows you to go back to previous versions of your model.
 
@@ -143,11 +142,11 @@
 - Create a new scene
 - Navigate your camera around the scene
 - Create polygons 
-- manipulate polygons
-- save
+- Manipulate polygons
+- Save
 - The outliner
 - Grouping 
-- increment and save
+- Increment and save
 - Centering
 
 
