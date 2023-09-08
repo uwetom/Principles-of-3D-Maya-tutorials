@@ -8,7 +8,7 @@
 
 
 ### Create a new scene
-- Select **File > New Scene" 
+- Select **File > New Scene**
 
 ### Create a Cube
 - Double click on the create Cube button to open the cube options window
