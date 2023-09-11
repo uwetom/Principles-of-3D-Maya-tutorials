@@ -6,7 +6,7 @@ All the machines in the lab have Maya installed, if you want you use your own ma
 
 [Maya instalation guide](https://www.uwe.ac.uk/study/it-services/software/specialist-software#autodesk_maya)
 
-Make sure you have a mouse.
+It is essential that you have a mouse.
 
 ## Add colour
 
@@ -27,7 +27,7 @@ Make sure you have a mouse.
 
 ### Add a material
 
-- Select you cube, hold down the right mouse button and select 
+- Select you cube, **hold down the right mouse button** and select  **Assign New Material...**
 
 ![new material button](images/worksheet_1/new_material.jpg)
 	
@@ -35,20 +35,27 @@ Make sure you have a mouse.
 
 ![standard surface material](images/worksheet_1/stingray_material.jpg)
 
-The Attribute editor will now appear
-- First change the name to "cube material 1" and press enter. It is really important to name materials to avoid confusion later on.
+The Attribute editor will now appear.
+
+If you loose your attribute editor panel, you can get it back by first making sure your object is selected, and then holding down the right mouse button and selecting **Material Attributes**
+
+![material attributes button](images/worksheet_1/material_attributes.jpg)
+
+- Change the name to "cube material 1" and press enter. It is really important to name materials to avoid confusion later on.
 
 ![material name](images/worksheet_1/cube_material_1.jpg)
 
 - Change the colour of the material by double clicking on the box next to **Color**
+
+![](images/worksheet_3/change_colour.png)
+
 - The cube in your scene should now have the colour, if it doesn't make sure the **textured** button is turned on in the viewport
 
 ![Texture button](images/worksheet_1/textured_button.jpg)
 
-- Experiment with the **Diffuse Roughness** and **Metallic** sliders to see how they change the look of the cube.
-- If you loose your attribute editor panel, you can get it back by holding down the right mouse button on your object and selecting **Material Attributes**
+- Experiment with the **Roughness** and **Metallic** sliders to see how they change the look of the cube.
 
-![material attributes button](images/worksheet_1/material_attributes.jpg)
+![](images/worksheet_3/metalness_roughness.png)
 
 ## Adding an image map
 
@@ -64,11 +71,11 @@ The Attribute editor will now appear
 
 ![colour node button](images/worksheet_1/change_colour_map.jpg)
 
-- The choose file
+- Choose file
 
 ![file button](images/worksheet_1/file.jpg)
 	
-- Then click on the folder icon and find the giraffe pattern you downloaded from blackboard earlier
+- Click on the folder icon and find the giraffe pattern you downloaded earlier.
 
 ![choose folder button](images/worksheet_1/choose_folder.jpg)
 
@@ -76,15 +83,31 @@ The Attribute editor will now appear
 
 ![giraffe pattern applied to cube](images/worksheet_1/giraffe_texture_applied.jpg)
 
+## Change the scale
+
+To scale the pattern, press this button
+
+![](images/worksheet_3/texture_node_1.png)
+
+- and then the place2dTexture tab
+
+![](images/worksheet_3/place_2d_texture.png)
+
+- Then changing the Repeat UV values, it is a good idea to keep them the same to avoid stretching the texture.
+
+![](images/worksheet_3/repeat_uv.png)
+
 ## UV mapping
 
-### Import model from Blackboard
+Do not do any UV mapping until you have finished modeling or you will need to do it again.
+
+### Import model
 
 - Download the cactus fbx file
 
 [cactus fbx file](./assets_for_worksheets/cactus.fbx)
 
-- Import the model into Maya by choosing File > import
+- Import the model into Maya by choosing **File > import**
 
 ![import button](images/worksheet_1/import.jpg)
 
@@ -96,16 +119,16 @@ The Attribute editor will now appear
 
 ![existing material button](images/worksheet_1/existing_material.jpg)
 
-- You should now see the material on the cactus, but it may look distorted and stretched. This is becase it has not been UV mapped.
+- You should now see the material on the cactus, but it may look distorted and stretched. This is because it has not been UV mapped.
 
 ![cactus with stretched material on it](images/worksheet_1/stretched_material.jpg)
 
 - The easiest solution to this is to use automatic mapping.
-- With the cactus still selected, select UV > Automatic from the top menu
+- With the cactus still selected, select **UV > Automatic** from the top menu
 
 ![automatic uving](images/worksheet_1/automatic_uv.jpg)
 
-- This should do a fairly good job at UV mapping the cactus for you
+- This should do a good job at UV mapping the cactus for you
 
 ![cactus with correct texture on it](images/worksheet_1/automatically_mapped_cactus.jpg)
 
@@ -119,7 +142,7 @@ We are now going to export the uv's and open them up in Photoshop and create our
 
 ![uv editor button](images/worksheet_1/uv_editor.jpg)
 
-This will open up the editor allowing you to see how Maya has laid out your UV's.
+This will open up the editor allowing you to see how automatic mapping has laid out your UV's.
 - You can select faces in the UV editor and see their corresponding face the perspective view
 
 ![faces selected in uv mode](images/worksheet_1/uv_selection.jpg)
@@ -129,6 +152,9 @@ In this image you can see where the front of the cactus is.
 ### Create a snapshot
 
 - In the uv editor, use the mouse to select all the uv's by drawing a square around them.
+
+![](images/worksheet_3/select_all.gif)
+
 - Now Take a snapshot of the uvs by pressing the camera icon at the top of the editor.
 
 ![snapshot button](images/worksheet_1/camera.jpg)
@@ -143,6 +169,8 @@ In this image you can see where the front of the cactus is.
 - Use PhotoShop to open the snapshot you just created.
 
 ![open photoshop](images/worksheet_1/open_photoshop.jpg)
+
+Layer 1 is your snapshot.
 	
 - Create 3 new layers by clicking the plus button at the bottom right of the screen.
 
@@ -152,15 +180,17 @@ In this image you can see where the front of the cactus is.
 
 ![base layer](images/worksheet_1/base_layer.jpg)
 	
-- Choose a fill colour by double clicking the little black square at the bottom left of the screen
+- Choose a green fill colour by double clicking the little black square at the bottom left of the screen and choosing a green colour.
 
 ![choose fill colour](images/worksheet_1/choose_colour.jpg)
 	
-- Press ctrl + g on the keyboard to select the fill tool
-- Click anywhere on the screen to fill the layer.
+- Press **alt and delete** on the keyboard fill the layer with green.
+
 - Click and drag layer 1 so that it appears above layer 2 in the list. 
 
-### add a face
+![](images/worksheet_3/layer_order.png)
+
+### Add a face
 
 - Download one of the following face image
 
@@ -194,7 +224,7 @@ In this image you can see where the front of the cactus is.
 - Select your cactus
 - Hold down the right mouse button and select **Assign new material**
 
-![material attributes button](images/worksheet_1/material_attributes.jpg)
+![](images/worksheet_1/new_material.jpg)
 
 - Select **Maya > Standard Surface** as before
 - Add the colour map you just created
