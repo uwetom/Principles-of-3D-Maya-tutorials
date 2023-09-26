@@ -4,7 +4,7 @@
 
 All the machines in the lab have Maya installed, if you want you use your own machine follow the installation guide.
 
-[Maya Instalaton Guide](https://www.uwe.ac.uk/study/it-services/software/specialist-software#autodesk_maya)
+[Maya Installaton Guide](https://www.uwe.ac.uk/study/it-services/software/specialist-software#autodesk_maya)
 
 It is essential that you have a mouse.
 
@@ -75,7 +75,7 @@ You should generally stick to the 3 coloured arrow. Avoid using the middle yello
 
 Avoid use the outer light blue ring as this will rotate the object relative to the camera.
 
-#### Scale
+#### Scaling
 - Click on the scale button, or press **r** on the keyboard
 
 ![scale button](images/worksheet_1/scale.jpg)

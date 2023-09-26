@@ -96,6 +96,8 @@ It will create a cube with the same parameters as the one you created earlier.
 
 - Press **q** to quit out of the extrude tool when you have finished.
 
+- To learn more about extrusion see the extra videos section in learning materials on Blackboard.
+
 ### Add a foot
 
 Next we are going to add some more edges so that we can create a foot.
@@ -251,19 +253,19 @@ Most polygons will have a combination of the two.
 
 The head of our character has some hard edges we do not want.
 
-![](images/worksheet_2/hard_edges.png)
+![hard edged head](images/worksheet_2/hard_edges.png)
 
 We want to soften all the edges on the head so first select the entire head. You can select individual edges if you need to.
 
-![](images/worksheet_2/select_head.png)
+![head with facets](images/worksheet_2/select_head.png)
 
 Then go to **Mesh Display > Soften Edge**
 
-![](images/worksheet_2/soften_edges.png)
+![soften edges](images/worksheet_2/soften_edges.png)
 
 Your head should now look like this
 
-![](images/worksheet_2/aoft_eges.png)
+![soft head](images/worksheet_2/aoft_eges.png)
 
 ### Delete edges
 
@@ -275,7 +277,7 @@ we cannot delete the edges on the top as this will effect the overall shape, but
 
 - Hold down shift and double click the edges going round the middle of the head
 
-![s](images/worksheet_2/select_edge_loops.gif)
+![select edge loops](images/worksheet_2/select_edge_loops.gif)
 
 - Press **ctrl** and **delete or backspace**
 

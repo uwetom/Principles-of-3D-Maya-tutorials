@@ -5,7 +5,7 @@
 
 All the machines in the lab have Maya installed, if you want you use your own machine follow the installation guide.
 
-[Maya Instalaton Guide](https://www.uwe.ac.uk/study/it-services/software/specialist-software#autodesk_maya)
+[Maya Installaton Guide](https://www.uwe.ac.uk/study/it-services/software/specialist-software#autodesk_maya)
 
 It is essential that you have a mouse.
 
@@ -95,6 +95,8 @@ It will create a cube with the same parameters as the one you created earlier.
 ![complete leg](images/worksheet_2/leg.png)
 
 - Press **q** to quit out of the extrude tool when you have finished.
+
+- To learn more about extrusion see the extra videos section in learning materials on Blackboard.
 
 ### Add a foot
 

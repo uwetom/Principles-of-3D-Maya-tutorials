@@ -4,7 +4,7 @@
 
 All the machines in the lab have Maya installed, if you want you use your own machine follow the installation guide.
 
-[Maya instalation guide](https://www.uwe.ac.uk/study/it-services/software/specialist-software#autodesk_maya)
+[Maya installation guide](https://www.uwe.ac.uk/study/it-services/software/specialist-software#autodesk_maya)
 
 It is essential that you have a mouse.
 
