@@ -17,16 +17,7 @@ Make sure you have a mouse.
 
 - Save the scene to a new folder.
 
-### Import reference image
-
-- Download the pear.jpg image from blackboard and save it to the same folder as your saved scene.
-
-### Create an image plane
-
-
-
-
-
+### Import fbx file
 
 - Import this cup fbx file into Maya
 
