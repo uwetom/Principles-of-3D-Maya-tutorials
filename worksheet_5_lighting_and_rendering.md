@@ -1,4 +1,4 @@
-# Worksheet 4 - Lighting and Rendering
+# Worksheet 5 - Organic modeling from a reference
 
 ### Before you start
 
@@ -15,9 +15,18 @@ Make sure you have a mouse.
 
 ![Create new scene](images/worksheet_1/new_scene.jpg)
 
-- Save the scene 
+- Save the scene to a new folder.
 
-### Import Model
+### Import reference image
+
+- Download the pear.jpg image from blackboard and save it to the same folder as your saved scene.
+
+### Create an image plane
+
+
+
+
+
 
 - Import this cup fbx file into Maya
 
