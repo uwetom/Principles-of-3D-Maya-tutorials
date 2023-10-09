@@ -11,7 +11,7 @@
     <h3>Before you start</h3>
     <p>All the machines in the lab have Maya installed, if you want you use your own machine follow the installation
         guide.</p>
-    <p><a href="https://www.uwe.ac.uk/study/it-services/software/specialist-software#autodesk_maya">Maya Instalaton
+    <p><a href="https://www.uwe.ac.uk/study/it-services/software/specialist-software#autodesk_maya">Maya Installaton
             Guide</a></p>
     <p>It is essential that you have a mouse.</p>
     <h2>1. Getting to know Maya</h2>
@@ -27,6 +27,9 @@
     </ul>
     <p><img src="images/worksheet_1/create_cube.jpg" alt="Create polygon cube button" /></p>
     <p>This will open up the polygon cube options panel.</p>
+    <p>Here you can change the properties of the cube.</p>
+    <p>The width, Height and Depth are the dimensions of the cube.</p>
+    <p>The divisions split the cube into multiple faces.</p>
     <ul>
         <li>Make sure your panel has the same options as bellow.</li>
     </ul>
@@ -36,14 +39,19 @@
     <h3>Navigate around the scene</h3>
     <ul>
         <li>Hover your mouse cursor over your cube.</li>
+    </ul>
+    <h4>Zoom</h4>
+    <ul>
         <li>The <strong>Mouse wheel</strong> zooms in and out.</li>
     </ul>
     <p><img src="images/worksheet_1/manipulate_cube_zoom.gif" alt="zoom cube" /></p>
+    <h4>Orbit</h4>
     <ul>
         <li>Hold down <strong>alt or command</strong> and <strong>left mouse button</strong> then move your mouse to
             orbit.</li>
     </ul>
     <p><img src="images/worksheet_1/manipulate_cube_rotate.gif" alt="rotate cube" /></p>
+    <h4>Pan</h4>
     <ul>
         <li>Hold <strong>alt or command</strong> and <strong>press the scroll wheel</strong> and move your mouse to pan.
         </li>
@@ -73,7 +81,7 @@
     </ul>
     <p><img src="images/worksheet_1/manipulate_cube_spin.gif" alt="rotate cube" /></p>
     <p>Avoid use the outer light blue ring as this will rotate the object relative to the camera.</p>
-    <h4>Scale</h4>
+    <h4>Scaling</h4>
     <ul>
         <li>Click on the scale button, or press <strong>r</strong> on the keyboard</li>
     </ul>
@@ -85,6 +93,30 @@
     <ul>
         <li>Use the red, green and blue squares to scale the cube in the x, y and z directions only.</li>
     </ul>
+    <h2>2. Make a Rocket</h2>
+    <h3>Units</h3>
+    <p>By default the units in Maya are set to centimetres.</p>
+    <p>A cube 1 hight is 1cm high.</p>
+    <p>As we are making a large object we want to change the units to meters.</p>
+    <ul>
+        <li>Go to <strong>Windows &gt; Settings &gt; Preferences</strong></li>
+    </ul>
+    <p><img src="images/worksheet_5/preferences.png" alt="" /></p>
+    <ul>
+        <li>
+            <p>Select <strong>Settings</strong></p>
+        </li>
+        <li>
+            <p>Change the Linear Working Unitys to <strong>meter</strong></p>
+        </li>
+    </ul>
+    <p><img src="images/worksheet_5/change_units.png" alt="" /></p>
+    <ul>
+        <li>Press <strong>Save</strong></li>
+    </ul>
+    <p>Now if we create a cube 1 height, it will be 1 meter.</p>
+    <p>This will be important when you light your scene or want to export it to another program like Unity.</p>
+    <p>Your cube may now appear very small.</p>
     <h3>Add a cylinder</h3>
     <ul>
         <li><strong>Double click</strong> on the <strong>create cylinder button</strong> to open the options panel.</li>
@@ -93,12 +125,19 @@
     <p><img src="images/worksheet_1/create_cylinder_2.jpg" alt="cylinder options" /></p>
     <ul>
         <li>
-            <p>Increase the axis divisions to 20 and make sure the rest of the numbers match mine.</p>
+            <p>Change the radius to 5 and the height to 30</p>
+        </li>
+        <li>
+            <p>Increase the axis divisions to 20</p>
         </li>
         <li>
             <p>Press <strong>Create</strong> to add the cylinder to the scene.</p>
         </li>
+        <li>
+            <p>Do you remember how to move objects? Move the cylinder up above the grid.</p>
+        </li>
     </ul>
+    <p><img src="images/worksheet_1/move_cylinder.jpg" alt="" /></p>
     <h3>Add a cone.</h3>
     <ul>
         <li>
@@ -123,21 +162,21 @@
     <p>This will open the outliner panel which shows all the object in your scene.</p>
     <p><img src="images/worksheet_1/outliner.PNG" alt="outliner panel" /></p>
     <ul>
-        <li><strong>Double click</strong> pCylinder and rename it to �body�</li>
-        <li><strong>Double click</strong> pCone and rename it to �nose cone�</li>
+        <li><strong>Double click</strong> pCylinder and rename it to "body"</li>
+        <li><strong>Double click</strong> pCone and rename it to "nose cone"</li>
     </ul>
     <h3>Saving</h3>
     <p>When using Maya save regularly to avoid loosing work.</p>
     <ul>
         <li>Choose <strong>File &gt; Save scene As..</strong></li>
-        <li>Create a folder on your network drive called �principles_of_3D�.</li>
-        <li>Save the scene �worksheet_1_rocket� and save it.</li>
+        <li>Create a folder on your network drive called "principles_of_3D".</li>
+        <li>Save the scene "worksheet_1_rocket" and save it.</li>
     </ul>
     <h3>Grouping</h3>
     <ul>
         <li>Hold down <strong>shift</strong> and <strong>click</strong> the body and nose cone in the outliner.</li>
         <li>Press <strong>ctrl or command</strong> and <strong>G</strong> to create a group.</li>
-        <li><strong>Double click</strong> the group and rename it �rocket�.</li>
+        <li><strong>Double click</strong> the group and rename it "rocket".</li>
     </ul>
     <p><img src="images/worksheet_1/rocket_outliner.PNG" alt="rename group to rocket in outliner" /></p>
     <h3>Select using the outliner</h3>
@@ -152,13 +191,10 @@
     <p><img src="images/worksheet_1/basic_rocket.PNG" alt="nose cone above cylinder body" /></p>
     <h3>Hiding using the outliner.</h3>
     <p>If can sometimes be difficult to select what you need to in your scene if an element is on top of another.</p>
+    <p>You can temporarily hide an object by selecting it and pressing <strong>h</strong>.</p>
+    <p>To show it again, select it in the outliner and press <strong>h</strong> again.</p>
     <ul>
-        <li>
-            <p>You can temporarily hide an object by selecting it and pressing <strong>h</strong>.</p>
-        </li>
-        <li>
-            <p>To show it again, select it in the outliner and press <strong>h</strong> again.</p>
-        </li>
+        <li>Try this with your nose cone.</li>
     </ul>
     <h3>Increment and save</h3>
     <ul>
@@ -213,7 +249,7 @@
         <li>We want 3 windows, to copy the first one, select it and press <strong>ctrl or command</strong> and
             <strong>d</strong>.</li>
     </ul>
-    <p>It is important that you don�t use <strong>ctrl or command</strong> and <strong>c</strong> as you normally would
+    <p>It is important that you don"t use <strong>ctrl or command</strong> and <strong>c</strong> as you normally would
         in other packages as this creates unwanted extra grouping in Maya.</p>
     <ul>
         <li>Move the new windows down to form a neat row on the rocket.</li>
@@ -230,7 +266,7 @@
         </li>
     </ul>
     <p><img src="images/worksheet_1/drag.gif" alt="" /></p>
-    <h2><strong>Final Challenge</strong> - Finish your rocket</h2>
+    <h2><strong>Challenge</strong> - Finish your rocket</h2>
     <p><img src="images/worksheet_1/rocket.png" alt="a 2d rocket" /></p>
     <p>Your Maya skills will improve the more you practice, for this challenge practice the skill you have learnt so
         far.</p>
@@ -241,7 +277,7 @@
         <li>Group them all appropriately.</li>
         <li>You should be regularly moving the camera around your object to check it looks good from all angles.</li>
         <li>Save regularly.</li>
-        <li>Keep the total triangle count to under 1500 by carefully considering the number of divisions you use when
+        <li>Keep the total triangle count to under 3000. Carefully considering the number of divisions you use when
             creating new polygons.</li>
     </ul>
     <p><img src="images/worksheet_1/finished_rocket.PNG" alt="finished rocket" /></p>
