@@ -55,6 +55,14 @@ Try to do the same thing with the edge and vertex selection modes
 - Select the button on the left to go back to selecting the whole polygons.
 
 ![polygon button](images/worksheet_1/polygon.jpg)
+
+### Alternative
+
+Another way to access the vertecies, edges and faces is to **hold down** the **Right mouse button** over the polygon and then **let go** over the option you want.
+
+![](images/worksheet_2/right_menu.gif)
+
+To to back to selecting the whole object 
 	
 - Delete your polygon by selecting it in the scene or in the outliner and pressing delete.
 
