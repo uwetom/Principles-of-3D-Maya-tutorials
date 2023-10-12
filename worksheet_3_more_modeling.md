@@ -1,4 +1,4 @@
-# Worksheet 5 - Organic modeling from a reference
+# Worksheet 3 - Organic modeling from a reference Image
 
 ### Before you start
 
