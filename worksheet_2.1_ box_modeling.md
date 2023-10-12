@@ -58,7 +58,7 @@ Try to do the same thing with the edge and vertex selection modes
 
 ### Alternative
 
-Another way to access the vertecies, edges and faces is to **hold down** the **Right mouse button** over the polygon and then **let go** over the option you want.
+Another way to access the vertices, edges and faces is to **hold down** the **Right mouse button** over the polygon and then **let go** over the option you want.
 
 ![](images/worksheet_2/right_menu.gif)
 
@@ -92,9 +92,10 @@ It will create a cube with the same parameters as the one you created earlier.
 
 ![middle face on bottom of cube](images/worksheet_2/select_middle_bottom.png)
 
-- In the modeling toolkit press the extrude button.
+- In the modeling toolkit press the extrude button (or use the shortcut **Ctrl + e** or **cmd + e**)
 
 ![extrude button](images/worksheet_2/extrude.jpg)
+
 	
 - Click and drag down on the blue arrow to pull a leg shape out of the cube
 
@@ -112,7 +113,7 @@ Next we are going to add some more edges so that we can create a foot.
 
 ### Multi-cut
 
-- In the Modeling toolkit select **Multi-cut**
+- In the Modeling toolkit select **Multi-cut** (shortcut - control/command + shift + x)
 
 ![multi-cut button](images/worksheet_2/multi-cut.png)
 
@@ -149,11 +150,13 @@ We can now extrude the foot from the leg.
 
 We are currently looking through the perspective camera which gives us a 3D view of the character, but we can also use the orthographic views to make selecting multiple components easier.
 
-- Open up the 4 panel layout by pressing the button on the bottom left of the screen.
+- Open up the 4 panel layout by pressing the button on the bottom left of the screen (or tap the space bar)
 
 ![4 panel layout button](images/worksheet_2/4_panel_layout.png)
 	
 ![4 panel layout](images/worksheet_2/4_panel_layout_selected.png)
+
+- Now move into the front panel by hovering the mouse over that view and tapping the space bar.
 
 ### Move vertices
 
@@ -174,7 +177,7 @@ We can now manipulate some of the  vertices and edges to improve the shape.
 
 ![move back of character](images/worksheet_2/move_vertecies_back.png)
 
-- You can now go back into the perspective view by pressing the button on the left.
+- You can now go back into the perspective view by pressing the button on the left. ( or tapping the space bar and again over the persp panel)
 
 ![perspective view button](images/worksheet_2/perspective_view.png)
 
