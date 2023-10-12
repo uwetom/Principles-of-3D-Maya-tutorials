@@ -33,6 +33,8 @@ You can work from sketches for your own project, but we will work from a photo.
 
 [Pear image](./assets_for_worksheets/pear_reference.jpg)
 
+- Once opened you should be able to right click and save the image.
+
 ### Create image plane
 
 In Maya

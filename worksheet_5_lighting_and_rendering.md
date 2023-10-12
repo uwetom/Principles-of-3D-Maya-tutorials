@@ -1,12 +1,4 @@
-# Worksheet 5 - Organic modeling from a reference
-
-### Before you start
-
-All the machines in the lab have Maya installed, if you want you use your own machine follow the installation guide.
-
-[Maya installation guide](https://www.uwe.ac.uk/study/it-services/software/specialist-software#autodesk_maya)
-
-Make sure you have a mouse.
+# Worksheet 5 - Lighting and rendering
 
 ### Create a new scene
 
@@ -16,6 +8,21 @@ Make sure you have a mouse.
 ![Create new scene](images/worksheet_1/new_scene.jpg)
 
 - Save the scene to a new folder.
+
+### Arnold Renderer
+
+We will be using the Arnold Renderer in the is worksheet and you will need it to submit your coursework.
+
+If you are using the lab machines the Arnold render will already be installed you can skip ahead to "Import fbx file".
+
+If you are on your own machine, you will have been given the option to install it when you installed Maya. If you have it you should see an Arnold menu item.
+
+![](images/worksheet_5/arnold.png) 
+
+If you cannot see it, you may need to install it separately from here:
+
+https://www.arnoldrenderer.com/download/
+
 
 ### Import fbx file
 
