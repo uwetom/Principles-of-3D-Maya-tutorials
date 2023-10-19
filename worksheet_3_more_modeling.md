@@ -154,11 +154,12 @@ We can now add extra edge loops to improve the model.
 
 ### Smooth 
 
-- Go back into the persp panel by pressing space.
+- Go back into the persp panel by tapping space, and again over the persp panel.
 
-Your pear will look quite angled
+Your pear will look quite faceted, with hard corners, you may like this low poly look or you can soften the edges to make it appear rounder.
 
 - Select the model, and select **Mesh Display > soften edges**
+
 
 ### Final details
 
@@ -186,6 +187,5 @@ When you have finished, you can hide the reference image by selecting it and pre
 
 ![](images/worksheet_3.1/finished_pear.png)
 
- 
 
 

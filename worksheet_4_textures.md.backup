@@ -1,5 +1,4 @@
-# Worksheet 3 - Textures
-
+# Worksheet 4 - Textures
 
 ## Add colour
 
@@ -24,9 +23,9 @@
 
 ![new material button](images/worksheet_1/new_material.jpg)
 	
-- Select **Maya > Standard Surface**
+- Select **Arnold > AiStandardSurface**
 
-![standard surface material](images/worksheet_1/stingray_material.jpg)
+![](images/worksheet_3/ai_standard_surface.png)
 
 The Attribute editor will now appear.
 
@@ -52,7 +51,7 @@ If you loose your attribute editor panel, you can get it back by first making su
 
 ## Adding an image map
 
-- Create another cube, move it next to the first and assign a new **Standard Surface** material just like we did above.
+- Create another cube, move it next to the first and assign a new **AiStandardSurface** material just like we did above.
 - This time, name it "giraffe_skin_material"
 - Instead of a colour, we want to use an image.
 - Download the giraffe print image 
@@ -124,6 +123,9 @@ Do not do any UV mapping until you have finished modeling or you will need to do
 - This should do a good job at UV mapping the cactus for you
 
 ![cactus with correct texture on it](images/worksheet_1/automatically_mapped_cactus.jpg)
+
+- If you would like to manually map your model, please watch my uv mapping video on Blackboard (learning materials > Maya content >  extra videos)
+
 
 ## Create your own texture
 
@@ -219,7 +221,7 @@ Layer 1 is your snapshot.
 
 ![](images/worksheet_1/new_material.jpg)
 
-- Select **Maya > Standard Surface** as before
+- Select **Maya > AiStandardSurface** as before
 - Add the colour map you just created
 
 ![change color map button](images/worksheet_1/change_colour_map.jpg)
