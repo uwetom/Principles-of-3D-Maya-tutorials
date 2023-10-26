@@ -44,7 +44,7 @@ They are **faces**, **Edges** and **Vertices**
 
 ![move, scale and rotate button](images/worksheet_1/move_scale_rotate.jpg)
 	
-You can undo at an point by pressing **ctrl or command** and **z**.
+You can undo at an point by pressing **ctrl** and **z**.
 
 Try to do the same thing with the edge and vertex selection modes
 
@@ -113,13 +113,13 @@ Next we are going to add some more edges so that we can create a foot.
 
 ### Multi-cut
 
-- In the Modeling toolkit select **Multi-cut** (shortcut - control/command + shift + x)
+- In the Modeling toolkit select **Multi-cut** (shortcut - control + shift + x)
 
 ![multi-cut button](images/worksheet_2/multi-cut.png)
 
 You can use this tool to add individual edges, but we are going to add a complete edge loop.
 
-- Hold down the **ctrl or command** key and move your mouse over the leg of your character.
+- Hold down the **ctrl** key and move your mouse over the leg of your character.
 
 ![move mouse over model](images/worksheet_2/edge_loop.png)
 

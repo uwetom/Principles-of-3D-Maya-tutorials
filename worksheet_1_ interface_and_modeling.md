@@ -52,12 +52,12 @@ This will create a new polygon cube in the middle of your scene.
  
  
  #### Orbit 
- - Hold down **alt or command** and **left mouse button** then move your mouse to orbit.
+ - Hold down **alt** and **left mouse button** then move your mouse to orbit.
  
 ![rotate cube](images/worksheet_1/manipulate_cube_rotate.gif)
 
 #### Pan
- - Hold **alt or command** and **press the scroll wheel** and move your mouse to pan.
+ - Hold **alt** and **press the scroll wheel** and move your mouse to pan.
 
 ![pan cube](images/worksheet_1/manipulate_cube_pan.gif)
  
@@ -174,7 +174,7 @@ When using Maya save regularly to avoid loosing work.
 
 ### Grouping
 - Hold down **shift** and **click** the body and nose cone in the outliner.
-- Press **ctrl or command** and  **G** to create a group.
+- Press **ctrl** and  **G** to create a group.
 - **Double click** the group and rename it 'rocket'.
 
 ![rename group to rocket in outliner](images/worksheet_1/rocket_outliner.PNG)
@@ -250,9 +250,9 @@ A box will now appear in your scene, the 2 numbers next to **tris** are the tota
 
 ### Duplicate
 
-- We want 3 windows, to copy the first one, select it and press **ctrl or command** and **d**.
+- We want 3 windows, to copy the first one, select it and press **ctrl** and **d**.
 
-It is important that you don't use **ctrl or command** and **c** as you normally would in other packages as this creates unwanted extra grouping in Maya.
+It is important that you don't use **ctrl** and **c** as you normally would in other packages as this creates unwanted extra grouping in Maya.
 
 - Move the new windows down to form a neat row on the rocket.
  

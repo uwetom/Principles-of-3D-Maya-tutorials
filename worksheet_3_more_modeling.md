@@ -130,7 +130,7 @@ We now want to check our model in perspective view to make sure it looks OK.
 
 - Press the space bar, and then hover over the perspective panel and press it again to go back into perspective view.
 
-- Check that your pear looks OK, if not you can undo by pressing **ctrl/cmd + z** a few times and redo the last few steps making sure you scale evenly.
+- Check that your pear looks OK, if not you can undo by pressing **ctrl + z** a few times and redo the last few steps making sure you scale evenly.
 
 ### Add extra detail
 
@@ -138,11 +138,11 @@ We now want to check our model in perspective view to make sure it looks OK.
 
 We can now add extra edge loops to improve the model.
 
-- Select the multi-cut tool using the toolkit button or **ctrl/cmd + shift + x**
+- Select the multi-cut tool using the toolkit button or **ctrl + shift + x**
 
 ![](images/worksheet_2/multi-cut.png)
 
-- Hold down **ctrl/cmd** and hover your mouse over the shape, click to add extra edge loops where you think it needs more detail. 
+- Hold down **ctrl** and hover your mouse over the shape, click to add extra edge loops where you think it needs more detail. 
 
 ![](images/worksheet_3.1/add_edge_loops.gif)
 
