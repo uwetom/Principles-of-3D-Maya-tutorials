@@ -49,7 +49,7 @@ If you loose your attribute editor panel, you can get it back by first making su
 
 ![](images/worksheet_3/metalness_roughness.png)
 
-## Adding an image map
+### Adding an image map
 
 - Create another cube, move it next to the first and assign a new **AiStandardSurface** material just like we did above.
 - This time, name it "giraffe_skin_material"
@@ -75,7 +75,7 @@ If you loose your attribute editor panel, you can get it back by first making su
 
 ![giraffe pattern applied to cube](images/worksheet_1/giraffe_texture_applied.jpg)
 
-## Change the scale
+### Change the scale
 
 To scale the pattern, press this button
 
@@ -89,11 +89,8 @@ To scale the pattern, press this button
 
 ![](images/worksheet_3/repeat_uv.png)
 
-## UV mapping
 
-Do not do any UV mapping until you have finished modeling or you will need to do it again.
-
-### Import model
+### Import a model
 
 - Download the cactus fbx file
 
@@ -103,33 +100,51 @@ Do not do any UV mapping until you have finished modeling or you will need to do
 
 ![import button](images/worksheet_1/import.jpg)
 
-- Move the model so it is not on top of the cubes
+- Move the model so it is not on top of the cubes.
 
 ![cactus next to textured cubes](images/worksheet_1/move_cactus.jpg)
+
+## Prepare the model
+
+UV mapping should be done after you have completely finished modeling. If you make any changes to your mesh you may need to re-map all or part of your model.
+
+### Delete history
+
+The history keeps track of changes you make to your model but can make your outliner and uv mapping more complicated.
+
+**- Important -** If you are working on your own model, save a copy before you delete the history so that you can go back if you need to.
+
+- Delete the history of the cactus by selecting your model and pressing the **Delete history** button.
+
+![](images/worksheet_5/delete_history.png)
+
+### Freeze transforms
+
+When making your model you may have scaled some of the pieces. Before exporting, the scales all need to be reset to 1. To do this select the cactus and press the **Freeze transforms** button.
+
+![](images/worksheet_5/freeze.png)
+
+### Apply a material
 
 - Select the cactus and apply the giraffe skin texture by right clicking and choosing **Assign Existing Material** > **giraffe_skin_material**
 
 ![existing material button](images/worksheet_1/existing_material.jpg)
 
-- You should now see the material on the cactus, but it may look distorted and stretched. This is because it has not been UV mapped.
+You should now see the material on the cactus, but it may look distorted and stretched. This is because it has not been UV mapped.
 
 ![cactus with stretched material on it](images/worksheet_1/stretched_material.jpg)
 
-- The easiest solution to this is to use automatic mapping.
+## UV mapping
+
+The easiest solution to this is to use automatic mapping.
 - With the cactus still selected, select **UV > Automatic** from the top menu
 
 ![automatic uving](images/worksheet_1/automatic_uv.jpg)
 
-- This should do a good job at UV mapping the cactus for you
+This should do a reasonable job at UV mapping the cactus for you
 
 ![cactus with correct texture on it](images/worksheet_1/automatically_mapped_cactus.jpg)
 
-- If you would like to manually map your model, please watch my uv mapping video on Blackboard (learning materials > Maya content >  extra videos)
-
-
-## Create your own texture
-
-We are now going to export the uv's and open them up in Photoshop and create our own textures.
 
 ### UV Editor
 
@@ -138,15 +153,34 @@ We are now going to export the uv's and open them up in Photoshop and create our
 ![uv editor button](images/worksheet_1/uv_editor.jpg)
 
 This will open up the editor allowing you to see how automatic mapping has laid out your UV's.
+
 - You can select faces in the UV editor and see their corresponding face the perspective view
 
 ![faces selected in uv mode](images/worksheet_1/uv_selection.jpg)
 	
 In this image you can see where the front of the cactus is.
 
+### Editing UV shells
+
+Automatic mapping splits the surface of the model into different uv shells. It does a reasonable job,  however, it is not very smart and can splits the model into more uv shells than necessary. 
+
+If you have a seamless texture you will see joints in the texture between shells.
+
+![](images/worksheet_4/seams.PNG)
+
+You cannot avoid joints entirely, however, if you manually uv map your  model you have more control to hide the joint.
+
+- If you would like to manually map your own model, please watch my UV mapping video on Blackboard (learning materials > Maya content >  extra videos)
+
+For this worksheet we will continue with what the automatic mapping has given us.
+
+## Create your own texture
+
+We are now going to export the UV's and open them up in PhotoShop and create our own textures.
+
 ### Create a snapshot
 
-- In the uv editor, use the mouse to select all the uv's by drawing a square around them.
+- In the UV editor, use the mouse to select all the uv shells by drawing a square around them.
 
 ![](images/worksheet_3/select_all.gif)
 
@@ -157,8 +191,8 @@ In this image you can see where the front of the cactus is.
 - Save the snapshot somewhere sensible on your machine. make sure it is set to png and the edge colour is black.
 
 ![save snapshot button](images/worksheet_1/save_snapshot.jpg)
-	
-### Open the snapshot in Photoshop
+
+### Open the snapshot in PhotoShop
 
 - Open PhotoShop on your machine
 - Use PhotoShop to open the snapshot you just created.
@@ -215,7 +249,7 @@ Layer 1 is your snapshot.
 ### Apply the next texture to your Cactus
 
 - Go back into Maya
-- Close the uv editor panel if it is still open
+- Close the UV editor panel if it is still open
 - Select your cactus
 - Hold down the right mouse button and select **Assign new material**
 
@@ -231,4 +265,8 @@ Layer 1 is your snapshot.
 - Your finished cactus should look something like this
 
 ![finished cactus](images/worksheet_1/finished_cactus.jpg)
+
+## Extra Challenge
+
+- Watch the manual UV mapping video on Blackboard and try to manually map the cactus and reapply the texture.
 
