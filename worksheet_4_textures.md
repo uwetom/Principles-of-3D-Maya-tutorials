@@ -39,7 +39,7 @@ If you loose your attribute editor panel, you can get it back by first making su
 
 - Change the colour of the material by double clicking on the box next to **Color**
 
-![](images/worksheet_3/change_colour.png)
+![](images/worksheet_4/new_standard_surface.PNG)
 
 - The cube in your scene should now have the colour, if it doesn't make sure the **textured** button is turned on in the viewport
 
@@ -47,7 +47,7 @@ If you loose your attribute editor panel, you can get it back by first making su
 
 - Experiment with the **Roughness** and **Metallic** sliders to see how they change the look of the cube.
 
-![](images/worksheet_3/metalness_roughness.png)
+![](images/worksheet_4/metalness.PNG)
 
 ### Adding an image map
 
@@ -61,7 +61,7 @@ If you loose your attribute editor panel, you can get it back by first making su
 - Save it in the same folder as your scene. this is really important as the image will be loaded in each time you open Maya. 
 - Click the black and white button next to Color 
 
-![colour node button](images/worksheet_1/change_colour_map.jpg)
+![](images/worksheet_4/colour_file.PNG)
 
 - Choose file
 
@@ -77,11 +77,11 @@ If you loose your attribute editor panel, you can get it back by first making su
 
 ### Change the scale
 
-To scale the pattern, press this button
+To scale the pattern, press the image checkerboard button again
 
-![](images/worksheet_3/texture_node_1.png)
+![](images/worksheet_4/colour_file.PNG)
 
-- and then the place2dTexture tab
+- Then the place2dTexture tab
 
 ![](images/worksheet_3/place_2d_texture.png)
 
