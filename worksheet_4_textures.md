@@ -120,7 +120,7 @@ The history keeps track of changes you make to your model but can make your outl
 
 ### Freeze transforms
 
-When making your model you may have scaled some of the pieces. Before exporting, the scales all need to be reset to 1. To do this select the cactus and press the **Freeze transforms** button.
+When making your model you may have scaled some of the pieces. Before uv mapping, the scales all need to be reset to 1. To do this select the cactus and press the **Freeze transforms** button.
 
 ![](images/worksheet_5/freeze.png)
 
