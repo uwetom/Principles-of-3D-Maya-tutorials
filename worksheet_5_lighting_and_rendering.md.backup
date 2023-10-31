@@ -11,7 +11,7 @@
 
 ### Arnold Renderer
 
-We will be using the Arnold Renderer in the is worksheet and you will need it to submit your coursework.
+We will be using the Arnold Renderer in this worksheet.
 
 If you are using the lab machines the Arnold render will already be installed you can skip ahead to "Import fbx file".
 
@@ -22,6 +22,16 @@ If you are on your own machine, you will have been given the option to install i
 If you cannot see it, you may need to install it separately from here:
 
 https://www.arnoldrenderer.com/download/
+
+You can then turn on the arnold render by going to
+
+**Windows > Settings/Preferences > Plug-in manager**
+
+![](images/worksheet_5/plugin_manager.png)
+
+Then tick the boxes next to mtoa.mll
+
+![](images/worksheet_5/mtoa.png)
 
 
 ### Import fbx file

@@ -7,13 +7,7 @@
 </head>
 
 <body>
-    <h1>Worksheet 5 - More modeling</h1>
-    <h3>Before you start</h3>
-    <p>All the machines in the lab have Maya installed, if you want you use your own machine follow the installation
-        guide.</p>
-    <p><a href="https://www.uwe.ac.uk/study/it-services/software/specialist-software#autodesk_maya">Maya instalation
-            guide</a></p>
-    <p>Make sure you have a mouse.</p>
+    <h1>Worksheet 5 - Lighting and rendering</h1>
     <h3>Create a new scene</h3>
     <ul>
         <li>Open up Maya</li>
@@ -21,51 +15,123 @@
     </ul>
     <p><img src="images/worksheet_1/new_scene.jpg" alt="Create new scene" /></p>
     <ul>
-        <li>Save the scene</li>
+        <li>Save the scene to a new folder.</li>
     </ul>
-    <h3>Scale</h3>
-    <p>By default 1 unit in Maya is 1 centimetre. This means that if you make a cube 1 high and import it into Unity it
-        will be 1cm high.</p>
-    <p>If you are making large objects, building or vehicles it can be useful to change the units to meters.</p>
+    <h3>Arnold Renderer</h3>
+    <p>We will be using the Arnold Renderer in the is worksheet and you will need it to submit your coursework.</p>
+    <p>If you are using the lab machines the Arnold render will already be installed you can skip ahead to "Import fbx
+        file".</p>
+    <p>If you are on your own machine, you will have been given the option to install it when you installed Maya. If you
+        have it you should see an Arnold menu item.</p>
+    <p><img src="images/worksheet_5/arnold.png" alt="" /></p>
+    <p>If you cannot see it, you may need to install it separately from here:</p>
+    <p><a href="https://www.arnoldrenderer.com/download/">https://www.arnoldrenderer.com/download/</a></p>
+    <h3>Import fbx file</h3>
     <ul>
-        <li>Go to <strong>Windows &gt; Settings/Preferences &gt; Preferences</strong></li>
+        <li>Import this cup fbx file into Maya</li>
     </ul>
-    <p><img src="images/worksheet_5/preferences.png" alt="" /></p>
+    <p><a href="./assets_for_worksheets/tropy_for_rendering.fbx">metal_cup for rendering</a></p>
+    <p><img src="images/worksheet_1/import.jpg" alt="import button" /></p>
     <ul>
-        <li>Click on <strong>Settings</strong> and change the Linear Working Units to <strong>meter</strong></li>
-        <li>Press Save.</li>
+        <li>Turn on Textures</li>
     </ul>
-    <h3>Exporting for Unity</h3>
-    <p>Before We export our model we need to do a few things to make sure it will import easily into Unity.</p>
-    <h4>Save a fresh copy</h4>
-    <p>First save your scene under a new name, this is because we will be making some changes that you you don't want if
-        you need to edit your model later.</p>
-    <p><img src="images/worksheet_5/save_as.png" alt="" /></p>
-    <h4>Delete history</h4>
-    <p>The history keeps track of changes you make to your model but it can make your file bloated. Delete it by
-        selecting your model and pressing the <strong>Delete history</strong> button.</p>
-    <p><img src="images/worksheet_5/delete_history.png" alt="" /></p>
-    <h4>Freeze transforms</h4>
-    <p>When making your model you may have scaled some of the pieces. Before exporting the scales all need to be reset
-        to 1. To do this press the <strong>Freeze transforms</strong> button.</p>
-    <p><img src="images/worksheet_5/freeze.png" alt="" /></p>
-    <h4>Export as FBX</h4>
-    <p>If we want to import our model into a different program the best format to choose is an <strong>FBX</strong>
-        file.</p>
-    <p>To export you model:</p>
+    <p><img src="images/worksheet_1/textureing.jpg" alt="texturing button" /></p>
     <ul>
-        <li>First make sure you have named and organised everything in your outliner.</li>
-        <li>Select the object you would like to export and select</li>
+        <li>You should now be able to see the textured model</li>
     </ul>
-    <p><img src="images/worksheet_5/export_selection.png" alt="" /></p>
+    <p><img src="images/worksheet_1/gold_cup.jpg" alt="gold cup" /></p>
+    <h3>Test Render</h3>
     <ul>
-        <li>Choose sensible location and file name</li>
-        <li>Change the <strong>files of type:</strong> to <strong>FBX export</strong></li>
-        <li>To make sure your textures are included, In the options panel on the right, under <strong>File Type Specific
-                Options</strong> &gt; <strong>Include</strong> tick <strong>Embed Media</strong></li>
-        <li>Finally press the <strong>Export Selection</strong> button.</li>
+        <li>To render the scene press the <strong>render current frame</strong> button at the top middle of the screen
+        </li>
     </ul>
-    <p>You can now import the FBX file into Unity.</p>
+    <p><img src="images/worksheet_1/render.jpg" alt="render button" /></p>
+    <ul>
+        <li>
+            <p>This will open the <strong>Render View</strong> you will see that it is completely black. This is because
+                you have no lights in your scene.</p>
+        </li>
+        <li>
+            <p>Close the Render View Window.</p>
+        </li>
+    </ul>
+    <h3>Add Lights</h3>
+    <ul>
+        <li>On the menu bar, select <strong>Create &gt; Lights &gt; Directional Light</strong></li>
+    </ul>
+    <p><img src="images/worksheet_1/directional_light.jpg" alt="directional light" /></p>
+    <ul>
+        <li>
+            <p>Move the light up above the model and rotate it so that the arrows point toward the model.</p>
+        </li>
+        <li>
+            <p>Only the rotation has an effect, the directional light is normally used to simulate a distant light
+                source such as the Sun.</p>
+        </li>
+    </ul>
+    <h3>Turn on Lights in scene</h3>
+    <ul>
+        <li>
+            <p>You can get an approximation of what the light will look like in the final render by turning on lights in
+                the scene</p>
+        </li>
+        <li>
+            <p>You can do this in the panel menu</p>
+        </li>
+    </ul>
+    <p><img src="images/worksheet_1/turn_on_lights.jpg" alt="lights button" /></p>
+    <h3>light properties</h3>
+    <ul>
+        <li>With the light selected you can change the attributes.</li>
+    </ul>
+    <p><img src="images/worksheet_1/light_attributes.jpg" alt="light attributes" /></p>
+    <ul>
+        <li>
+            <p>If you cannot see the attributes, click on the attributes button in the top right of the screen.</p>
+        </li>
+        <li>
+            <p>Experiment with the colour and intensity.</p>
+        </li>
+    </ul>
+    <h3>Render the scene</h3>
+    <ul>
+        <li>Try to render the scene again, this time you should see something.</li>
+    </ul>
+    <p><img src="images/worksheet_1/render.jpg" alt="rendered scene button" /></p>
+    <p><img src="images/worksheet_1/render_with_light.jpg" alt="rendered scene with dark cup" /></p>
+    <h3>Add more lights</h3>
+    <ul>
+        <li>
+            <p>Add a point light</p>
+        </li>
+        <li>
+            <p>Move it above the model</p>
+        </li>
+        <li>
+            <p>You may find you need to increase the intensity to see an effect. You can type a number into the box,
+                start with 1000 if you cannot see anything.</p>
+        </li>
+        <li>
+            <p>Add a spot light</p>
+        </li>
+        <li>
+            <p>These lights have many more attributes.</p>
+        </li>
+        <li>
+            <p>Experiment with the <strong>Cone angle</strong> and <strong>Penumbra</strong></p>
+        </li>
+    </ul>
+    <p><img src="images/worksheet_1/cone_angle.jpg" alt="cone angle" /></p>
+    <h2>Rendering</h2>
+    <ul>
+        <li>With the render view open, you can export your current render by selecting <strong>File &gt; Save
+                Image</strong></li>
+    </ul>
+    <p><img src="images/worksheet_1/save_image.jpg" alt="save image button" /></p>
+    <ul>
+        <li>Choose a location and change the file type to png.</li>
+    </ul>
+    <p><img src="images/worksheet_1/file_type.jpg" alt="choose png format button" /></p>
 </body>
 
 </html>
