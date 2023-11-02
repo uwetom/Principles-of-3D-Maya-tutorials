@@ -168,7 +168,7 @@ You can adjust the render quality in the **render settings** panel.
 
 ![](images/worksheet_5/render_quality.png)
 
-Be careful, increasing the samples will improve your render quality but the the render time will increase exponentially.
+Be careful, increasing the samples will improve your render quality but the render time will increase exponentially.
 
 More information about these settings can be found here:
 
