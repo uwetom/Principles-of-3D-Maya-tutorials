@@ -12,7 +12,11 @@ or
 
 ## Materials
 
-My Barrel uses Maya's PBR **StingRay Textures** because they are easy to apply in Maya and are  very well with Unity. For more information about texturing, look back at the previous Maya worksheets or ask.
+The Barrel uses Mayas PBR **StingRay Textures** because they are easy to apply in Maya and work   well with Unity.
+
+Other types of Maya textures will work in Unity, but may need re-applying using the second method shown in this worksheet.
+
+For more information about texturing, look back at the previous Maya worksheets or ask.
 
 ## Scale
 
@@ -122,7 +126,7 @@ As we have also extracted the materials, we can edit these in Unity if we need t
 
 ## Re-applying textures
 
-The above barrel should have imported fairly easily, but often the materials wont import quite so easily and need to be re-applied. This can happen with models created with textures Unity doesn't recognise.
+The above barrel should have imported fairly easily, but often the materials wont import quite so easily and need to be re-applied. This can happen with models created with textures Unity does not recognise.
 
 I have downloaded a dog model from Sketchfab and uploaded it to Blackboard.
 
@@ -132,15 +136,21 @@ If you unzip it you can see that the textures come through separately.
 
 ![](images/worksheet_6/imort_dog.png)
 
-- Select the dog (k9) model and extract the materials to the same folder as you did before.
+- Select the dog (K9) model and extract the materials to the same folder as you did before.
 
 You will now have a grey material without any textures on it. 
 
 To apply the textures you need to drag and drop them onto the correct slots in the material.
 
-- With the k9 material selected, drag and drop the **K9-diff** texture into the albedo slot.
+- With the K9 material selected, drag and drop the **K9-diff** texture into the albedo slot.
 
 ![](images/worksheet_6/albedo.png)
 
-- Try to find the correct slots for the other textures. You may find that you don't need all of them.
+- Try to find the correct slots for the other textures. 
+
+You may find that you do not need all of them.
+
+
+
+
 
