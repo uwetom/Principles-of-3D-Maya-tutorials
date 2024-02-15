@@ -1,4 +1,4 @@
-# Worksheet 5 - Exporting from Maya
+# Exporting from Maya
 
 ## Open your object
 
