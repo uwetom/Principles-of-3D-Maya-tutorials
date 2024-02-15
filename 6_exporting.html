@@ -1,0 +1,152 @@
+<html>
+
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <link rel="stylesheet" href="styles/styles.css" />
+    <title>Exporting</title>
+</head>
+
+<body>
+    <h1>Worksheet 5 - Exporting from Maya</h1>
+    <h2>Open your object</h2>
+    <ul>
+        <li>If you already have a textured model, open that in Maya.</li>
+    </ul>
+    <p>or</p>
+    <ul>
+        <li>Create a new maya porject and import the barrel fbx file from blackboard using <strong>file &gt;
+                import</strong></li>
+    </ul>
+    <p><img src="images/worksheet_6/barrel.png" alt="" /></p>
+    <h2>Materials</h2>
+    <p>My Barrel uses Maya�s PBR <strong>StingRay Textures</strong> because they are easy to apply in Maya and are very
+        well with Unity. For more information about texturing, look back at the previous Maya worksheets or ask.</p>
+    <h2>Scale</h2>
+    <p>By default 1 unit in Maya is 1 centimetre. This means that if you make a cube 1 unit high and import it into
+        Unity it will be 1cm high.</p>
+    <p>However, it is important to check this so that you export it at the correct size.</p>
+    <ul>
+        <li>Go to <strong>Windows &gt; Settings/Preferences &gt; Preferences</strong></li>
+    </ul>
+    <p><img src="images/worksheet_5/preferences.png" alt="" /></p>
+    <ul>
+        <li>Click on <strong>Settings</strong> and take a note of the linear working units. Mine are in cm.</li>
+    </ul>
+    <p><img src="images/worksheet_6/cm.png" alt="" /></p>
+    <p>The easiest way to see the actual size of your object is to use the <strong>universal Manipulator</strong>.</p>
+    <ul>
+        <li>Select your object and press <strong>Crtl * t</strong></li>
+    </ul>
+    <p><img src="images/worksheet_6/universal_translator.png" alt="" /></p>
+    <p>You can see that my barrel is only 4.8cm tall.</p>
+    <ul>
+        <li>Scale up the barrel to a more appropriate height for a real barrel.</li>
+    </ul>
+    <h2>Save a fresh copy</h2>
+    <p>In the next few steps we will be making some changes which may make it harder to edit later. We therefore want to
+        save a new copy of our file so we can go back to the original if we need to.</p>
+    <ul>
+        <li>Save your project with a different name.</li>
+    </ul>
+    <p><img src="images/worksheet_5/save_as.png" alt="" /></p>
+    <h3>Delete history</h3>
+    <p>The history keeps track of changes you make to your model but it can make your file bloated and unstable. Delete
+        it by selecting your model and pressing the <strong>Delete history</strong> button.</p>
+    <p><img src="images/worksheet_5/delete_history.png" alt="" /></p>
+    <h3>Freeze transforms</h3>
+    <p>When making your model you may have scaled some of the pieces. Before exporting the scales all need to be reset.
+    </p>
+    <ul>
+        <li>With the barrel selected, press the <strong>Freeze transforms</strong> button.</li>
+    </ul>
+    <p><img src="images/worksheet_5/freeze.png" alt="" /></p>
+    <h2>Export as FBX</h2>
+    <p>If we want to import our model into a different program the best format to choose is an <strong>FBX</strong>
+        file.</p>
+    <p>First make sure you have named and organised everything in your outliner. Our barrel is only one object, but if
+        your object is made from multiple parts, group them together using <strong>ctrl + g</strong> and rename the
+        group.</p>
+    <ul>
+        <li>Select the barrel in the outliner.</li>
+    </ul>
+    <p><img src="images/worksheet_6/select_barrel.png" alt="" /></p>
+    <ul>
+        <li>From the top menu, choose <strong>File &gt; Export Selection�</strong></li>
+    </ul>
+    <p><img src="images/worksheet_5/export_selection.png" alt="" /></p>
+    <ul>
+        <li>
+            <p>Choose a sensible location and file name.</p>
+        </li>
+        <li>
+            <p>Change the <strong>files of type:</strong> to <strong>FBX export</strong></p>
+        </li>
+        <li>
+            <p>To make sure your textures are included, In the options panel on the right, under <strong>File Type
+                    Specific Options</strong> &gt; <strong>Include</strong> tick <strong>Embed Media</strong></p>
+        </li>
+    </ul>
+    <p><img src="images/worksheet_6/embed_media.png" alt="" /></p>
+    <ul>
+        <li>Finally press the <strong>Export Selection</strong> button.</li>
+    </ul>
+    <p>You have now successfully exported your model from Maya.</p>
+    <h2>Import into Unity</h2>
+    <ul>
+        <li>First create a new Unity project using the 3D core renderer.</li>
+    </ul>
+    <p><img src="images/worksheet_6/unity1.png" alt="" /></p>
+    <ul>
+        <li>Import your model by dragging and dropping the .fbx file onto your <strong>Assets</strong> panel, or going
+            to <strong>Assets &gt; import new Asset</strong></li>
+    </ul>
+    <p><img src="images/worksheet_6/grey_barrel.png" alt="" /></p>
+    <p>If you look closely at the barrel you will see that its grey, no textures are applied to it,</p>
+    <p>However, because we embedded the materials within Maya we can now extract them.</p>
+    <ul>
+        <li>
+            <p>First create a new folder in your assets panel named �Materials�</p>
+        </li>
+        <li>
+            <p>With the barrel selected, go to the Materials tab in the inspector.</p>
+        </li>
+    </ul>
+    <p><img src="images/worksheet_6/materials_tab.png" alt="" /></p>
+    <ul>
+        <li>Press <strong>Extract Textures</strong> and choose the new Materials folder when asked.</li>
+    </ul>
+    <p>You may get a pop up asking you to mark some textures as normal maps, they are.</p>
+    <ul>
+        <li>Press <strong>Fix now</strong></li>
+    </ul>
+    <p><img src="images/worksheet_6/fix_now.png" alt="" /></p>
+    <ul>
+        <li>Extract the Materials in the same way, you can make a new folder for these or put them in the existing
+            Materials folder.</li>
+    </ul>
+    <p>You can now Drag your barrel into the scene and all the textures should be in place.</p>
+    <p>As we have also extracted the materials, we can edit these in Unity if we need to adjust them.</p>
+    <h2>Re-applying textures</h2>
+    <p>The above barrel should have imported fairly easily, but often the materials wont import quite so easily and need
+        to be re-applied. This can happen with models created with textures Unity doesn�t recognise.</p>
+    <p>I have downloaded a dog model from Sketchfab and uploaded it to Blackboard.</p>
+    <p>If you unzip it you can see that the textures come through separately.</p>
+    <ul>
+        <li>Import the fbx and textures into a new folder in Unity</li>
+    </ul>
+    <p><img src="images/worksheet_6/imort_dog.png" alt="" /></p>
+    <ul>
+        <li>Select the dog (k9) model and extract the materials to the same folder as you did before.</li>
+    </ul>
+    <p>You will now have a grey material without any textures on it.</p>
+    <p>To apply the textures you need to drag and drop them onto the correct slots in the material.</p>
+    <ul>
+        <li>With the k9 material selected, drag and drop the <strong>K9-diff</strong> texture into the albedo slot.</li>
+    </ul>
+    <p><img src="images/worksheet_6/albedo.png" alt="" /></p>
+    <ul>
+        <li>Try to find the correct slots for the other textures. You may find that you don�t need all of them.</li>
+    </ul>
+</body>
+
+</html>

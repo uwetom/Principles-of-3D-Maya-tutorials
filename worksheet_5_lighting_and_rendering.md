@@ -71,13 +71,17 @@ Then tick the boxes next to mtoa.mll
 
 - Only the rotation has an effect on directional lights, they are normally used to simulate a distant light source such as the Sun.
 
-### Turn on Lights in scene
+### Turn on Lights  and shadows in scene
 
 - You can get an rough approximation of what the light will look like in the final render by turning on lights in the scene.
 
 - You can do this in the panel menu
 
 ![lights button](images/worksheet_1/turn_on_lights.jpg)
+
+- Turn on Shadows with the button to the right
+
+![](images/worksheet_5/shadows.png)
 
 ### light properties
 
