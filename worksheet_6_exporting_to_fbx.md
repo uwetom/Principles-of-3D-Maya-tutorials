@@ -34,7 +34,7 @@ However, it is important to check this so that you export it at the correct size
 
 The easiest way to see the actual size of your object is to use the **universal Manipulator**.
 
-- Select your object and press **Crtl * t**
+- Select your object and press **Crtl + t**
 
 ![](images/worksheet_6/universal_translator.png)
 
@@ -75,7 +75,7 @@ First make sure you have named and organised everything in your outliner. Our ba
 
 ![](images/worksheet_6/select_barrel.png)
 
-- From the top menu, choose **File > Export Selection...**
+- From the top menu, choose **File > Export Selection**
 
 ![](images/worksheet_5/export_selection.png)
 
@@ -118,7 +118,7 @@ You may get a pop up asking you to mark some textures as normal maps, they are.
 
 ![](images/worksheet_6/fix_now.png)
 
-- Extract the Materials in the same way, you can make a new folder for these or put them in the existing Materials folder.
+- Extract the Materials in the same way, you can make a new folder for these or put them in the existing Materials folder.file:///C:/Users/t-garne/OneDrive - UWE Bristol/Creative-technology/Games Technology/principles_of_3d/maya_worksheets
 
 You can now Drag your barrel into the scene and all the textures should be in place. 
 
@@ -126,11 +126,11 @@ As we have also extracted the materials, we can edit these in Unity if we need t
 
 ## Re-applying textures
 
-The above barrel should have imported fairly easily, but often the materials wont import quite so easily and need to be re-applied. This can happen with models created with textures Unity does not recognise.
+The above barrel should have imported fairly easily, but often the materials wont import properly and need to be re-applied. This can happen with models created with textures Unity does not recognise or if you download models with seperate textures.
 
 I have downloaded a dog model from Sketchfab and uploaded it to Blackboard.
 
-If you unzip it you can see that the textures come through separately.
+If you unzip it you can see that the textures come through separately from the fbx file.
 
 - Import the fbx and textures into a new folder in Unity
 
