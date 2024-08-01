@@ -30,7 +30,7 @@ Then tick the boxes next to mtoa.mll
 - Open up Maya
 - Create a new Scene
 
-![Create new scene](images/worksheet_1/new_scene.jpg)
+![Create new scene](images/worksheet_5/new_scene.jpg)
 
 - Save the scene to a new folder.
 
@@ -40,7 +40,7 @@ Then tick the boxes next to mtoa.mll
 
 [pumpkin for rendering](./assets_for_worksheets/pumpkin.fbx)
 
-![import button](images/worksheet_1/import.jpg)
+![import button](images/worksheet_5/import.jpg)
 
 	
 - You should now be able to see an orange pumpkin model in your scene.
@@ -65,7 +65,7 @@ Then tick the boxes next to mtoa.mll
 
 - On the menu bar, select **Create > Lights > Directional Light**
 
-![directional light](images/worksheet_1/directional_light.jpg)
+![directional light](images/worksheet_5/directional_light.jpg)
 	
 - The light will be created at the origin, so move the light up above the model and rotate it so that the arrows point toward the model.
 
@@ -77,7 +77,7 @@ Then tick the boxes next to mtoa.mll
 
 - You can do this in the panel menu
 
-![lights button](images/worksheet_1/turn_on_lights.jpg)
+![lights button](images/worksheet_5/turn_on_lights.jpg)
 
 - Turn on Shadows with the button to the right
 
@@ -87,7 +87,7 @@ Then tick the boxes next to mtoa.mll
 
 - With the directional light selected you can change the attributes.
 
-![light attributes](images/worksheet_1/light_attributes.jpg)
+![light attributes](images/worksheet_5/light_attributes.jpg)
 	
 - If you cannot see the attributes, click on the attributes button in the top right of the screen.
 

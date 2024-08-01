@@ -1,189 +1,265 @@
 <html>
-
-<head>
+  <head>
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
     <link rel="stylesheet" href="styles/styles.css" />
     <title>Worksheet 5</title>
-</head>
-
-<body>
+  </head>
+  <body>
     <h1>Worksheet 5 - Lighting and rendering</h1>
     <h2>Arnold Renderer</h2>
     <p>We will be using the Arnold Renderer in this worksheet.</p>
-    <p>If you are using the lab machines the Arnold render will already be installed and you can skip ahead to "Create a
-        new scene"</p>
-    <p>If you are on your own machine, you will have been given the option to install it when you installed Maya. If you
-        have it you should see an Arnold menu item.</p>
+    <p>
+      If you are using the lab machines the Arnold render will already be
+      installed and you can skip ahead to "Create a new scene"
+    </p>
+    <p>
+      If you are on your own machine, you will have been given the option to
+      install it when you installed Maya. If you have it you should see an
+      Arnold menu item.
+    </p>
     <p><img src="images/worksheet_5/arnold.png" alt="" /></p>
-    <p>If you cannot see it, you may need to install it separately from here:</p>
-    <p><a href="https://www.arnoldrenderer.com/download/">https://www.arnoldrenderer.com/download/</a></p>
+    <p>
+      If you cannot see it, you may need to install it separately from here:
+    </p>
+    <p>
+      <a href="https://www.arnoldrenderer.com/download/"
+        >https://www.arnoldrenderer.com/download/</a
+      >
+    </p>
     <p>You can then turn on the Arnold render by going to</p>
-    <p><strong>Windows &gt; Settings/Preferences &gt; Plug-in manager</strong></p>
+    <p>
+      <strong>Windows &gt; Settings/Preferences &gt; Plug-in manager</strong>
+    </p>
     <p><img src="images/worksheet_5/plugin_manager.png" alt="" /></p>
     <p>Then tick the boxes next to mtoa.mll</p>
     <p><img src="images/worksheet_5/mtoa.png" alt="" /></p>
     <h3>Create a new scene</h3>
     <ul>
-        <li>Open up Maya</li>
-        <li>Create a new Scene</li>
+      <li>Open up Maya</li>
+      <li>Create a new Scene</li>
     </ul>
-    <p><img src="images/worksheet_1/new_scene.jpg" alt="Create new scene" /></p>
+    <p><img src="images/worksheet_5/new_scene.jpg" alt="Create new scene" /></p>
     <ul>
-        <li>Save the scene to a new folder.</li>
+      <li>Save the scene to a new folder.</li>
     </ul>
     <h3>Import fbx file</h3>
     <ul>
-        <li>Import this pumpkin fbx file into Maya</li>
+      <li>Import this pumpkin fbx file into Maya</li>
     </ul>
-    <p><a href="./assets_for_worksheets/pumpkin.fbx">pumpkin for rendering</a></p>
-    <p><img src="images/worksheet_1/import.jpg" alt="import button" /></p>
+    <p>
+      <a href="./assets_for_worksheets/pumpkin.fbx">pumpkin for rendering</a>
+    </p>
+    <p><img src="images/worksheet_5/import.jpg" alt="import button" /></p>
     <ul>
-        <li>You should now be able to see an orange pumpkin model in your scene.</li>
+      <li>
+        You should now be able to see an orange pumpkin model in your scene.
+      </li>
     </ul>
     <p><img src="images/worksheet_5/pumpkin.png" alt="" /></p>
     <h3>Test Render</h3>
     <ul>
-        <li>To render the scene select <strong>Arnold &gt; Render</strong></li>
+      <li>To render the scene select <strong>Arnold &gt; Render</strong></li>
     </ul>
     <p><img src="images/worksheet_5/arnold_render.png" alt="" /></p>
     <ul>
-        <li>This will open the <strong>Render View</strong> you will see that it is completely black. Why is this?</li>
+      <li>
+        This will open the <strong>Render View</strong> you will see that it is
+        completely black. Why is this?
+      </li>
     </ul>
     <p><img src="images/worksheet_5/black_render.png" alt="" /></p>
     <ul>
-        <li>
-            <p>It is because you have no lights in your scene.</p>
-        </li>
-        <li>
-            <p>Close the Render View Window.</p>
-        </li>
+      <li>
+        <p>It is because you have no lights in your scene.</p>
+      </li>
+      <li>
+        <p>Close the Render View Window.</p>
+      </li>
     </ul>
     <h3>Add Basic Lights</h3>
     <ul>
-        <li>On the menu bar, select <strong>Create &gt; Lights &gt; Directional Light</strong></li>
+      <li>
+        On the menu bar, select
+        <strong>Create &gt; Lights &gt; Directional Light</strong>
+      </li>
     </ul>
-    <p><img src="images/worksheet_1/directional_light.jpg" alt="directional light" /></p>
+    <p>
+      <img
+        src="images/worksheet_5/directional_light.jpg"
+        alt="directional light"
+      />
+    </p>
     <ul>
-        <li>
-            <p>The light will be created at the origin, so move the light up above the model and rotate it so that the
-                arrows point toward the model.</p>
-        </li>
-        <li>
-            <p>Only the rotation has an effect on directional lights, they are normally used to simulate a distant light
-                source such as the Sun.</p>
-        </li>
+      <li>
+        <p>
+          The light will be created at the origin, so move the light up above
+          the model and rotate it so that the arrows point toward the model.
+        </p>
+      </li>
+      <li>
+        <p>
+          Only the rotation has an effect on directional lights, they are
+          normally used to simulate a distant light source such as the Sun.
+        </p>
+      </li>
     </ul>
     <h3>Turn on Lights and shadows in scene</h3>
     <ul>
-        <li>
-            <p>You can get an rough approximation of what the light will look like in the final render by turning on
-                lights in the scene.</p>
-        </li>
-        <li>
-            <p>You can do this in the panel menu</p>
-        </li>
+      <li>
+        <p>
+          You can get an rough approximation of what the light will look like in
+          the final render by turning on lights in the scene.
+        </p>
+      </li>
+      <li>
+        <p>You can do this in the panel menu</p>
+      </li>
     </ul>
-    <p><img src="images/worksheet_1/turn_on_lights.jpg" alt="lights button" /></p>
+    <p>
+      <img src="images/worksheet_5/turn_on_lights.jpg" alt="lights button" />
+    </p>
     <ul>
-        <li>Turn on Shadows with the button to the right</li>
+      <li>Turn on Shadows with the button to the right</li>
     </ul>
     <p><img src="images/worksheet_5/shadows.png" alt="" /></p>
     <h3>light properties</h3>
     <ul>
-        <li>With the directional light selected you can change the attributes.</li>
+      <li>
+        With the directional light selected you can change the attributes.
+      </li>
     </ul>
-    <p><img src="images/worksheet_1/light_attributes.jpg" alt="light attributes" /></p>
+    <p>
+      <img
+        src="images/worksheet_5/light_attributes.jpg"
+        alt="light attributes"
+      />
+    </p>
     <ul>
-        <li>
-            <p>If you cannot see the attributes, click on the attributes button in the top right of the screen.</p>
-        </li>
-        <li>
-            <p>Experiment with the changing the colour and intensity.</p>
-        </li>
+      <li>
+        <p>
+          If you cannot see the attributes, click on the attributes button in
+          the top right of the screen.
+        </p>
+      </li>
+      <li>
+        <p>Experiment with the changing the colour and intensity.</p>
+      </li>
     </ul>
     <h3>Render the scene</h3>
     <ul>
-        <li>Try to render the scene again, this time you should see something.</li>
+      <li>
+        Try to render the scene again, this time you should see something.
+      </li>
     </ul>
     <p><img src="images/worksheet_5/arnold_render.png" alt="" /></p>
     <p><img src="images/worksheet_5/render_1.png" alt="" /></p>
     <p>You should see that this renders the view from your camera.</p>
     <h3>Point lights</h3>
     <ul>
-        <li>Add a point light</li>
+      <li>Add a point light</li>
     </ul>
     <p><img src="images/worksheet_5/point_light.png" alt="" /></p>
     <ul>
-        <li>Move it inside the model</li>
+      <li>Move it inside the model</li>
     </ul>
-    <p>Increase the intensity to get a nice glow inside the pumpkin. You can type a number into the box, start with 200
-        if you cannot see anything.</p>
+    <p>
+      Increase the intensity to get a nice glow inside the pumpkin. You can type
+      a number into the box, start with 200 if you cannot see anything.
+    </p>
     <p><img src="images/worksheet_5/render_2.png" alt="" /></p>
     <h3>Spot light</h3>
     <ul>
-        <li>Add a spot light</li>
+      <li>Add a spot light</li>
     </ul>
     <p><img src="images/worksheet_5/create_spot_light.png" alt="" /></p>
     <ul>
-        <li>Move it above the pumpkin and rotate it so that the cone point downwards</li>
+      <li>
+        Move it above the pumpkin and rotate it so that the cone point downwards
+      </li>
     </ul>
     <p>These lights have many more attributes.</p>
     <ul>
-        <li>Experiment with the <strong>Cone angle</strong> and <strong>Penumbra</strong></li>
+      <li>
+        Experiment with the <strong>Cone angle</strong> and
+        <strong>Penumbra</strong>
+      </li>
     </ul>
-    <p>You may want to add a polygon plane under your pumpkin so that you can see how the lights cast shadows on other
-        objects.</p>
+    <p>
+      You may want to add a polygon plane under your pumpkin so that you can see
+      how the lights cast shadows on other objects.
+    </p>
     <p><img src="images/worksheet_5/spot_light.png" alt="" /></p>
     <ul>
-        <li>Render your scene to see how it looks.</li>
+      <li>Render your scene to see how it looks.</li>
     </ul>
     <h2>Render Settings</h2>
     <ul>
-        <li>Open the render settings by clicking the <strong>render settings</strong> button.</li>
+      <li>
+        Open the render settings by clicking the
+        <strong>render settings</strong> button.
+      </li>
     </ul>
     <p><img src="images/worksheet_5/render_settings.png" alt="" /></p>
     <ul>
-        <li>In the <strong>common</strong> tab, make sure you are rendering using the Arnold Renderer and change the
-            Image format to <strong>jpg</strong>.</li>
+      <li>
+        In the <strong>common</strong> tab, make sure you are rendering using
+        the Arnold Renderer and change the Image format to <strong>jpg</strong>.
+      </li>
     </ul>
     <p><img src="images/worksheet_5/common_tab.png" alt="" /></p>
     <ul>
-        <li>Next, scroll down and change the Image size Preset to <strong>hd_1080</strong> This will mean your renders
-            are full hd (1920 x 1080 pixels)</li>
+      <li>
+        Next, scroll down and change the Image size Preset to
+        <strong>hd_1080</strong> This will mean your renders are full hd (1920 x
+        1080 pixels)
+      </li>
     </ul>
     <p><img src="images/worksheet_5/full_hd.png" alt="" /></p>
     <ul>
-        <li>Render your scene again and see how it looks.</li>
+      <li>Render your scene again and see how it looks.</li>
     </ul>
     <h2>Saving your render</h2>
     <ul>
-        <li>With the render view open, you can export your current render by selecting <strong>File &gt; Save
-                Image</strong></li>
+      <li>
+        With the render view open, you can export your current render by
+        selecting <strong>File &gt; Save Image...</strong>
+      </li>
     </ul>
     <p><img src="images/worksheet_5/save_image.png" alt="" /></p>
     <ul>
-        <li>Choose a location and a file name and save the image.</li>
+      <li>Choose a location and a file name and save the image.</li>
     </ul>
     <h2>Render Quality</h2>
-    <p>You may find that your render quality is not very good. This can happen if you have low lighting or lots of
-        complex objects in your scene.</p>
+    <p>
+      You may find that your render quality is not very good. This can happen if
+      you have low lighting or lots of complex objects in your scene.
+    </p>
     <p><img src="images/worksheet_5/poor_render_quality.png" alt="" /></p>
-    <p>You can adjust the render quality in the <strong>render settings</strong> panel.</p>
+    <p>
+      You can adjust the render quality in the
+      <strong>render settings</strong> panel.
+    </p>
     <ul>
-        <li>Open the render settings panel</li>
+      <li>Open the render settings panel</li>
     </ul>
     <p><img src="images/worksheet_5/render_settings.png" alt="" /></p>
     <ul>
-        <li>In the Arnold tab you can increase the number of samples. Start by slowly increasing the <strong>AA</strong>
-            samples.</li>
+      <li>
+        In the Arnold tab you can increase the number of samples. Start by
+        slowly increasing the <strong>AA</strong> samples.
+      </li>
     </ul>
     <p><img src="images/worksheet_5/render_quality.png" alt="" /></p>
-    <p>Be careful, increasing the samples will improve your render quality but the render time will increase
-        exponentially.</p>
-    <p>More information about these settings can be found here:</p>
-    <p><a
-            href="https://help.autodesk.com/view/ARNOL/ENU/?guid=arnold_user_guide_ac_render_settings_ac_samples_html">https://help.autodesk.com/view/ARNOL/ENU/?guid=arnold_user_guide_ac_render_settings_ac_samples_html</a>
+    <p>
+      Be careful, increasing the samples will improve your render quality but
+      the render time will increase exponentially.
     </p>
-</body>
-
+    <p>More information about these settings can be found here:</p>
+    <p>
+      <a
+        href="https://help.autodesk.com/view/ARNOL/ENU/?guid=arnold_user_guide_ac_render_settings_ac_samples_html"
+        >https://help.autodesk.com/view/ARNOL/ENU/?guid=arnold_user_guide_ac_render_settings_ac_samples_html</a
+      >
+    </p>
+  </body>
 </html>
