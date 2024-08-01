@@ -19,27 +19,25 @@ It is essential that you have a mouse.
 
 ### Add a polygon
 
-- **Double click** on the create a polygon cube
+- **DOUBLE CLICK** on the create a polygon cube button.
 
 ![Create polygon cube button](images/worksheet_1/create_cube.jpg)
 
-This will open up the polygon cube options panel.
+This will open up the **polygon cube options** panel.
 
 Here you can change the properties of the cube.
 
-The width, Height and Depth are the dimensions of the cube.
+The Width, Height and Depth are the dimensions of the cube.
 
-The divisions split the cube into multiple faces.
+The divisions split the cube sides into multiple faces.
 
-- Make sure your panel has the same options as bellow.
+- Edit the numbers to make a 1 x 1 cube with 2 divisions on each side.
 
 ![](images/worksheet_1/first_cube_options.png)
 
-This will create a new polygon cube in the middle of your scene.
+This will create a new polygon cube in middle of your scene.
 
 ![new cube](images/worksheet_1/new_cube.PNG)
-
-
  
 ### Navigate around the scene
 
@@ -50,7 +48,6 @@ This will create a new polygon cube in the middle of your scene.
  
 ![zoom cube](images/worksheet_1/manipulate_cube_zoom.gif)
  
- 
  #### Orbit 
  - Hold down **alt** and **left mouse button** then move your mouse to orbit.
  
@@ -60,13 +57,27 @@ This will create a new polygon cube in the middle of your scene.
  - Hold **alt** and **press the scroll wheel** and move your mouse to pan.
 
 ![pan cube](images/worksheet_1/manipulate_cube_pan.gif)
+
+We **highly recomend** you use a mouse when working with any 3D program, however, if you are only able to use a laptop track pad you can find other navigation tools such as the **Track Tool** in the **View > Camera Tools** menu.
+
+![pan cube](images/worksheet_1/track_tool.jpg)
+
+#### Select tool
+
+The **Select tool** lets you select objects in your scene.
+
+- **Click** on the arrow at the top of the toolbox on the left of the screen to make sure the **Select tool** is chosen. The keyboard shortcut is "q".
+
+ ![select tool](images/worksheet_1/select_tool.jpg)
+
+You will use many tools during these worksheets, remember that you can quit out of those tools and back to the **Select tool** by pressing "q".
  
 ### Manipulate the cube
 
 #### Move
-- Click on the cube to select it.
+- **Click** on the cube to select it.
 - Press **f** to centre the selected object on the screen.
-- Click on the move button on the left side of the screen, or press **w** on the keyboard.
+- Click on the move button on the left side of the screen *the keyboard shortcut is w*.
 
 ![move button](images/worksheet_1/move.jpg)
 	
@@ -74,10 +85,10 @@ This will create a new polygon cube in the middle of your scene.
 
 ![move cube](images/worksheet_1/manipulate_cube_move.gif)
 
-You should generally stick to the 3 coloured arrow. Avoid using the middle yellow square as this will move the cube relative to the camera.
+**Avoid** using the central square as this will move the cube relative to the camera making it very hard to position accurately in the current perspective view.*
 
 #### Rotate
-- With the cube still selected click on the rotate button, or press **e** on the keyboard 
+- With the cube still selected click on the rotate button (shortcut **e**)
 
 ![rotate button](images/worksheet_1/rotate.jpg)
 	
@@ -88,7 +99,7 @@ You should generally stick to the 3 coloured arrow. Avoid using the middle yello
 Avoid use the outer light blue ring as this will rotate the object relative to the camera.
 
 #### Scaling
-- Click on the scale button, or press **r** on the keyboard
+- **Click** on the scale button (shortcut **r**)
 
 ![scale button](images/worksheet_1/scale.jpg)
 	
@@ -105,9 +116,9 @@ Avoid use the outer light blue ring as this will rotate the object relative to t
 
 By default the units in Maya are set to centimetres. 
 
-A cube 1 hight is 1cm high.
+This means if I create a cube 1 unit hight it is 1cm high.
 
-As we are making a large object we want to change the units to meters.
+If you are building a larger object you may need to change your units
 
 - Go to **Windows > Settings > Preferences**
 
@@ -115,17 +126,9 @@ As we are making a large object we want to change the units to meters.
 
 - Select **Settings**
 
-- Change the Linear Working Unitys to **meter**
+Here you can change the Linear Working Unitys to **meter**
 
 ![](images/worksheet_5/change_units.png)
-
-- Press **Save**
-
-Now if we create a cube 1 height, it will be 1 meter. 
-
-This will be important when you light your scene or want to export it to another program like Unity.
-
-Your cube may now appear very small.
 
 ### Add a cylinder
 
@@ -138,6 +141,7 @@ Your cube may now appear very small.
 - Change the radius to 5 and the height to 30
 - Increase the axis divisions to 20
 
+
 - Press **Create** to add the cylinder to the scene.
 
 - Do you remember how to move objects? Move the cylinder up above the grid.
@@ -148,6 +152,8 @@ Your cube may now appear very small.
 
 - Add a cone by **double clicking** on the **create cone button**.
 
+![](images/worksheet_1/cone.jpg)
+
 - Choose values you think are appropriate for the options.
 
 - Press Create.
@@ -155,26 +161,33 @@ Your cube may now appear very small.
 - If you are unhappy with your choices you can select the cone and press **delete** to remove it and try again.
 
 ### Outliner
-- At the bottom of the left panel **click** the **outliner button**
+
+The Outliner is on the left of your screen, it shows all the object in your scene.
+
+![outliner panel](images/worksheet_1/outliner.PNG)
+
+You can show and hide it by using the button of the left panel 
+
+- **Click** the **outliner button** to try this out.
 
 ![outliner button](images/worksheet_1/outliner.jpg)
 
-This will open the outliner panel which shows all the object in your scene.
 
-![outliner panel](images/worksheet_1/outliner.PNG)
+
 
 - **Double click** pCylinder and rename it to "body"
 - **Double click** pCone and rename it to "nose cone"
 
+
 ### Saving
 When using Maya save regularly to avoid loosing work.
 - Choose **File > Save scene As..**
-- Create a folder on your network drive called 'principles_of_3D'.
-- Save the scene 'worksheet_1_rocket' and save it.
+- Create a folder on called 'principles_of_3D'.
+- Name the scene 'worksheet_1_rocket' and save it.
 
 ### Grouping
-- Hold down **shift** and **click** the body and nose cone in the outliner.
-- Press **ctrl** and  **G** to create a group.
+- Hold down **shift** and **click** the body and nose cone in the outliner to select them both.
+- Press **ctrl** and  **G** to create a group containing the selected objects.
 - **Double click** the group and rename it 'rocket'.
 
 ![rename group to rocket in outliner](images/worksheet_1/rocket_outliner.PNG)
@@ -187,7 +200,7 @@ You can use the outline to select items that may be hard to select in the scene.
 
 ![](images/worksheet_1/cube_in_outliner.png)
 
-- Position the nose cone and body appropriately in the scene, scale and rotate them as needed.
+- Position the nose cone and body appropriately in the scene, scale and rotate them as needed. 
 
 ![nose cone above cylinder body](images/worksheet_1/basic_rocket.PNG)
 
@@ -199,8 +212,14 @@ You can temporarily hide an object by selecting it and pressing **h**.
 
 To show it again, select it in the outliner and press **h** again.
 
-- Try this with your nose cone.
+Try this with your nose cone.
 
+- Select the nose cone then press **h**
+
+The nose cone should have dissapeared
+
+- Select the nose cone in the outliner and press **h** again to show it.
+- 
 ### Increment and save
 - Go to **File > Increment and save**
 
@@ -208,7 +227,7 @@ As you have already saved, you should now use Increment and save. This will crea
 
 ![increment and save button](images/worksheet_1/increment_and_save.PNG)
 
-Increment and save it very helpful as it allows you to go back to previous versions of your model.
+Increment and save it very helpful as it gives you multiple copies of your file allowing you to go back to previous versions if you make a mistake.
 
 ### Centring
 It is important that your centre your final object so that it appears where expected when imported into other programs.
@@ -240,6 +259,8 @@ A box will now appear in your scene, the 2 numbers next to **tris** are the tota
 
 - **Double click** the **create torus button** to open the options and make sure yours match mine.
 
+![](images/worksheet_1/torus.jpg)
+
 ![](images/worksheet_1/torus_options.png)
 
 - Press **Create**
@@ -248,7 +269,7 @@ A box will now appear in your scene, the 2 numbers next to **tris** are the tota
 
 ![](images/worksheet_1/window.png)
 
-### Duplicate
+### Duplicate is better than copy and paste
 
 - We want 3 windows, to copy the first one, select it and press **ctrl** and **d**.
 
@@ -275,10 +296,14 @@ Your Maya skills will improve the more you practice, for this challenge practice
 - Name all the parts in the outliner.
 - Group them all appropriately.
 - You should be regularly moving the camera around your object to check it looks good from all angles.
-- Save regularly.
-- Keep the total triangle count to under 3000.  Carefully considering the number of divisions you use when creating new polygons.
+- Increment and Save regularly.
+- Keep the total triangle count to under 3000.  Carefully considering the number of divisions you use when creating new polygons, especially torus's.
+
+This is my example, try to replicate this or make something yourself.
 
 ![finished rocket](images/worksheet_1/finished_rocket.PNG)
+
+This week we have just used primitive shapes to create our model, Next week we will dive into the components which make up these shapes an model more complex objects.
 
 
 
