@@ -122,7 +122,7 @@ If you are building a larger object you may need to change your units
 
 - Go to **Windows > Settings > Preferences**
 
-![](images/worksheet_5/preferences.png)
+![](images/worksheet_1/preferences.png)
 
 - Select **Settings**
 
