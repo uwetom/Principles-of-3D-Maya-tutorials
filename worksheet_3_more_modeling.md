@@ -13,7 +13,7 @@ Make sure you have a mouse.
 - Open up Maya
 - Create a new Scene
 
-![Create new scene](images/worksheet_1/new_scene.jpg)
+![Create new scene](images/worksheet_3.1/new_scene.jpg)
 
 - Create a new folder and save the Maya scene inside it. 
 
@@ -42,7 +42,7 @@ In Maya
 - Select **Create > Free image plane**
 - With the plane selected open up the attributes tab by pressing the button at the top right of the screen.
 
-![](images/worksheet_1/attribute_editor.jpg)
+![](images/worksheet_3.1/attribute_editor.jpg)
 
 - Press the folder icon and navigate to your pear image.
 
@@ -56,7 +56,7 @@ In Maya
 
 - **Double click** on the **create cylinder button**
 
-![](images/worksheet_1/create_cylinder.jpg)
+![](images/worksheet_3.1/create_cylinder.jpg)
 
 - Create a cylinder with the following properties
 
@@ -104,7 +104,7 @@ We can now scale down the vertices to match the shape of our pear reference.
 
 - Go into scale mode by pressing **r** or the scale button
 
-![](images/worksheet_1/move_scale_rotate.jpg)
+![](images/worksheet_3.1/move_scale_rotate.jpg)
 
 - Click and drag the middle yellow square to evenly scale the loop in all directions.
 
@@ -114,7 +114,7 @@ We can now scale down the vertices to match the shape of our pear reference.
 
 - With the vertexes still selected, go into move mode by pressing "w" or the move button.
 
-![](images/worksheet_1/move_scale_rotate.jpg)
+![](images/worksheet_3.1/move_scale_rotate.jpg)
 
 - Move the vertexes sideways to match the reference.
 

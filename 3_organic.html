@@ -1,193 +1,277 @@
 <html>
-
-<head>
+  <head>
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
     <link rel="stylesheet" href="styles/styles.css" />
     <title>Worksheet 3</title>
-</head>
-
-<body>
+  </head>
+  <body>
     <h1>Worksheet 3 - Organic modeling from a reference Image</h1>
     <h3>Before you start</h3>
-    <p>All the machines in the lab have Maya installed, if you want you use your own machine follow the installation
-        guide.</p>
-    <p><a href="https://www.uwe.ac.uk/study/it-services/software/specialist-software#autodesk_maya">Maya instalation
-            guide</a></p>
+    <p>
+      All the machines in the lab have Maya installed, if you want you use your
+      own machine follow the installation guide.
+    </p>
+    <p>
+      <a
+        href="https://www.uwe.ac.uk/study/it-services/software/specialist-software#autodesk_maya"
+        >Maya instalation guide</a
+      >
+    </p>
     <p>Make sure you have a mouse.</p>
     <h3>Create a new scene</h3>
     <ul>
-        <li>Open up Maya</li>
-        <li>Create a new Scene</li>
+      <li>Open up Maya</li>
+      <li>Create a new Scene</li>
     </ul>
-    <p><img src="images/worksheet_1/new_scene.jpg" alt="Create new scene" /></p>
+    <p>
+      <img src="images/worksheet_3.1/new_scene.jpg" alt="Create new scene" />
+    </p>
     <ul>
-        <li>Create a new folder and save the Maya scene inside it.</li>
+      <li>Create a new folder and save the Maya scene inside it.</li>
     </ul>
-    <p>This is important as we are now using multiple files and need to keep them together.</p>
+    <p>
+      This is important as we are now using multiple files and need to keep them
+      together.
+    </p>
     <h2>Model a Pear</h2>
-    <p>This worksheet will help you to model a pear, however, using an image reference is useful for many projects and
-        rounded organic shapes are very common in many objects.</p>
+    <p>
+      This worksheet will help you to model a pear, however, using an image
+      reference is useful for many projects and rounded organic shapes are very
+      common in many objects.
+    </p>
     <h3>Import reference image</h3>
-    <p>Using an image reference is very useful as a guide to help you create a good model.</p>
-    <p>You can work from sketches for your own project, but we will work from a photo.</p>
+    <p>
+      Using an image reference is very useful as a guide to help you create a
+      good model.
+    </p>
+    <p>
+      You can work from sketches for your own project, but we will work from a
+      photo.
+    </p>
     <ul>
-        <li>Download the image of a pear and save it in the same folder as your scene.</li>
+      <li>
+        Download the image of a pear and save it in the same folder as your
+        scene.
+      </li>
     </ul>
     <p><a href="./assets_for_worksheets/pear_reference.jpg">Pear image</a></p>
     <ul>
-        <li>Once opened you should be able to right click and save the image.</li>
+      <li>Once opened you should be able to right click and save the image.</li>
     </ul>
     <h3>Create image plane</h3>
     <p>In Maya</p>
     <ul>
-        <li>Select <strong>Create &gt; Free image plane</strong></li>
-        <li>With the plane selected open up the attributes tab by pressing the button at the top right of the screen.
-        </li>
+      <li>Select <strong>Create &gt; Free image plane</strong></li>
+      <li>
+        With the plane selected open up the attributes tab by pressing the
+        button at the top right of the screen.
+      </li>
     </ul>
-    <p><img src="images/worksheet_1/attribute_editor.jpg" alt="" /></p>
+    <p><img src="images/worksheet_3.1/attribute_editor.jpg" alt="" /></p>
     <ul>
-        <li>Press the folder icon and navigate to your pear image.</li>
+      <li>Press the folder icon and navigate to your pear image.</li>
     </ul>
     <p><img src="images/worksheet_3.1/image_plane_image.png" alt="" /></p>
     <ul>
-        <li>Move the pear image up so that it sits nicely on the grid ( press "w" or the move button while the image is
-            selected)</li>
+      <li>
+        Move the pear image up so that it sits nicely on the grid ( press "w" or
+        the move button while the image is selected)
+      </li>
     </ul>
     <p><img src="images/worksheet_3.1/move_pear.png" alt="" /></p>
     <h3>Create a cylinder</h3>
     <ul>
-        <li><strong>Double click</strong> on the <strong>create cylinder button</strong></li>
+      <li>
+        <strong>Double click</strong> on the
+        <strong>create cylinder button</strong>
+      </li>
     </ul>
-    <p><img src="images/worksheet_1/create_cylinder.jpg" alt="" /></p>
+    <p><img src="images/worksheet_3.1/create_cylinder.jpg" alt="" /></p>
     <ul>
-        <li>
-            <p>Create a cylinder with the following properties</p>
-            <ul>
-                <li>radius 5</li>
-                <li>height 10</li>
-                <li>Axis divisions 8</li>
-                <li>Height divisions 2</li>
-                <li>cap divisions 2</li>
-            </ul>
-        </li>
+      <li>
+        <p>Create a cylinder with the following properties</p>
+        <ul>
+          <li>radius 5</li>
+          <li>height 10</li>
+          <li>Axis divisions 8</li>
+          <li>Height divisions 2</li>
+          <li>cap divisions 2</li>
+        </ul>
+      </li>
     </ul>
     <p><img src="images/worksheet_3.1/create_cylinder.png" alt="" /></p>
     <ul>
-        <li>Move the cylinder up so it is sitting on the grid.</li>
+      <li>Move the cylinder up so it is sitting on the grid.</li>
     </ul>
     <h3>X-Ray mode</h3>
     <ul>
-        <li>Go into the side orthographic view by tapping the space bar, then hover over the front-z panel and tapping
-            the space bar again.</li>
+      <li>
+        Go into the side orthographic view by tapping the space bar, then hover
+        over the front-z panel and tapping the space bar again.
+      </li>
     </ul>
     <p><img src="images/worksheet_3.1/side_view.gif" alt="" /></p>
     <p>You can now enter X-Ray mode so you can see through your cylinder.</p>
     <ul>
-        <li>Select <strong>Shading &gt; X-Ray</strong> on the panel menu</li>
+      <li>Select <strong>Shading &gt; X-Ray</strong> on the panel menu</li>
     </ul>
     <p><img src="images/worksheet_3.1/x-ray.png" alt="" /></p>
     <p><img src="images/worksheet_3.1/xray_pear.png" alt="" /></p>
     <h3>Vertex mode</h3>
     <ul>
-        <li>Go into Vertex selection mode. You can do this through the Modeling toolkit.</li>
+      <li>
+        Go into Vertex selection mode. You can do this through the Modeling
+        toolkit.
+      </li>
     </ul>
     <p><img src="images/worksheet_3.1/vertexes.png" alt="" /></p>
-    <p>Or, if you want to work more quickly you can hold down the right mouse button, then move it and let go over the
-        vertex button.</p>
+    <p>
+      Or, if you want to work more quickly you can hold down the right mouse
+      button, then move it and let go over the vertex button.
+    </p>
     <p><img src="images/worksheet_3.1/right_click_vertexes.png" alt="" /></p>
     <h3>Scale the edge loops</h3>
-    <p>We can now scale down the vertices to match the shape of our pear reference.</p>
+    <p>
+      We can now scale down the vertices to match the shape of our pear
+      reference.
+    </p>
     <ul>
-        <li>Select a whole row of vertexes by drawing a rectangle around them</li>
+      <li>Select a whole row of vertexes by drawing a rectangle around them</li>
     </ul>
     <p><img src="images/worksheet_3.1/select_vertecies.gif" alt="" /></p>
     <ul>
-        <li>Go into scale mode by pressing <strong>r</strong> or the scale button</li>
+      <li>
+        Go into scale mode by pressing <strong>r</strong> or the scale button
+      </li>
     </ul>
-    <p><img src="images/worksheet_1/move_scale_rotate.jpg" alt="" /></p>
+    <p><img src="images/worksheet_3.1/move_scale_rotate.jpg" alt="" /></p>
     <ul>
-        <li>Click and drag the middle yellow square to evenly scale the loop in all directions.</li>
+      <li>
+        Click and drag the middle yellow square to evenly scale the loop in all
+        directions.
+      </li>
     </ul>
     <p><img src="images/worksheet_3.1/scale_edge_loop_1.gif" alt="" /></p>
-    <p><em>Don't use the right hand red square, as it will only scale the shape in one dimension</em></p>
+    <p>
+      <em
+        >Don"t use the right hand red square, as it will only scale the shape in
+        one dimension</em
+      >
+    </p>
     <ul>
-        <li>With the vertexes still selected, go into move mode by pressing "w" or the move button.</li>
+      <li>
+        With the vertexes still selected, go into move mode by pressing "w" or
+        the move button.
+      </li>
     </ul>
-    <p><img src="images/worksheet_1/move_scale_rotate.jpg" alt="" /></p>
+    <p><img src="images/worksheet_3.1/move_scale_rotate.jpg" alt="" /></p>
     <ul>
-        <li>Move the vertexes sideways to match the reference.</li>
+      <li>Move the vertexes sideways to match the reference.</li>
     </ul>
     <p><img src="images/worksheet_3.1/move_edge_loop.gif" alt="" /></p>
     <ul>
-        <li>Scale and move all your vertexes to roughly match your reference.</li>
+      <li>Scale and move all your vertexes to roughly match your reference.</li>
     </ul>
     <p><img src="images/worksheet_3.1/rough_match.png" alt="" /></p>
     <h3>Check your work</h3>
-    <p>We now want to check our model in perspective view to make sure it looks OK.</p>
+    <p>
+      We now want to check our model in perspective view to make sure it looks
+      OK.
+    </p>
     <ul>
-        <li>
-            <p>Press the space bar, and then hover over the perspective panel and press it again to go back into
-                perspective view.</p>
-        </li>
-        <li>
-            <p>Check that your pear looks OK, if not you can undo by pressing <strong>ctrl + z</strong> a few times and
-                redo the last few steps making sure you scale evenly.</p>
-        </li>
+      <li>
+        <p>
+          Press the space bar, and then hover over the perspective panel and
+          press it again to go back into perspective view.
+        </p>
+      </li>
+      <li>
+        <p>
+          Check that your pear looks OK, if not you can undo by pressing
+          <strong>ctrl + z</strong> a few times and redo the last few steps
+          making sure you scale evenly.
+        </p>
+      </li>
     </ul>
     <h3>Add extra detail</h3>
     <ul>
-        <li>Go back into the front view again by pressing space</li>
+      <li>Go back into the front view again by pressing space</li>
     </ul>
     <p>We can now add extra edge loops to improve the model.</p>
     <ul>
-        <li>Select the multi-cut tool using the toolkit button or <strong>ctrl + shift + x</strong></li>
+      <li>
+        Select the multi-cut tool using the toolkit button or
+        <strong>ctrl + shift + x</strong>
+      </li>
     </ul>
     <p><img src="images/worksheet_2/multi-cut.png" alt="" /></p>
     <ul>
-        <li>Hold down <strong>ctrl</strong> and hover your mouse over the shape, click to add extra edge loops where you
-            think it needs more detail.</li>
+      <li>
+        Hold down <strong>ctrl</strong> and hover your mouse over the shape,
+        click to add extra edge loops where you think it needs more detail.
+      </li>
     </ul>
     <p><img src="images/worksheet_3.1/add_edge_loops.gif" alt="" /></p>
     <ul>
-        <li>
-            <p>Press "q" to quit out of the tool.</p>
-        </li>
-        <li>
-            <p>Scale these new edge loops as before to improve the shape.</p>
-        </li>
+      <li>
+        <p>Press "q" to quit out of the tool.</p>
+      </li>
+      <li>
+        <p>Scale these new edge loops as before to improve the shape.</p>
+      </li>
     </ul>
     <p><img src="images/worksheet_3.1/improved_shape.png" alt="" /></p>
     <h3>Smooth</h3>
     <ul>
-        <li>Go back into the persp panel by tapping space, and again over the persp panel.</li>
+      <li>
+        Go back into the persp panel by tapping space, and again over the persp
+        panel.
+      </li>
     </ul>
-    <p>Your pear will look quite faceted, with hard corners, you may like this low poly look or you can soften the edges
-        to make it appear rounder.</p>
+    <p>
+      Your pear will look quite faceted, with hard corners, you may like this
+      low poly look or you can soften the edges to make it appear rounder.
+    </p>
     <ul>
-        <li>Select the model, and select <strong>Mesh Display &gt; soften edges</strong></li>
+      <li>
+        Select the model, and select
+        <strong>Mesh Display &gt; soften edges</strong>
+      </li>
     </ul>
     <h3>Final details</h3>
     <ul>
-        <li>
-            <p>Pull up the top edge loop to create a depression in the top.</p>
-        </li>
-        <li>
-            <p>Do the same thing on the bottom.</p>
-        </li>
+      <li>
+        <p>Pull up the top edge loop to create a depression in the top.</p>
+      </li>
+      <li>
+        <p>Do the same thing on the bottom.</p>
+      </li>
     </ul>
     <p><img src="images/worksheet_3.1/depression.png" alt="" /></p>
-    <p>As we are making an organic object, we do not want it to be too perfect.</p>
+    <p>
+      As we are making an organic object, we do not want it to be too perfect.
+    </p>
     <ul>
-        <li>Select individual vertices on the shape and move them slightly to add some imperfections to the surface.
-        </li>
+      <li>
+        Select individual vertices on the shape and move them slightly to add
+        some imperfections to the surface.
+      </li>
     </ul>
     <p><img src="images/worksheet_3.1/imperfections.gif" alt="" /></p>
     <h2>Challenge</h2>
-    <p>Now that the main body of the pair is complete your challenge is to create the stalk in the same way.</p>
+    <p>
+      Now that the main body of the pair is complete your challenge is to create
+      the stalk in the same way.
+    </p>
     <p>You can make this a separate object or extrude the top faces upwards.</p>
-    <p>when you scale and move the vertex loops you can also rotate them if needed.</p>
-    <p>When you have finished, you can hide the reference image by selecting it and pressing "h".</p>
+    <p>
+      when you scale and move the vertex loops you can also rotate them if
+      needed.
+    </p>
+    <p>
+      When you have finished, you can hide the reference image by selecting it
+      and pressing "h".
+    </p>
     <p><img src="images/worksheet_3.1/finished_pear.png" alt="" /></p>
-</body>
-
+  </body>
 </html>
