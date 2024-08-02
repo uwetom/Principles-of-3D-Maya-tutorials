@@ -8,6 +8,8 @@ All the machines in the lab have Maya installed, if you want you use your own ma
 
 Make sure you have a mouse.
 
+Ask for help if you get stuck.
+
 ### Create a new scene
 
 - Open up Maya
@@ -29,17 +31,17 @@ Using an image reference is very useful as a guide to help you create a good mod
 
 You can work from sketches for your own project, but we will work from a photo.
 
-- Download the image of a pear and save it in the same folder as your scene.
+We will use this image of a pear.
 
 [Pear image](./assets_for_worksheets/pear_reference.jpg)
 
-- Once opened you should be able to right click and save the image.
+- Save the image by right clicking it. Save it in the same folder as your scene.
 
-### Create image plane
+### Create a reference image plane
 
 In Maya
 
-- Select **Create > Free image plane**
+- In the top menu select **Create > Free image plane**
 - With the plane selected open up the attributes tab by pressing the button at the top right of the screen.
 
 ![](images/worksheet_3.1/attribute_editor.jpg)
@@ -187,5 +189,5 @@ When you have finished, you can hide the reference image by selecting it and pre
 
 ![](images/worksheet_3.1/finished_pear.png)
 
-
+Save you work.
 
