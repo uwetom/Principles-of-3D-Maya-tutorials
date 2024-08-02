@@ -9,12 +9,14 @@ All the machines in the lab have Maya installed, if you want you use your own ma
 
 It is essential that you have a mouse.
 
+If you get stuck please ask for help.
+
 ### Create a new scene
 
 - Open Maya and create a new scene.
 
 ### Create a Cube
-- **Double click** on the create Cube button to open the cube options window
+- **Double click** on the **create Cube** button to open the cube options window
 
 ![](images/worksheet_2/create_cube.jpg)
 
@@ -28,7 +30,7 @@ It is essential that you have a mouse.
 ### Faces, Edges and Vertices
 In the last worksheet we manipulating whole objects. However, each polygon is made of different components that we can manipulate individually to give us more control.
 
-They are **faces**, **Edges** and **Vertices**
+These are the **Faces**, **Edges** and **Vertices**.
 
 ### Modeling toolkit
 - Open the **modeling toolkit** by press the button on the top right of the screen
@@ -43,6 +45,8 @@ They are **faces**, **Edges** and **Vertices**
 - Use the move (shortcut w), scale(e) and rotate(r) tools found on the left of the screen to practice manipulating the face just as you did with the whole polygon.
 
 ![move, scale and rotate button](images/worksheet_2/move_scale_rotate.jpg)
+
+![](images/worksheet_2/manipulated_cube.jpg)
 	
 You can undo at an point by pressing **ctrl** and **z**.
 
@@ -70,7 +74,9 @@ To to back to selecting the whole object
 
 For the rest of this worksheet we will create a very simple character using the box modeling technique, starting with a simple shape we will extrude out details.
 
-We will create one side, and then mirror it.
+This technique has many benefits over just combining primitive objects as we did in the last worksheet. With practice it is fast and allows you to create complex, clean models.
+
+We will create one side of the character, and then mirror it.
 
 ### Create a cube
 
@@ -92,12 +98,13 @@ It will create a cube with the same parameters as the one you created earlier.
 
 ![middle face on bottom of cube](images/worksheet_2/select_middle_bottom.png)
 
-- In the modeling toolkit press the extrude button (or use the shortcut **Ctrl + e** or **cmd + e**)
+- In the modeling toolkit press the extrude button (or use the shortcut **Ctrl + e**)
 
 ![extrude button](images/worksheet_2/extrude.jpg)
 
-	
-- Click and drag down on the blue arrow to pull a leg shape out of the cube
+WARNING: Do not press this button twice, this will make multiple extrusions on top of each.
+
+- Click and drag down on the blue arrow to pull a leg shape out of the cube.
 
 ![extrude downwards](images/worksheet_2/extrude_arrow.png)
 
@@ -113,7 +120,7 @@ Next we are going to add some more edges so that we can create a foot.
 
 ### Multi-cut
 
-- In the Modeling toolkit select **Multi-cut** (shortcut - control + shift + x)
+- In the Modeling toolkit select **Multi-cut** (shortcut: control + shift + x)
 
 ![multi-cut button](images/worksheet_2/multi-cut.png)
 
@@ -154,9 +161,9 @@ We are currently looking through the perspective camera which gives us a 3D view
 
 ![4 panel layout button](images/worksheet_2/4_panel_layout.png)
 	
-![4 panel layout](images/worksheet_2/4_panel_layout_selected.png)
+![4 panel layout](images/worksheet_2/4_panel_layout_selected.jpg)
 
-- Now move into the front panel by hovering the mouse over that view and tapping the space bar.
+- Now move into the front panel by hovering the mouse over that view and **tapping** the **space bar**.
 
 ### Move vertices
 
@@ -200,10 +207,7 @@ Now that we have finished one half of our character we will mirror it.
 
 First we are going to delete half our model.
 
-- Go in to the 4 panel layout.
-
-![4 panel layout button](images/worksheet_2/4_panel_layout.png)
-	
+- Go into the front view.
 - Go in Face selection mode.
 
 ![face select mode button](images/worksheet_2/face_mode.png)
@@ -215,6 +219,10 @@ First we are going to delete half our model.
 - Press Delete
 
 You should now have half a character
+
+Note the small indicator in the bottom left of the panel. In the next step we will mirror in the x direction.
+
+![](images/worksheet_2/mirror-direction.jpg)
 
 - Go back into perspective view.
 
@@ -230,19 +238,33 @@ You should now have half a character
 
 ![mirror options](images/worksheet_2/mirror_options.png)
 
-- Make sure your options match mine.
+We created our character in the centre of the grid at the origin so we can use the **World** mirror axis position.
+
+Earlier, the corner indicator showed that I needed to mirror in the x direction.
+
+We want to combine the mirrored object with the original so we finish with one combined shape.
+
+- Set your options the same as mine
 
 ![mirror options](images/worksheet_2/mirror_options_panel.png)
 	
 - Press Apply
 
-You should now have a complete character body.
+You should now have a complete character body. 
+
+#### Trouble shooting
+
+If your mirroring has not worked, press undo and try to mirror again.
+	
+- Did you made your character on a different axis, try "z" instead.
+-  Do you need to mirror left to right rather than right to left? Change to the mirror direction to +
+- Is your character at the centre of the grid?
 
 ### Make a head
 
 Next we want to add a head.
 
-We could extrude the neck and head out from the torso just as we did the legs and arms, however, in we want to add a circular head that we can manipulate separately from the body.
+We could extrude the neck and head out from the torso just as we did the legs and arms, but, we want to add a circular head that we can move separately from the body.
 
 - Double click on the create cylinder button to open the options
 
@@ -294,7 +316,7 @@ we cannot delete the edges on the top as this will effect the overall shape, but
 
 ![correct way to delete edge loops](images/worksheet_2/delete_edge_loops.gif)
 
-If you only press **delete or backspace** Maya will leave behind the vertices, which wont reduce your triangle count.
+**IMPORTANT** - If you only press **delete or backspace** Maya will leave behind the vertices, which wont reduce your triangle count.
 
 ![wrong way to delete edge loops](images/worksheet_2/delete_edge_loops_wrong.gif)
 
