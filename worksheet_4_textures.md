@@ -9,7 +9,7 @@
 
 ![new scene button](images/worksheet_4/new_scene.jpg)
 
-- Save the scene in the principles of 3d folder you created in workshop 1, or somewhere equally sensible.
+- Save the scene in a new folder, This is particularly important as we will be adding separate texture files which Maya will not find if you move them later.
 
 ### Add a polygon
 
@@ -33,7 +33,7 @@ If you loose your attribute editor panel, you can get it back by first making su
 
 ![material attributes button](images/worksheet_4/material_attributes.jpg)
 
-- Change the name to "cube material 1" and press enter. It is really important to name materials to avoid confusion later on.
+- Change the name to "cube material 1" and press enter. It is really important to name materials to avoid confusion later on when you have multiple materials.
 
 ![material name](images/worksheet_4/cube_material_1.jpg)
 
@@ -41,9 +41,7 @@ If you loose your attribute editor panel, you can get it back by first making su
 
 ![](images/worksheet_4/new_standard_surface.PNG)
 
-- The cube in your scene should now have the colour, if it doesn't make sure the **textured** button is turned on in the viewport
-
-![Texture button](images/worksheet_4/textured_button.jpg)
+Your cube should now appear as that colour.
 
 - Experiment with the **Roughness** and **Metallic** sliders to see how they change the look of the cube.
 
@@ -75,6 +73,11 @@ If you loose your attribute editor panel, you can get it back by first making su
 
 ![giraffe pattern applied to cube](images/worksheet_4/giraffe_texture_applied.jpg)
 
+- If you cannot see it, check the **textured** icon at the top of the panel is active.
+
+![](images/worksheet_4/textured_button.jpg)
+
+ 
 ### Change the scale
 
 To scale the pattern, press the image checkerboard button again
@@ -106,7 +109,9 @@ To scale the pattern, press the image checkerboard button again
 
 ## Prepare the model
 
-UV mapping should be done after you have completely finished modeling. If you make any changes to your mesh you may need to re-map all or part of your model.
+To apply an image texture to a more complicated object we first need to prepare the model so that the textures appear correctly.
+
+Part of this process is UV mapping which we will do shortly, but before this we need to clean it up.
 
 ### Delete history
 
@@ -135,6 +140,8 @@ You should now see the material on the cactus, but it may look distorted and str
 ![cactus with stretched material on it](images/worksheet_4/stretched_material.jpg)
 
 ## UV mapping
+
+UV mapping should be done after you have completely finished modeling. If you make any changes to your mesh you may need to re-map all or part of your model.
 
 The easiest solution to this is to use automatic mapping.
 - With the cactus still selected, select **UV > Automatic** from the top menu
@@ -266,7 +273,13 @@ Layer 1 is your snapshot.
 
 ![finished cactus](images/worksheet_4/finished_cactus.jpg)
 
-## Extra Challenge
+## Extra Challenges
+
+- Find a seamless stone texture online and apply it to the cactus pot.
+- Texture your pear or robot from the previous worksheets.
+
+## Final Challenge
 
 - Watch the manual UV mapping video on Blackboard and try to manually map the cactus and reapply the texture.
+
 
