@@ -8,6 +8,8 @@ All the machines in the lab have Maya installed, if you want you use your own ma
 
 It is essential that you have a mouse.
 
+The screen shots in this worksheet are from the PC version of Maya, if you are using a Mac they may look slightly different but the functionality will be the same.
+
 ## 1. Getting to know Maya
 
 ### Create a new scene
