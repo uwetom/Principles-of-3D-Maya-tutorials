@@ -11,11 +11,7 @@ If you are on your own machine, you will have been given the option to install i
 
 ![](images/worksheet_5/arnold.png) 
 
-If you cannot see it, you may need to install it separately from here:
-
-https://www.arnoldrenderer.com/download/
-
-You can then turn on the Arnold render by going to
+If you cannot see it, you may need to turn on the Arnold render by going to:
 
 **Windows > Settings/Preferences > Plug-in manager**
 
@@ -24,6 +20,8 @@ You can then turn on the Arnold render by going to
 Then tick the boxes next to mtoa.mll
 
 ![](images/worksheet_5/mtoa.png)
+
+If you cannot get this work work please ask for help.
 
 ### Create a new scene
 
