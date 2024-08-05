@@ -96,7 +96,7 @@ You have now successfully exported your model from Maya.
 
 ## Import into Unity
 
-- First create a new Unity project using the 3D core renderer.
+- First create a new Unity project using the Universal 3D core renderer.
 
 ![](images/worksheet_6/unity1.png)
 
