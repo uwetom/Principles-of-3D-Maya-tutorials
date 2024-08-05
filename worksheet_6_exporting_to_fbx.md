@@ -6,7 +6,9 @@
 
 or
 
-- Create a new maya porject and import the barrel fbx file from blackboard using **file > import**
+- Create a new maya project and download and import the barrel fbx file using **file > import**
+
+[barrel.fbx](./assets_for_worksheets/barrel.fbx)
 
 ![](images/worksheet_6/barrel.png)
 
@@ -42,6 +44,8 @@ You can see that my barrel is only 4.8cm tall.
 
 - Scale up the barrel to a more appropriate height for a real barrel.
 
+- Make sure the base of the barrel stays on the ground.
+
 
 ## Save a fresh copy
 
@@ -67,7 +71,7 @@ When making your model you may have scaled some of the pieces. Before exporting 
 
 ## Export as FBX
 
-If we want to import our model into a different program the best format to choose is an **FBX** file.
+If we want to import our model into a different program the best format to choose is the universal **FBX** file type.
 
 First make sure you have named and organised everything in your outliner. Our barrel is only one object, but if your object is made from multiple parts, group them together using **ctrl + g** and rename the group.
 
@@ -126,9 +130,13 @@ As we have also extracted the materials, we can edit these in Unity if we need t
 
 ## Re-applying textures
 
-The above barrel should have imported fairly easily, but often the materials wont import properly and need to be re-applied. This can happen with models created with textures Unity does not recognise or if you download models with seperate textures.
+The above barrel should have imported fairly easily, but often the materials wont import properly and need to be re-applied. This can happen with models created with textures Unity does not recognise or if you download models with separate textures.
 
-I have downloaded a dog model from Sketchfab and uploaded it to Blackboard.
+I have downloaded a model of a dog from Sketchfab ([https://skfb.ly/MnrW](https://skfb.ly/MnrW))
+
+If you don't want to log in to sketchfab you can download it here:
+
+[dog zip file](./assets_for_worksheets/k9-doctors-who-dog.zip)
 
 If you unzip it you can see that the textures come through separately from the fbx file.
 
@@ -142,13 +150,18 @@ You will now have a grey material without any textures on it.
 
 To apply the textures you need to drag and drop them onto the correct slots in the material.
 
-- With the K9 material selected, drag and drop the **K9-diff** texture into the albedo slot.
+- With the K9 material selected, drag and drop the **K9-diff** texture into the albedo slot. this is the diffuse map, some assets may call it "colour".
 
 ![](images/worksheet_6/albedo.png)
 
 - Try to find the correct slots for the other textures. 
 
-You may find that you do not need all of them.
+AO stands for Ambient occlusion, this shows how exposed each part of the model is to ambient light. It should go into the Occlusion slot.
+
+Quite often you will get 2 normal maps, directx and Open GL, Unity is usually setup for opengl, however, try both and choose the one you prefer, make sure you press the "fix" button so Unity knows its a normal map.
+
+You may find that you cannot use all the maps.
+
 
 
 
