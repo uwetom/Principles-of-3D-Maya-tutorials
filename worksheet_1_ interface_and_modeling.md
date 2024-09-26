@@ -6,6 +6,8 @@ All the machines in the lab have Maya installed, if you want you use your own ma
 
 [Maya Installaton Guide](https://www.uwe.ac.uk/study/it-services/software/specialist-software#autodesk_maya)
 
+We will be using Maya 2025, but you can use a previous version.
+
 It is essential that you have a mouse.
 
 The screen shots in this worksheet are from the PC version of Maya, if you are using a Mac they may look slightly different but the functionality will be the same.
@@ -184,8 +186,8 @@ You can show and hide it by using the button of the left panel
 ### Saving
 When using Maya save regularly to avoid loosing work.
 - Choose **File > Save scene As..**
-- Create a folder on called 'principles_of_3D'.
 - Name the scene 'worksheet_1_rocket' and save it.
+
 
 ### Grouping
 - Hold down **shift** and **click** the body and nose cone in the outliner to select them both.
