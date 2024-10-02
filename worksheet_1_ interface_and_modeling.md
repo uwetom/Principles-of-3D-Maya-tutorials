@@ -74,7 +74,7 @@ The **Select tool** lets you select objects in your scene.
 
  ![select tool](images/worksheet_1/select_tool.jpg)
 
-You will use many tools during these worksheets, remember that you can quit out of those tools and back to the **Select tool** by pressing "q".
+You will use many tools during these worksheets, remember that you can quit out of those tools and go back to the **Select tool** by pressing "q".
  
 ### Manipulate the cube
 
@@ -89,7 +89,7 @@ You will use many tools during these worksheets, remember that you can quit out 
 
 ![move cube](images/worksheet_1/manipulate_cube_move.gif)
 
-**Avoid** using the central square as this will move the cube relative to the camera making it very hard to position accurately in the current perspective view.*
+**Avoid** using the central square as this will move the cube relative to the camera making it very hard to position accurately in the current perspective view.
 
 #### Rotate
 - With the cube still selected click on the rotate button (shortcut **e**)
@@ -130,7 +130,7 @@ If you are building a larger object you may need to change your units
 
 - Select **Settings**
 
-Here you can change the Linear Working Unitys to **meter**
+Here you can change the Linear Working units to **meter**.
 
 ![](images/worksheet_5/change_units.png)
 
@@ -170,7 +170,7 @@ The Outliner is on the left of your screen, it shows all the object in your scen
 
 ![outliner panel](images/worksheet_1/outliner.PNG)
 
-You can show and hide it by using the button of the left panel 
+You can show and hide it by using the button in the left panel 
 
 - **Click** the **outliner button** to try this out.
 
@@ -184,7 +184,7 @@ You can show and hide it by using the button of the left panel
 
 
 ### Saving
-When using Maya save regularly to avoid loosing work.
+When using Maya save regularly to avoid losing work.
 - Choose **File > Save scene As..**
 - Name the scene 'worksheet_1_rocket' and save it.
 
@@ -210,7 +210,7 @@ You can use the outline to select items that may be hard to select in the scene.
 
 ### Hiding using the outliner.
 
-If can sometimes be difficult to select what you need to in your scene if an element is on top of another.
+It can sometimes be difficult to select what you need to in your scene if an element is on top of another.
 
 You can temporarily hide an object by selecting it and pressing **h**.
 
@@ -231,7 +231,7 @@ As you have already saved, you should now use Increment and save. This will crea
 
 ![increment and save button](images/worksheet_1/increment_and_save.PNG)
 
-Increment and save it very helpful as it gives you multiple copies of your file allowing you to go back to previous versions if you make a mistake.
+Increment and save is very helpful as it gives you multiple copies of your file allowing you to go back to previous versions if you make a mistake.
 
 ### Centring
 It is important that your centre your final object so that it appears where expected when imported into other programs.
@@ -249,7 +249,7 @@ Your rocket may already be in the centre of the scene, but if it is not you need
 - Then move your object so that it is in the middle of the grid.
 
 ### Poly Count
-When creating 3D assets it is important that you are are aware of the polygon or triangle count. For the assignments this year we will give you a maximum that you need to stay bellow.
+When creating 3D assets it is important that you are are aware of the polygon or triangle count. For the assignments this year we will give you a maximum that you need to stay below.
 
 - To show the count on your screen select **Display > Heads up display > Poly Count**
 
@@ -301,13 +301,13 @@ Your Maya skills will improve the more you practice, for this challenge practice
 - Group them all appropriately.
 - You should be regularly moving the camera around your object to check it looks good from all angles.
 - Increment and Save regularly.
-- Keep the total triangle count to under 3000.  Carefully considering the number of divisions you use when creating new polygons, especially torus's.
+- Keep the total triangle count to under 3000.  Carefully considering the number of divisions you use when creating new polygons, especially a torus.
 
 This is my example, try to replicate this or make something yourself.
 
 ![finished rocket](images/worksheet_1/finished_rocket.PNG)
 
-This week we have just used primitive shapes to create our model, Next week we will dive into the components which make up these shapes an model more complex objects.
+This week we have just used primitive shapes to create our model, Next week we will dive into the components which make up these shapes and model more complex objects.
 
 
 
