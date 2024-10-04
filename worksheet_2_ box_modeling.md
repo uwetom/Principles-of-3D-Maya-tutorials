@@ -3,29 +3,28 @@
 
 ### Before you start
 
-All the machines in the lab have Maya installed, if you want you use your own machine follow the installation guide.
+All the machines in the lab have Maya installed, if you need Maya on your own machine follow this installation guide.
 
 [Maya Installaton Guide](https://www.uwe.ac.uk/study/it-services/software/specialist-software#autodesk_maya)
 
 It is essential that you have a mouse.
 
-If you get stuck please ask for help.
+If you get stuck or have any questions please ask for help.
 
 ### Create a new scene
 
 - Open Maya and create a new scene.
 
 ### Create a Cube
-- **Double click** on the **create Cube** button to open the cube options window
+- **Double click** on the **create Cube** button to open the cube options window.
 
 ![](images/worksheet_2/create_cube.jpg)
 
-- Change the values as show below
+- Change the values as show below.
 
 ![New cube options](images/worksheet_2/new_cube_option.PNG)
 
-- Press **Apply**
-
+- Press **Apply**.
 
 ### Faces, Edges and Vertices
 In the last worksheet we manipulating whole objects. However, each polygon is made of different components that we can manipulate individually to give us more control.
@@ -33,42 +32,58 @@ In the last worksheet we manipulating whole objects. However, each polygon is ma
 These are the **Faces**, **Edges** and **Vertices**.
 
 ### Modeling toolkit
-- Open the **modeling toolkit** by press the button on the top right of the screen
+- Open the **modeling toolkit** by pressing the button at the top right of the screen.
 
 ![modeling toolkit](images/worksheet_2/modeling_toolkit.jpg)
 
-- Select the **faces** button
+#### Faces
+
+- Select the **faces** button.
 
 ![select faces button](images/worksheet_2/faces.jpg)
 
-- **Click** on an individual face on the cube to select it ( you can also **hold shift** to select multiple faces)
+- **Left Click** on an individual face on the cube to select it. 
+- **hold shift** and **Left Click** to select multiple faces.
+- **hold tab** and **Left Click** and move the mouse to paint a selection.
+- **hold Ctrl** and **Left Click** to de-select faces.
 - Use the move (shortcut w), scale(e) and rotate(r) tools found on the left of the screen to practice manipulating the face just as you did with the whole polygon.
 
 ![move, scale and rotate button](images/worksheet_2/move_scale_rotate.jpg)
 
 ![](images/worksheet_2/manipulated_cube.jpg)
+
+#### Vertices
+
+Now try to do the same thing with the **vertices**.
+
+![](images/worksheet_2/vertices.jpg)
+
+- Select an individual Vertex or a group of vertices
+- move(w), scale(e) and rotate(r) the vertices.
+
+#### Edges
+
+Lastly, switch to edge selection.
+
+![](images/worksheet_2/edge.jpg)
 	
-You can undo at an point by pressing **ctrl** and **z**.
+- Select an individual or group of edges.
+- Move (w), scale(e) and rotate(r) the edges.
+- One very useful feature of edges are **Edge loops**, double click on an edge to select the entire loop.
 
-Try to do the same thing with the edge and vertex selection modes
+#### Whole object
 
-- Try to move, scale and rotate individual or groups of edges and vertices.
-
-![](images/worksheet_2/vertex_and_edge.jpg)
-	
-- Select the button on the left to go back to selecting the whole polygons.
+You can go back to selecting the whole object by clicking on the left button.
 
 ![polygon button](images/worksheet_2/polygon.jpg)
 
 ### Alternative
 
-Another way to access the vertices, edges and faces is to **hold down** the **Right mouse button** over the polygon and then **let go** over the option you want.
+Another way to access the vertices, edges and faces is to **hold down** the **Right mouse button** over the object and then **let go** over the option you want.
 
 ![](images/worksheet_2/right_menu.gif)
 
-To to back to selecting the whole object 
-	
-- Delete your polygon by selecting it in the scene or in the outliner and pressing delete.
+- Delete your object by selecting it in the scene or in the outliner and pressing delete on the keyboard.
 
 ## Box modeling
 
@@ -76,11 +91,11 @@ For the rest of this worksheet we will create a very simple character using the 
 
 This technique has many benefits over just combining primitive objects as we did in the last worksheet. With practice it is fast and allows you to create complex, clean models.
 
-We will create one side of the character, and then mirror it.
+We will create one side of a character, and then mirror it.
 
 ### Create a cube
 
-- First create a new cube by single clicking on the new cube button.
+- First create a new cube by **left clicking** on the new cube button.
 
 ![](images/worksheet_2/create_cube.jpg) 
 
@@ -98,21 +113,21 @@ It will create a cube with the same parameters as the one you created earlier.
 
 ![middle face on bottom of cube](images/worksheet_2/select_middle_bottom.png)
 
-- In the modeling toolkit press the extrude button (or use the shortcut **Ctrl + e**)
+- In the modeling toolkit press the smart extrude button.
 
-![extrude button](images/worksheet_2/extrude.jpg)
+![smart extrude button](images/worksheet_2/smart_extrude.jpg)
 
-WARNING: Do not press this button twice, this will make multiple extrusions on top of each.
+WARNING!: Even though you can't see it your face will have extruded with a depth of 0 as soon as you press this button, if you change your mind, undo to remove this hidden extrusion.
 
 - Click and drag down on the blue arrow to pull a leg shape out of the cube.
 
-![extrude downwards](images/worksheet_2/extrude_arrow.png)
+![smart extrude in action](images/worksheet_2/smart_extrude_2.jpg)
 
 ![complete leg](images/worksheet_2/leg.png)
 
 - Press **q** to quit out of the extrude tool when you have finished.
 
-- To learn more about extrusion see the extra videos section in learning materials on Blackboard.
+- To learn more about selecting, extrusion and other useful tools  see the extra videos section in learning materials on Blackboard (Learning materials > Workshops > Extra videos)
 
 ### Add a foot
 
@@ -120,7 +135,7 @@ Next we are going to add some more edges so that we can create a foot.
 
 ### Multi-cut
 
-- In the Modeling toolkit select **Multi-cut** (shortcut: control + shift + x)
+- In the **Modeling toolkit** select **Multi-cut** (shortcut: control + shift + x)
 
 ![multi-cut button](images/worksheet_2/multi-cut.png)
 
@@ -145,7 +160,6 @@ We can now extrude the foot from the leg.
 
 ![finished foot](images/worksheet_2/foot.png)
 
-
 ### Arm
 
 - Now extrude an arm in the same way.
@@ -163,7 +177,7 @@ We are currently looking through the perspective camera which gives us a 3D view
 	
 ![4 panel layout](images/worksheet_2/4_panel_layout_selected.jpg)
 
-- Now move into the front panel by hovering the mouse over that view and **tapping** the **space bar**.
+- Now move into the **side-x** panel by hovering the mouse over that view and **tapping** the **space bar**.
 
 ### Move vertices
 
@@ -174,15 +188,13 @@ We can now manipulate some of the  vertices and edges to improve the shape.
 	
 - Draw a square around the front of the character to select all the front vertices.
 
-![select front vertices](images/worksheet_2/select_front_vertecies.png)
+![](images/worksheet_2/front_select.jpg)
 
 - Move them backwards to create a better shape for the torso.
 
-![move front of model](images/worksheet_2/move_verticies.png)
+![](images/worksheet_2/front_moved.jpg)
 
 - Do the same thing for the back of the character.
-
-![move back of character](images/worksheet_2/move_vertecies_back.png)
 
 - You can now go back into the perspective view by pressing the button on the left. ( or tapping the space bar and again over the persp panel)
 
@@ -208,7 +220,7 @@ Now that we have finished one half of our character we will mirror it.
 First we are going to delete half our model.
 
 - Go into the front view.
-- Go in Face selection mode.
+- Enable Face selection mode.
 
 ![face select mode button](images/worksheet_2/face_mode.png)
 
@@ -280,7 +292,7 @@ We could extrude the neck and head out from the torso just as we did the legs an
 
 ### Soften edges
 
-Edges in Maya can be **soft** or **hard**. soft edges are good for rounded shapes, and hard edges are good for corners.
+Edges in Maya can be **soft** or **hard**. Soft edges are good for rounded shapes, and hard edges are good for sharp corners.
 
 Most polygons will have a combination of the two.
 
@@ -296,13 +308,17 @@ Then go to **Mesh Display > Soften Edge**
 
 ![soften edges](images/worksheet_2/soften_edges.png)
 
-Your head should now look like this
+Your head should now look like this.
 
 ![soft head](images/worksheet_2/aoft_eges.png)
 
 ### Delete edges
 
 Deleting unneeded faces and edges is the easiest way to reduce you triangle count.
+
+- Display the poly count using the top menu (Display > Heads up display > poly count)
+
+If you select the head you can see it has 240 triangles.
 
 Our head currently has more triangles than it needs. 
 
@@ -320,6 +336,8 @@ we cannot delete the edges on the top as this will effect the overall shape, but
 
 ![wrong way to delete edge loops](images/worksheet_2/delete_edge_loops_wrong.gif)
 
+The head should now have 192 triangles.
+
 ## Delete unwanted faces
 
 Another way to reduce you triangle count is to delete hidden faces.
@@ -336,9 +354,11 @@ I would recomend you do not do this until the very end. but we can do it on our 
 
 - Select the body in the outliner again and press **h** to show it.
 
+Without effecting how the head looks we have substantially reduced the number of triangles.
+
 ## Challenge - finish the character
 
-If you want more practice, try to add some more detail to the character.
+To get more practice, try to add some more detail to the character.
 
 - Add more shapes such as eyes and a hat.
 - Use multi-cut and extrude to add more detail.
@@ -349,8 +369,7 @@ If you want more practice, try to add some more detail to the character.
 ## Tips
 
 - Double click on an edge to select the whole edge loop.
-- When extruding, you can use the scale control to extrude along the surface.
+- When using the standard extrude tool you can use the scale control to extrude along the surface.
 
 ![extruding on a surface](images/worksheet_2/extrude.gif)
-
 

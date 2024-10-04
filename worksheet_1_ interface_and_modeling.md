@@ -2,11 +2,9 @@
 
 ### Before you start
 
-All the machines in the lab have Maya installed, if you want you use your own machine follow the installation guide.
+All the machines in the lab have Maya 2025 installed, if you want you use your own machine follow the installation guide
 
 [Maya Installaton Guide](https://www.uwe.ac.uk/study/it-services/software/specialist-software#autodesk_maya)
-
-We will be using Maya 2025, but you can use a previous version.
 
 It is essential that you have a mouse.
 
