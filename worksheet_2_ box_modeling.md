@@ -1,4 +1,4 @@
-# Worksheet 2 - Faces, Edges and vertexes
+# Worksheet 2 - Faces, Edges and Vertices 
 
 
 ### Before you start
