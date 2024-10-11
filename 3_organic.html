@@ -1,33 +1,17 @@
 <html>
   <head>
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-    <link rel="shortcut icon" type="image/x-icon" href="favicon.ico">
     <link rel="stylesheet" href="styles/styles.css" />
     <title>Worksheet 3</title>
   </head>
   <body>
     <h1>Worksheet 3 - Organic modeling from a reference Image</h1>
-    <h3>Before you start</h3>
-    <p>
-      All the machines in the lab have Maya installed, if you want you use your
-      own machine follow the installation guide.
-    </p>
-    <p>
-      <a
-        href="https://www.uwe.ac.uk/study/it-services/software/specialist-software#autodesk_maya"
-        >Maya instalation guide</a
-      >
-    </p>
-    <p>Make sure you have a mouse.</p>
-    <p>Ask for help if you get stuck.</p>
     <h3>Create a new scene</h3>
     <ul>
       <li>Open up Maya</li>
       <li>Create a new Scene</li>
     </ul>
-    <p>
-      <img src="images/worksheet_3.1/new_scene.jpg" alt="Create new scene" />
-    </p>
+    <p><img src="images/worksheet_3/new_scene.jpg" alt="" /></p>
     <ul>
       <li>Create a new folder and save the Maya scene inside it.</li>
     </ul>
@@ -37,15 +21,11 @@
     </p>
     <h2>Model a Pear</h2>
     <p>
-      This worksheet will help you to model a pear, however, using an image
-      reference is useful for many projects and rounded organic shapes are very
-      common in many objects.
+      In this worksheet we will model from a reference image, we will make a low
+      poly pear, but this technique is very useful for acurately modeling
+      anything from 2D reference images.
     </p>
     <h3>Import reference image</h3>
-    <p>
-      Using an image reference is very useful as a guide to help you create a
-      good model.
-    </p>
     <p>
       You can work from sketches for your own project, but we will work from a
       photo.
@@ -54,9 +34,10 @@
     <p><a href="./assets_for_worksheets/pear_reference.jpg">Pear image</a></p>
     <ul>
       <li>
-        Save the image by right clicking it. Save it in the same folder as your
-        scene.
+        Save the image by right clicking it and find the option to save the
+        image.
       </li>
+      <li>Save it in the same folder as your scene.</li>
     </ul>
     <h3>Create a reference image plane</h3>
     <p>In Maya</p>
@@ -65,8 +46,8 @@
         In the top menu select <strong>Create &gt; Free image plane</strong>
       </li>
       <li>
-        With the plane selected open up the attributes tab by pressing the
-        button at the top right of the screen.
+        With the plane selected open up the <strong>attributes</strong> tab by
+        pressing the button at the top right of the screen.
       </li>
     </ul>
     <p><img src="images/worksheet_3.1/attribute_editor.jpg" alt="" /></p>
@@ -91,7 +72,7 @@
     <p><img src="images/worksheet_3.1/create_cylinder.jpg" alt="" /></p>
     <ul>
       <li>
-        <p>Create a cylinder with the following properties</p>
+        <p>Create a cylinder with the following properties:</p>
         <ul>
           <li>radius 5</li>
           <li>height 10</li>
@@ -156,13 +137,13 @@
     <p><img src="images/worksheet_3.1/scale_edge_loop_1.gif" alt="" /></p>
     <p>
       <em
-        >Don"t use the right hand red square, as it will only scale the shape in
-        one dimension</em
+        >Do not use the right hand red square, as it will only scale the shape
+        in one dimension</em
       >
     </p>
     <ul>
       <li>
-        With the vertexes still selected, go into move mode by pressing "w" or
+        With the vertices still selected, go into move mode by pressing "w" or
         the move button.
       </li>
     </ul>
@@ -177,8 +158,8 @@
     <p><img src="images/worksheet_3.1/rough_match.png" alt="" /></p>
     <h3>Check your work</h3>
     <p>
-      We now want to check our model in perspective view to make sure it looks
-      OK.
+      Before we go further we now want to check our model in perspective view to
+      make sure it looks OK.
     </p>
     <ul>
       <li>
@@ -189,15 +170,14 @@
       </li>
       <li>
         <p>
-          Check that your pear looks OK, if not you can undo by pressing
-          <strong>ctrl + z</strong> a few times and redo the last few steps
-          making sure you scale evenly.
+          Check that the shape is even and you have not accidently squashed it
+          in one dimension.
         </p>
       </li>
     </ul>
     <h3>Add extra detail</h3>
     <ul>
-      <li>Go back into the front view again by pressing space</li>
+      <li>Go back into the front view again by pressing the space bar</li>
     </ul>
     <p>We can now add extra edge loops to improve the model.</p>
     <ul>
@@ -210,7 +190,8 @@
     <ul>
       <li>
         Hold down <strong>ctrl</strong> and hover your mouse over the shape,
-        click to add extra edge loops where you think it needs more detail.
+        click to add a few extra edge loops where you think it needs more
+        detail, dont add too many.
       </li>
     </ul>
     <p><img src="images/worksheet_3.1/add_edge_loops.gif" alt="" /></p>
@@ -240,7 +221,7 @@
         <strong>Mesh Display &gt; soften edges</strong>
       </li>
     </ul>
-    <h3>Final details</h3>
+    <h3>Top and bottom</h3>
     <ul>
       <li>
         <p>Pull up the top edge loop to create a depression in the top.</p>
@@ -260,21 +241,70 @@
       </li>
     </ul>
     <p><img src="images/worksheet_3.1/imperfections.gif" alt="" /></p>
-    <h2>Challenge</h2>
+    <h3>Stalk</h3>
+    <p>We can now move onto the stalk, modeling it as a separate object.</p>
     <p>
-      Now that the main body of the pair is complete your challenge is to create
-      the stalk in the same way.
+      To make this we will first create a curve, then extrude a polygon
+      following the path.
     </p>
-    <p>You can make this a separate object or extrude the top faces upwards.</p>
+    <ul>
+      <li>Go back into the front view</li>
+    </ul>
+    <h4>Curves</h4>
+    <p>Select the "EP curve" tool in the Curves tab.</p>
+    <p><img src="images/worksheet_3/select_curve.jpg" alt="" /></p>
+    <ul>
+      <li>
+        Starting from the end of the stalk, <strong>left click</strong> to
+        create the curve. hold down the mouse button to adjust the curve.
+      </li>
+    </ul>
+    <p><img src="images/worksheet_3/create_curve.gif" alt="" /></p>
+    <h4>Polygon</h4>
+    <p><strong>Double click</strong> to make a polygon disk.</p>
+    <p><img src="images/worksheet_3/polygon_circle.jpg" alt="" /></p>
+    <ul>
+      <li>Set the options as bellow and press create.</li>
+    </ul>
+    <p><img src="images/worksheet_3/disc.jpg" alt="" /></p>
+    <ul>
+      <li>Move and rotate the disk to place it on the end of the curve</li>
+    </ul>
+    <p><img src="images/worksheet_3/position_disk.jpg" alt="" /></p>
+    <h4>Extrude</h4>
+    <ul>
+      <li>
+        <p>Now go into face mode and select all the faces on the disk</p>
+      </li>
+      <li>
+        <p>
+          In the <strong>Outliner</strong> hold <strong>ctrl</strong> and
+          <strong>left click</strong> the curve
+        </p>
+      </li>
+    </ul>
+    <p>The disk and curve should now be selected</p>
+    <p><img src="images/worksheet_3/select_disk_and_curve.jpg" alt="" /></p>
+    <ul>
+      <li>On the top menu, select <strong>Edit Mesh</strong> &gt; **Extrude</li>
+    </ul>
+    <p><img src="images/worksheet_3/extruede_on_curve.jpg" alt="" /></p>
+    <p><img src="images/worksheet_3/extruded.jpg" alt="" /></p>
+    <p>Now we need to add some divisions</p>
+    <ul>
+      <li>Increase the divisions to 6</li>
+    </ul>
+    <p><img src="images/worksheet_3/divisions.jpg" alt="" /></p>
     <p>
-      when you scale and move the vertex loops you can also rotate them if
-      needed.
+      If you like, you can now scale and adjust edges and vertices on the stalk
+      to make it look more natural.
     </p>
+    <h2>Hide</h2>
     <p>
       When you have finished, you can hide the reference image by selecting it
-      and pressing "h".
+      and pressing "h" (select it the outliner and press "h" to show it again).
     </p>
-    <p><img src="images/worksheet_3.1/finished_pear.png" alt="" /></p>
+    <p><img src="images/worksheet_3/final_pear.jpg" alt="" /></p>
     <p>Save you work.</p>
   </body>
 </html>
