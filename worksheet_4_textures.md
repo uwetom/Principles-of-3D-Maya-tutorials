@@ -7,8 +7,6 @@
 - Open up Maya
 - Create a new Scene
 
-![new scene button](images/worksheet_4/new_scene.jpg)
-
 - Save the scene in a new folder, This is particularly important as we will be adding separate texture files which Maya will not find if you move them later.
 
 ### Add a polygon
@@ -19,21 +17,24 @@
 
 ### Add a material
 
-- Select you cube, **hold down the right mouse button** and select  **Assign New Material...**
+With the cube selected
 
-![new material button](images/worksheet_4/new_material.jpg)
-	
-- Select **Arnold > AiStandardSurface**
+- In the **Rendering** tab, select **Standard Surface Material**
 
-![](images/worksheet_3/ai_standard_surface.png)
+![](images/worksheet_4/standard_surface.jpg)
 
-The Attribute editor will now appear.
+The Attribute editor should open on the right of the screen showing the **StandardSurface2** tab open.
 
-If you loose your attribute editor panel, you can get it back by first making sure your object is selected, and then holding down the right mouse button and selecting **Material Attributes**
+![](images/worksheet_4/standard_surface_2.jpg)
+
+NOTE : You can see the material on any object by selecting it, then holding down the right mouse button and selecting **Material Attributes**
 
 ![material attributes button](images/worksheet_4/material_attributes.jpg)
 
-- Change the name to "cube material 1" and press enter. It is really important to name materials to avoid confusion later on when you have multiple materials.
+
+#### Change the name
+
+- Change the name to "cube material 1" and press **enter**. It is really important to name materials to avoid confusion later on when you have multiple materials.
 
 ![material name](images/worksheet_4/cube_material_1.jpg)
 
@@ -41,15 +42,24 @@ If you loose your attribute editor panel, you can get it back by first making su
 
 ![](images/worksheet_4/new_standard_surface.PNG)
 
-Your cube should now appear as that colour.
+![](images/worksheet_4/choose_ss_colour.jpg)
 
-- Experiment with the **Roughness** and **Metallic** sliders to see how they change the look of the cube.
+- Press **Done** and Your cube should now appear as that colour.
+
+- There are lots of options to adjust the material, you can adjust the metalness and roughness but the full effect will only become clear when we move on to lighting and rendering next week.
 
 ![](images/worksheet_4/metalness.PNG)
 
+You can apply different materials to different faces.
+
+- Select some faces and apply apply a new standard surface material.
+
+![](images/worksheet_4/2nd_material.jpg)
+
+
 ### Adding an image map
 
-- Create another cube, move it next to the first and assign a new **AiStandardSurface** material just like we did above.
+- Create another cube, move it next to the first and assign a new **StandardSurface** material just like we did above.
 - This time, name it "giraffe_skin_material"
 - Instead of a colour, we want to use an image.
 - Download the giraffe print image 
@@ -69,20 +79,26 @@ Your cube should now appear as that colour.
 
 ![choose folder button](images/worksheet_4/choose_folder.jpg)
 
+- Check the **textured** icon at the top of the panel is active.
+
+![](images/worksheet_4/textured_button.jpg)
+
 - You should now see the pattern applied to your cube
 
 ![giraffe pattern applied to cube](images/worksheet_4/giraffe_texture_applied.jpg)
 
-- If you cannot see it, check the **textured** icon at the top of the panel is active.
 
-![](images/worksheet_4/textured_button.jpg)
-
- 
 ### Change the scale
 
-To scale the pattern, press the image checkerboard button again
+We now want to scale the pattern
 
-![](images/worksheet_4/colour_file.PNG)
+- go back to the material attributes by **right clicking** on the cube and selecting **Material attributes**
+
+![](images/worksheet_4/material_attributes.jpg)
+
+press the image arrow next to the colour
+
+![](images/worksheet_4/colour_arrow.jpg)
 
 - Then the place2dTexture tab
 
@@ -94,6 +110,8 @@ To scale the pattern, press the image checkerboard button again
 
 
 ### Import a model
+
+We are now going to apply a texture to more complex object.
 
 - Download the cactus fbx file
 
@@ -119,15 +137,15 @@ The history keeps track of changes you make to your model but can make your outl
 
 **- Important -** If you are working on your own model, save a copy before you delete the history so that you can go back if you need to.
 
-- Delete the history of the cactus by selecting your model and pressing the **Delete history** button.
+- Delete the history of the cactus by selecting the pot and cactus and pressing the **Delete history** button in the Poly Modeling tab
 
-![](images/worksheet_5/delete_history.png)
+![](images/worksheet_4/delete_history.jpg)
 
 ### Freeze transforms
 
 When making your model you may have scaled some of the pieces. Before uv mapping, the scales all need to be reset to 1. To do this select the cactus and press the **Freeze transforms** button.
 
-![](images/worksheet_5/freeze.png)
+![](images/worksheet_4/freeze.jpg)
 
 ### Apply a material
 
@@ -161,11 +179,11 @@ This should do a reasonable job at UV mapping the cactus for you
 
 This will open up the editor allowing you to see how automatic mapping has laid out your UV's.
 
-- You can select faces in the UV editor and see their corresponding face the perspective view
+- You can select uv faces in the UV editor and see their corresponding polygon face in the perspective view
 
 ![faces selected in uv mode](images/worksheet_4/uv_selection.jpg)
 	
-In this image you can see where the front of the cactus is.
+In this image you can see where the front of the cactus has been mapped to.
 
 ### Editing UV shells
 
@@ -175,7 +193,7 @@ If you have a seamless texture you will see joints in the texture between shells
 
 ![](images/worksheet_4/seams.PNG)
 
-You cannot avoid joints entirely, however, if you manually uv map your  model you have more control to hide the joint.
+You cannot avoid joints entirely, however, if you manually uv map your model you have more control to hide the joint.
 
 - If you would like to manually map your own model, please watch my UV mapping video on Blackboard (learning materials > Maya content >  extra videos)
 
@@ -187,15 +205,21 @@ We are now going to export the UV's and open them up in PhotoShop and create our
 
 ### Create a snapshot
 
-- In the UV editor, use the mouse to select all the uv shells by drawing a square around them.
+Each piece is called a UV Shell.
+
+- In the **UV editor** Press the **UV Shell Selection** button in on the right.
+
+![](images/worksheet_4/uv_shell_mode.jpg)
+
+- Use the mouse to select all the uv shells by drawing a square around them.
 
 ![](images/worksheet_3/select_all.gif)
 
-- Now Take a snapshot of the uvs by pressing the camera icon at the top of the editor.
+- Now Take a snapshot of the UV's by pressing the camera icon at the top of the editor.
 
 ![snapshot button](images/worksheet_4/camera.jpg)
 
-- Save the snapshot somewhere sensible on your machine. make sure it is set to png and the edge colour is black.
+- Save the snapshot to the same folder as your scene. make sure it is set to png and the edge colour is black.
 
 ![save snapshot button](images/worksheet_4/save_snapshot.jpg)
 
@@ -253,19 +277,20 @@ Layer 1 is your snapshot.
 
 - Export the image by selecting **File > Export > Quick Export as PNG** and save it in your principles of 3d folder. name it "cactus_with_face"
 
-### Apply the next texture to your Cactus
+### Apply the new texture to your Cactus
 
 - Go back into Maya
 - Close the UV editor panel if it is still open
 - Select your cactus
-- Hold down the right mouse button and select **Assign new material**
+- Assign a new **standard surface material** as you did before.
 
-![](images/worksheet_4/new_material.jpg)
+![](images/worksheet_4/standard_surface.jpg)
 
-- Select **Maya > AiStandardSurface** as before
-- Add the colour map you just created
+- rename the material
 
-![change color map button](images/worksheet_4/change_colour_map.jpg)
+- Add the colour map the same way as you added the giraffe texture. (file)
+
+![](images/worksheet_4/cactus_colour.jpg)
 
 ### Look at your applied texture
 

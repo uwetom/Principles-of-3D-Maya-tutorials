@@ -1,7 +1,6 @@
 <html>
   <head>
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-    <link rel="shortcut icon" type="image/x-icon" href="favicon.ico">
     <link rel="stylesheet" href="styles/styles.css" />
     <title>Worksheet 4</title>
   </head>
@@ -10,15 +9,18 @@
     <h2>Add colour</h2>
     <h3>Create a new scene</h3>
     <ul>
-      <li>Open up Maya</li>
-      <li>Create a new Scene</li>
-    </ul>
-    <p><img src="images/worksheet_4/new_scene.jpg" alt="new scene button" /></p>
-    <ul>
       <li>
-        Save the scene in a new folder, This is particularly important as we
-        will be adding separate texture files which Maya will not find if you
-        move them later.
+        <p>Open up Maya</p>
+      </li>
+      <li>
+        <p>Create a new Scene</p>
+      </li>
+      <li>
+        <p>
+          Save the scene in a new folder, This is particularly important as we
+          will be adding separate texture files which Maya will not find if you
+          move them later.
+        </p>
       </li>
     </ul>
     <h3>Add a polygon</h3>
@@ -29,27 +31,23 @@
       <img src="images/worksheet_4/create_cube.jpg" alt="create cube button" />
     </p>
     <h3>Add a material</h3>
+    <p>With the cube selected</p>
     <ul>
       <li>
-        Select you cube, <strong>hold down the right mouse button</strong> and
-        select <strong>Assign New Material"</strong>
+        In the <strong>Rendering</strong> tab, select
+        <strong>Standard Surface Material</strong>
       </li>
     </ul>
+    <p><img src="images/worksheet_4/standard_surface.jpg" alt="" /></p>
     <p>
-      <img
-        src="images/worksheet_4/new_material.jpg"
-        alt="new material button"
-      />
+      The Attribute editor should open on the right of the screen showing the
+      <strong>StandardSurface2</strong> tab open.
     </p>
-    <ul>
-      <li>Select <strong>Arnold &gt; AiStandardSurface</strong></li>
-    </ul>
-    <p><img src="images/worksheet_3/ai_standard_surface.png" alt="" /></p>
-    <p>The Attribute editor will now appear.</p>
+    <p><img src="images/worksheet_4/standard_surface_2.jpg" alt="" /></p>
     <p>
-      If you loose your attribute editor panel, you can get it back by first
-      making sure your object is selected, and then holding down the right mouse
-      button and selecting <strong>Material Attributes</strong>
+      NOTE : You can see the material on any object by selecting it, then
+      holding down the right mouse button and selecting
+      <strong>Material Attributes</strong>
     </p>
     <p>
       <img
@@ -57,11 +55,12 @@
         alt="material attributes button"
       />
     </p>
+    <h4>Change the name</h4>
     <ul>
       <li>
-        Change the name to "cube material 1" and press enter. It is really
-        important to name materials to avoid confusion later on when you have
-        multiple materials.
+        Change the name to "cube material 1" and press <strong>enter</strong>.
+        It is really important to name materials to avoid confusion later on
+        when you have multiple materials.
       </li>
     </ul>
     <p>
@@ -74,20 +73,35 @@
       </li>
     </ul>
     <p><img src="images/worksheet_4/new_standard_surface.PNG" alt="" /></p>
-    <p>Your cube should now appear as that colour.</p>
+    <p><img src="images/worksheet_4/choose_ss_colour.jpg" alt="" /></p>
     <ul>
       <li>
-        Experiment with the <strong>Roughness</strong> and
-        <strong>Metallic</strong> sliders to see how they change the look of the
-        cube.
+        <p>
+          Press <strong>Done</strong> and Your cube should now appear as that
+          colour.
+        </p>
+      </li>
+      <li>
+        <p>
+          There are lots of options to adjust the material, you can adjust the
+          metalness and roughness but the full effect will only become clear
+          when we move on to lighting and rendering next week.
+        </p>
       </li>
     </ul>
     <p><img src="images/worksheet_4/metalness.PNG" alt="" /></p>
+    <p>You can apply different materials to different faces.</p>
+    <ul>
+      <li>
+        Select some faces and apply apply a new standard surface material.
+      </li>
+    </ul>
+    <p><img src="images/worksheet_4/2nd_material.jpg" alt="" /></p>
     <h3>Adding an image map</h3>
     <ul>
       <li>
         Create another cube, move it next to the first and assign a new
-        <strong>AiStandardSurface</strong> material just like we did above.
+        <strong>StandardSurface</strong> material just like we did above.
       </li>
       <li>This time, name it "giraffe_skin_material"</li>
       <li>Instead of a colour, we want to use an image.</li>
@@ -119,6 +133,13 @@
       />
     </p>
     <ul>
+      <li>
+        Check the <strong>textured</strong> icon at the top of the panel is
+        active.
+      </li>
+    </ul>
+    <p><img src="images/worksheet_4/textured_button.jpg" alt="" /></p>
+    <ul>
       <li>You should now see the pattern applied to your cube</li>
     </ul>
     <p>
@@ -127,16 +148,17 @@
         alt="giraffe pattern applied to cube"
       />
     </p>
+    <h3>Change the scale</h3>
+    <p>We now want to scale the pattern</p>
     <ul>
       <li>
-        If you cannot see it, check the <strong>textured</strong> icon at the
-        top of the panel is active.
+        go back to the material attributes by <strong>right clicking</strong> on
+        the cube and selecting <strong>Material attributes</strong>
       </li>
     </ul>
-    <p><img src="images/worksheet_4/textured_button.jpg" alt="" /></p>
-    <h3>Change the scale</h3>
-    <p>To scale the pattern, press the image checkerboard button again</p>
-    <p><img src="images/worksheet_4/colour_file.PNG" alt="" /></p>
+    <p><img src="images/worksheet_4/material_attributes.jpg" alt="" /></p>
+    <p>press the image arrow next to the colour</p>
+    <p><img src="images/worksheet_4/colour_arrow.jpg" alt="" /></p>
     <ul>
       <li>Then the place2dTexture tab</li>
     </ul>
@@ -149,6 +171,7 @@
     </ul>
     <p><img src="images/worksheet_3/repeat_uv.png" alt="" /></p>
     <h3>Import a model</h3>
+    <p>We are now going to apply a texture to more complex object.</p>
     <ul>
       <li>Download the cactus fbx file</li>
     </ul>
@@ -189,18 +212,19 @@
     </p>
     <ul>
       <li>
-        Delete the history of the cactus by selecting your model and pressing
-        the <strong>Delete history</strong> button.
+        Delete the history of the cactus by selecting the pot and cactus and
+        pressing the <strong>Delete history</strong> button in the Poly Modeling
+        tab
       </li>
     </ul>
-    <p><img src="images/worksheet_5/delete_history.png" alt="" /></p>
+    <p><img src="images/worksheet_4/delete_history.jpg" alt="" /></p>
     <h3>Freeze transforms</h3>
     <p>
       When making your model you may have scaled some of the pieces. Before uv
       mapping, the scales all need to be reset to 1. To do this select the
       cactus and press the <strong>Freeze transforms</strong> button.
     </p>
-    <p><img src="images/worksheet_5/freeze.png" alt="" /></p>
+    <p><img src="images/worksheet_4/freeze.jpg" alt="" /></p>
     <h3>Apply a material</h3>
     <ul>
       <li>
@@ -258,12 +282,12 @@
     <p><img src="images/worksheet_4/uv_editor.jpg" alt="uv editor button" /></p>
     <p>
       This will open up the editor allowing you to see how automatic mapping has
-      laid out your UV"s.
+      laid out your UV's.
     </p>
     <ul>
       <li>
-        You can select faces in the UV editor and see their corresponding face
-        the perspective view
+        You can select uv faces in the UV editor and see their corresponding
+        polygon face in the perspective view
       </li>
     </ul>
     <p>
@@ -272,7 +296,10 @@
         alt="faces selected in uv mode"
       />
     </p>
-    <p>In this image you can see where the front of the cactus is.</p>
+    <p>
+      In this image you can see where the front of the cactus has been mapped
+      to.
+    </p>
     <h3>Editing UV shells</h3>
     <p>
       Automatic mapping splits the surface of the model into different uv
@@ -301,28 +328,36 @@
     </p>
     <h2>Create your own texture</h2>
     <p>
-      We are now going to export the UV"s and open them up in PhotoShop and
+      We are now going to export the UV's and open them up in PhotoShop and
       create our own textures.
     </p>
     <h3>Create a snapshot</h3>
+    <p>Each piece is called a UV Shell.</p>
     <ul>
       <li>
-        In the UV editor, use the mouse to select all the uv shells by drawing a
-        square around them.
+        In the <strong>UV editor</strong> Press the
+        <strong>UV Shell Selection</strong> button in on the right.
+      </li>
+    </ul>
+    <p><img src="images/worksheet_4/uv_shell_mode.jpg" alt="" /></p>
+    <ul>
+      <li>
+        Use the mouse to select all the uv shells by drawing a square around
+        them.
       </li>
     </ul>
     <p><img src="images/worksheet_3/select_all.gif" alt="" /></p>
     <ul>
       <li>
-        Now Take a snapshot of the uvs by pressing the camera icon at the top of
-        the editor.
+        Now Take a snapshot of the UV's by pressing the camera icon at the top
+        of the editor.
       </li>
     </ul>
     <p><img src="images/worksheet_4/camera.jpg" alt="snapshot button" /></p>
     <ul>
       <li>
-        Save the snapshot somewhere sensible on your machine. make sure it is
-        set to png and the edge colour is black.
+        Save the snapshot to the same folder as your scene. make sure it is set
+        to png and the edge colour is black.
       </li>
     </ul>
     <p>
@@ -421,27 +456,29 @@
         in your principles of 3d folder. name it "cactus_with_face"
       </li>
     </ul>
-    <h3>Apply the next texture to your Cactus</h3>
+    <h3>Apply the new texture to your Cactus</h3>
     <ul>
       <li>Go back into Maya</li>
       <li>Close the UV editor panel if it is still open</li>
       <li>Select your cactus</li>
       <li>
-        Hold down the right mouse button and select
-        <strong>Assign new material</strong>
+        Assign a new <strong>standard surface material</strong> as you did
+        before.
       </li>
     </ul>
-    <p><img src="images/worksheet_4/new_material.jpg" alt="" /></p>
+    <p><img src="images/worksheet_4/standard_surface.jpg" alt="" /></p>
     <ul>
-      <li>Select <strong>Maya &gt; AiStandardSurface</strong> as before</li>
-      <li>Add the colour map you just created</li>
+      <li>
+        <p>rename the material</p>
+      </li>
+      <li>
+        <p>
+          Add the colour map the same way as you added the giraffe texture.
+          (file)
+        </p>
+      </li>
     </ul>
-    <p>
-      <img
-        src="images/worksheet_4/change_colour_map.jpg"
-        alt="change color map button"
-      />
-    </p>
+    <p><img src="images/worksheet_4/cactus_colour.jpg" alt="" /></p>
     <h3>Look at your applied texture</h3>
     <ul>
       <li>Your finished cactus should look something like this</li>
