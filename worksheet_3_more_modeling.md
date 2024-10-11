@@ -176,7 +176,7 @@ To make this we will first create a curve, then extrude a polygon following the 
 
 #### Curves
 
-Select the "EP curve" tool in the Curves tab.
+Select the **EP curve** tool in the Curves tab.
 
 ![](images/worksheet_3/select_curve.jpg)
 
@@ -201,7 +201,7 @@ Select the "EP curve" tool in the Curves tab.
 
 #### Extrude
 
-- Now go into face mode and select all the faces on the disk
+- Now go into face mode and select all the faces on the disk ( it won't work if you just select the whole object)
 
 - In the **Outliner** hold **ctrl** and **left click** the curve
 
