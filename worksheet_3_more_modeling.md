@@ -209,7 +209,7 @@ The disk and curve should now be selected
 
 ![](images/worksheet_3/select_disk_and_curve.jpg)
 
-- On the top menu, select **Edit Mesh** > **Extrude
+- On the top menu, select **Edit Mesh** > **Extrude**
 
 ![](images/worksheet_3/extruede_on_curve.jpg)
 
