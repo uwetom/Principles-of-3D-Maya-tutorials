@@ -13,13 +13,13 @@ This is important as we are now using multiple files and need to keep them toget
 
 ## Model a Pear
 
-In this worksheet we will model from a reference image, we will make a low poly pear, but this technique is very useful for acurately modeling anything from 2D reference images.
+In this worksheet we will model from a reference image, we will make a low poly pear, but this technique is very useful for accurately modeling anything from 2D reference images.
 
 ### Import reference image
 
 You can work from sketches for your own project, but we will work from a photo.
 
-We will use this image of a pear.
+We will use this front view of a pear, for more complex models you may also want to use a top and side view.
 
 [Pear image](./assets_for_worksheets/pear_reference.jpg)
 
