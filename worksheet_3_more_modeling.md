@@ -1,21 +1,11 @@
 # Worksheet 3 - Organic modeling from a reference Image
 
-### Before you start
-
-All the machines in the lab have Maya installed, if you want you use your own machine follow the installation guide.
-
-[Maya instalation guide](https://www.uwe.ac.uk/study/it-services/software/specialist-software#autodesk_maya)
-
-Make sure you have a mouse.
-
-Ask for help if you get stuck.
-
 ### Create a new scene
 
 - Open up Maya
 - Create a new Scene
 
-![Create new scene](images/worksheet_3.1/new_scene.jpg)
+![](images/worksheet_3/new_scene.jpg)
 
 - Create a new folder and save the Maya scene inside it. 
 
@@ -23,11 +13,9 @@ This is important as we are now using multiple files and need to keep them toget
 
 ## Model a Pear
 
-This worksheet will help you to model a pear, however, using an image reference is useful for many projects and rounded organic shapes are very common in many objects.
+In this worksheet we will model from a reference image, we will make a low poly pear, but this technique is very useful for acurately modeling anything from 2D reference images.
 
 ### Import reference image
-
-Using an image reference is very useful as a guide to help you create a good model.
 
 You can work from sketches for your own project, but we will work from a photo.
 
@@ -35,14 +23,15 @@ We will use this image of a pear.
 
 [Pear image](./assets_for_worksheets/pear_reference.jpg)
 
-- Save the image by right clicking it. Save it in the same folder as your scene.
+- Save the image by right clicking it and find the option to save the image.
+- Save it in the same folder as your scene.
 
 ### Create a reference image plane
 
 In Maya
 
 - In the top menu select **Create > Free image plane**
-- With the plane selected open up the attributes tab by pressing the button at the top right of the screen.
+- With the plane selected open up the **attributes** tab by pressing the button at the top right of the screen.
 
 ![](images/worksheet_3.1/attribute_editor.jpg)
 
@@ -60,7 +49,7 @@ In Maya
 
 ![](images/worksheet_3.1/create_cylinder.jpg)
 
-- Create a cylinder with the following properties
+- Create a cylinder with the following properties:
 
 	- radius 5
 	- height 10
@@ -112,9 +101,9 @@ We can now scale down the vertices to match the shape of our pear reference.
 
 ![](images/worksheet_3.1/scale_edge_loop_1.gif)
 
-*Don't use the right hand red square, as it will only scale the shape in one dimension*
+*Do not use the right hand red square, as it will only scale the shape in one dimension*
 
-- With the vertexes still selected, go into move mode by pressing "w" or the move button.
+- With the vertices still selected, go into move mode by pressing "w" or the move button.
 
 ![](images/worksheet_3.1/move_scale_rotate.jpg)
 
@@ -128,15 +117,15 @@ We can now scale down the vertices to match the shape of our pear reference.
 
 ### Check your work
 
-We now want to check our model in perspective view to make sure it looks OK.
+Before we go further we now want to check our model in perspective view to make sure it looks OK.
 
 - Press the space bar, and then hover over the perspective panel and press it again to go back into perspective view.
 
-- Check that your pear looks OK, if not you can undo by pressing **ctrl + z** a few times and redo the last few steps making sure you scale evenly.
+- Check that the shape is even and you have not accidently squashed it in one dimension.
 
 ### Add extra detail
 
-- Go back into the front view again by pressing space
+- Go back into the front view again by pressing the space bar
 
 We can now add extra edge loops to improve the model.
 
@@ -144,7 +133,7 @@ We can now add extra edge loops to improve the model.
 
 ![](images/worksheet_2/multi-cut.png)
 
-- Hold down **ctrl** and hover your mouse over the shape, click to add extra edge loops where you think it needs more detail. 
+- Hold down **ctrl** and hover your mouse over the shape, click to add a few extra edge loops where you think it needs more detail, dont add too many. 
 
 ![](images/worksheet_3.1/add_edge_loops.gif)
 
@@ -163,7 +152,7 @@ Your pear will look quite faceted, with hard corners, you may like this low poly
 - Select the model, and select **Mesh Display > soften edges**
 
 
-### Final details
+### Top and bottom
 
 - Pull up the top edge loop to create a depression in the top.
 
@@ -177,17 +166,68 @@ As we are making an organic object, we do not want it to be too perfect.
 
 ![](images/worksheet_3.1/imperfections.gif)
 
-## Challenge
+### Stalk
 
-Now that the main body of the pair is complete your challenge is to create the stalk in the same way.
+We can now move onto the stalk, modeling it as a separate object.
 
-You can make this a separate object or extrude the top faces upwards.
+To make this we will first create a curve, then extrude a polygon following the path.
 
-when you scale and move the vertex loops you can also rotate them if needed.
+- Go back into the front view
 
-When you have finished, you can hide the reference image by selecting it and pressing "h".
+#### Curves
 
-![](images/worksheet_3.1/finished_pear.png)
+Select the "EP curve" tool in the Curves tab.
+
+![](images/worksheet_3/select_curve.jpg)
+
+- Starting from the end of the stalk, **left click** to create the curve. hold down the mouse button to adjust the curve.
+
+![](images/worksheet_3/create_curve.gif)
+
+
+#### Polygon
+
+**Double click** to make a polygon disk.
+
+![](images/worksheet_3/polygon_circle.jpg)
+
+- Set the options as bellow and press create.
+
+![](images/worksheet_3/disc.jpg)
+
+- Move and rotate the disk to place it on the end of the curve
+
+![](images/worksheet_3/position_disk.jpg)
+
+#### Extrude
+
+- Now go into face mode and select all the faces on the disk
+
+- In the **Outliner** hold **ctrl** and **left click** the curve
+
+The disk and curve should now be selected
+
+![](images/worksheet_3/select_disk_and_curve.jpg)
+
+- On the top menu, select **Edit Mesh** > **Extrude
+
+![](images/worksheet_3/extruede_on_curve.jpg)
+
+![](images/worksheet_3/extruded.jpg)
+
+Now we need to add some divisions
+
+- Increase the divisions to 6
+
+![](images/worksheet_3/divisions.jpg)
+
+If you like, you can now scale and adjust edges and vertices on the stalk to make it look more natural.
+
+## Hide
+
+When you have finished, you can hide the reference image by selecting it and pressing "h" (select it the outliner and press "h" to show it again).
+
+![](images/worksheet_3/final_pear.jpg)
 
 Save you work.
 
