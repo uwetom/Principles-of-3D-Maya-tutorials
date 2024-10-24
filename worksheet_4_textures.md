@@ -301,6 +301,8 @@ Layer 1 is your snapshot.
 ## Extra Challenges
 
 - Find a seamless stone texture online and apply it to the cactus pot.
+
+A good source of free textures is [ambientcy.com](https://ambientcg.com/)
 - Texture your pear or robot from the previous worksheets.
 
 ## Final Challenge
