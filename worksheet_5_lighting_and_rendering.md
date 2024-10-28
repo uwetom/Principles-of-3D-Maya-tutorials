@@ -3,7 +3,7 @@
 
 ## Arnold Renderer
 
-We will be using the Arnold Renderer in this worksheet.
+We will be using the Arnold Renderer in this worksheet as it will give us the best quality renders.
 
 If you are using the lab machines the Arnold render will already be installed and you can skip ahead to "Create a new scene"
 
@@ -17,20 +17,17 @@ If you cannot see it, you may need to turn on the Arnold render by going to:
 
 ![](images/worksheet_5/plugin_manager.png)
 
-Then tick the boxes next to mtoa.mll
+Search for mtoa and tick the boxes.
 
-![](images/worksheet_5/mtoa.png)
+![](images/worksheet_5/mtoa.jpg)
 
-If you cannot get this work work please ask for help.
+If you cannot get this to work please ask for help.
 
 ### Create a new scene
 
 - Open up Maya
 - Create a new Scene
-
-![Create new scene](images/worksheet_5/new_scene.jpg)
-
-- Save the scene to a new folder.
+- **Save** the scene to a new folder.
 
 ### Import fbx file
 
@@ -40,7 +37,6 @@ If you cannot get this work work please ask for help.
 
 ![import button](images/worksheet_5/import.jpg)
 
-	
 - You should now be able to see an orange pumpkin model in your scene.
 
 ![](images/worksheet_5/pumpkin.png)
@@ -69,7 +65,7 @@ If you cannot get this work work please ask for help.
 
 - Only the rotation has an effect on directional lights, they are normally used to simulate a distant light source such as the Sun.
 
-### Turn on Lights  and shadows in scene
+### Turn On Lights and Shadows
 
 - You can get an rough approximation of what the light will look like in the final render by turning on lights in the scene.
 
@@ -80,6 +76,8 @@ If you cannot get this work work please ask for help.
 - Turn on Shadows with the button to the right
 
 ![](images/worksheet_5/shadows.png)
+
+![](images/worksheet_5/directional_light_position.jpg)
 
 ### light properties
 
@@ -128,7 +126,7 @@ You may want to add a polygon plane under your pumpkin so that you can see how t
 
 ![](images/worksheet_5/spot_light.png)
 
-- Render your scene to see how it looks.
+- Render your scene again to see how it looks.
 
 ## Render Settings
 
@@ -177,7 +175,32 @@ More information about these settings can be found here:
 https://help.autodesk.com/view/ARNOL/ENU/?guid=arnold_user_guide_ac_render_settings_ac_samples_html
 
 
+## Challenge
 
+### Experiment with different lights
+
+We have covered the basic lights in this worksheet but there other useful Arnold specific lights you may want to use.
+
+You can find them in the top menu, under Arnold > Lights
+
+- The skydome light creates a large sphere of light around your model.
+
+- The area light is great for simulating windows or other larger sources of light. It can be scaled, the line show which side is emitting light.
+
+![](images/worksheet_5/area_light.jpg)
+
+
+### Emissions
+
+Standard Surface materials support emmisions, they can glow.
+
+- Add some spheres for eyes
+- Apply a new standard surface material to them
+- Increase the emission weight and colour
+
+![](images/worksheet_5/Emission.jpg)
+
+![](images/worksheet_5/glowing_eyes.jpg)
 
 
 

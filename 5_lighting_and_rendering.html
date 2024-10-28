@@ -1,14 +1,16 @@
 <html>
   <head>
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-    <link rel="shortcut icon" type="image/x-icon" href="favicon.ico">
     <link rel="stylesheet" href="styles/styles.css" />
-    <title>Exporting and importing</title>
+    <title>Worksheet 5</title>
   </head>
   <body>
     <h1>Worksheet 5 - Lighting and rendering</h1>
     <h2>Arnold Renderer</h2>
-    <p>We will be using the Arnold Renderer in this worksheet.</p>
+    <p>
+      We will be using the Arnold Renderer in this worksheet as it will give us
+      the best quality renders.
+    </p>
     <p>
       If you are using the lab machines the Arnold render will already be
       installed and you can skip ahead to "Create a new scene"
@@ -27,17 +29,14 @@
       <strong>Windows &gt; Settings/Preferences &gt; Plug-in manager</strong>
     </p>
     <p><img src="images/worksheet_5/plugin_manager.png" alt="" /></p>
-    <p>Then tick the boxes next to mtoa.mll</p>
-    <p><img src="images/worksheet_5/mtoa.png" alt="" /></p>
-    <p>If you cannot get this work work please ask for help.</p>
+    <p>Search for mtoa and tick the boxes.</p>
+    <p><img src="images/worksheet_5/mtoa.jpg" alt="" /></p>
+    <p>If you cannot get this to work please ask for help.</p>
     <h3>Create a new scene</h3>
     <ul>
       <li>Open up Maya</li>
       <li>Create a new Scene</li>
-    </ul>
-    <p><img src="images/worksheet_5/new_scene.jpg" alt="Create new scene" /></p>
-    <ul>
-      <li>Save the scene to a new folder.</li>
+      <li><strong>Save</strong> the scene to a new folder.</li>
     </ul>
     <h3>Import fbx file</h3>
     <ul>
@@ -100,7 +99,7 @@
         </p>
       </li>
     </ul>
-    <h3>Turn on Lights and shadows in scene</h3>
+    <h3>Turn On Lights and Shadows</h3>
     <ul>
       <li>
         <p>
@@ -119,6 +118,9 @@
       <li>Turn on Shadows with the button to the right</li>
     </ul>
     <p><img src="images/worksheet_5/shadows.png" alt="" /></p>
+    <p>
+      <img src="images/worksheet_5/directional_light_position.jpg" alt="" />
+    </p>
     <h3>light properties</h3>
     <ul>
       <li>
@@ -187,7 +189,7 @@
     </p>
     <p><img src="images/worksheet_5/spot_light.png" alt="" /></p>
     <ul>
-      <li>Render your scene to see how it looks.</li>
+      <li>Render your scene again to see how it looks.</li>
     </ul>
     <h2>Render Settings</h2>
     <ul>
@@ -219,7 +221,7 @@
     <ul>
       <li>
         With the render view open, you can export your current render by
-        selecting <strong>File &gt; Save Image"</strong>
+        selecting <strong>File &gt; Save Image...</strong>
       </li>
     </ul>
     <p><img src="images/worksheet_5/save_image.png" alt="" /></p>
@@ -258,5 +260,36 @@
         >https://help.autodesk.com/view/ARNOL/ENU/?guid=arnold_user_guide_ac_render_settings_ac_samples_html</a
       >
     </p>
+    <h2>Challenge</h2>
+    <h3>Experiment with different lights</h3>
+    <p>
+      We have covered the basic lights in this worksheet but there other useful
+      Arnold specific lights you may want to use.
+    </p>
+    <p>You can find them in the top menu, under Arnold &gt; Lights</p>
+    <ul>
+      <li>
+        <p>
+          The skydome light creates a large sphere of light around your model.
+        </p>
+      </li>
+      <li>
+        <p>
+          The area light is great for simulating windows or other larger sources
+          of light. It can be scaled, the line show which side is emitting
+          light.
+        </p>
+      </li>
+    </ul>
+    <p><img src="images/worksheet_5/area_light.jpg" alt="" /></p>
+    <h3>Emissions</h3>
+    <p>Standard Surface materials support emmisions, they can glow.</p>
+    <ul>
+      <li>Add some spheres for eyes</li>
+      <li>Apply a new standard surface material to them</li>
+      <li>Increase the emission weight and colour</li>
+    </ul>
+    <p><img src="images/worksheet_5/Emission.jpg" alt="" /></p>
+    <p><img src="images/worksheet_5/glowing_eyes.jpg" alt="" /></p>
   </body>
 </html>
