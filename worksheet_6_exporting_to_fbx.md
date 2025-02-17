@@ -96,7 +96,7 @@ You have now successfully exported your model from Maya.
 
 ## Import into Unity
 
-- First create a new Unity project using the Universal 3D core renderer.
+- Open a Unity project or create a new one using the Universal 3D core renderer.
 
 ![](images/worksheet_6/unity1.png)
 
@@ -122,7 +122,7 @@ You may get a pop up asking you to mark some textures as normal maps, they are.
 
 ![](images/worksheet_6/fix_now.png)
 
-- Extract the Materials in the same way, you can make a new folder for these or put them in the existing Materials folder.file:///C:/Users/t-garne/OneDrive - UWE Bristol/Creative-technology/Games Technology/principles_of_3d/maya_worksheets
+- Extract the Materials in the same way, you can make a new folder for these or put them in the existing Materials folder.
 
 You can now Drag your barrel into the scene and all the textures should be in place. 
 
