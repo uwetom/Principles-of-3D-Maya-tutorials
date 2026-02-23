@@ -9,16 +9,12 @@ or
 - Create a new maya project and download and import the barrel fbx file using **file > import**
 
 [barrel.fbx](./assets_for_worksheets/barrel.fbx)
-
+(to download this file, click it then click download raw)
 ![](images/worksheet_6/barrel.png)
 
 ## Materials
 
-The Barrel uses Mayas PBR **StingRay Textures** because they are easy to apply in Maya and work   well with Unity.
-
-Other types of Maya textures will work in Unity, but may need re-applying using the second method shown in this worksheet.
-
-For more information about texturing, look back at the previous Maya worksheets or ask.
+The Barrel uses Maya standard surace materials. You can use other materials but you may need to re-attach the textures in Unity after export.
 
 ## Scale
 
