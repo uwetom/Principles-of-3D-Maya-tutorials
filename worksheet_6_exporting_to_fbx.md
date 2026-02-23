@@ -14,7 +14,13 @@ or
 
 ## Materials
 
-The Barrel uses Maya standard surace materials. You can use other materials but you may need to re-attach the textures in Unity after export.
+The Barrel uses Mayas PBR **StingRay Textures** because they are easy to apply in Maya and work well with Unity.
+
+You can find a video next to this guide on Blackboard showing you how to apply them.
+
+Other types of Maya textures will work in Unity, but may need re-applying using the second method shown in this worksheet.
+
+For more information about texturing, look back at the previous Maya worksheets or ask.
 
 ## Scale
 
@@ -132,7 +138,7 @@ I have downloaded a model of a dog from Sketchfab ([https://skfb.ly/MnrW](https:
 
 If you don't want to log in to sketchfab you can download it here:
 
-[dog zip file](./assets_for_worksheets/k9-doctors-who-dog.zip)
+[dog zip file](./assets_for_worksheets/k9-doctors-who-dog.zip) (click and press download raw)
 
 If you unzip it you can see that the textures come through separately from the fbx file.
 
@@ -158,8 +164,13 @@ Quite often you will get 2 normal maps, directx and Open GL, Unity is usually se
 
 You may find that you cannot use all the maps.
 
+# Trouble shooting
 
+## Transparent
 
+If your textures don't look right in Unity check they are not accidentally transparent.
 
+In Unity change the render mode from transparent to Opaque for all materials. 
 
+![Unity rendering mode](images/worksheet_6/transparent.jpg)
 
