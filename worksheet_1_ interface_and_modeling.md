@@ -74,10 +74,10 @@ The **Select tool** lets you select objects in your scene.
 
 You will use many tools during these worksheets, remember that you can quit out of those tools and go back to the **Select tool** by pressing "q".
  
-### Manipulate the cube
+
 
 #### Move
-- **Click** on the cube to select it.
+
 - Press **f** to centre the selected object on the screen.
 - Click on the move button on the left side of the screen *the keyboard shortcut is w*.
 
@@ -206,21 +206,7 @@ You can use the outline to select items that may be hard to select in the scene.
 
 ![nose cone above cylinder body](images/worksheet_1/basic_rocket.PNG)
 
-### Hiding using the outliner.
 
-It can sometimes be difficult to select what you need to in your scene if an element is on top of another.
-
-You can temporarily hide an object by selecting it and pressing **h**.
-
-To show it again, select it in the outliner and press **h** again.
-
-Try this with your nose cone.
-
-- Select the nose cone then press **h**
-
-The nose cone should have dissapeared
-
-- Select the nose cone in the outliner and press **h** again to show it.
 - 
 ### Increment and save
 - Go to **File > Increment and save**
@@ -267,6 +253,8 @@ A box will now appear in your scene, the 2 numbers next to **tris** are the tota
 
 - Press **Create**
 
+
+
 - Position the torus on the front of the rocket. TIP : hold down **j** before rotating to lock the rotation to 15 degree increments.
 
 ![](images/worksheet_1/window.png)
@@ -289,7 +277,7 @@ It is important that you don't use **ctrl** and **c** as you normally would in o
 
 ![](images/worksheet_1/drag.gif)
 
-## **Challenge** - Finish your rocket
+## 4. Challenge - Finish your rocket
 
 ![a 2d rocket](images/worksheet_1/rocket.png)
 
