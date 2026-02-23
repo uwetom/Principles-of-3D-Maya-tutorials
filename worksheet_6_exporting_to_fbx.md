@@ -9,7 +9,7 @@ or
 - Create a new maya project and download and import the barrel fbx file using **file > import**
 
 [barrel.fbx](./assets_for_worksheets/barrel.fbx)
-
+(to download this file, click it then click download raw)
 ![](images/worksheet_6/barrel.png)
 
 ## Materials
