@@ -14,7 +14,7 @@ or
 
 ## Materials
 
-The Barrel uses Mayas PBR **StingRay Textures** because they are easy to apply in Maya and work well with Unity.
+The Barrel uses Maya's PBR **StingRay Textures** because they are easy to apply in Maya and work well with Unity.
 
 You can find a video next to this guide on Blackboard showing you how to apply them.
 
@@ -100,23 +100,23 @@ You have now successfully exported your model from Maya.
 
 - Open a Unity project or create a new one using the Universal 3D core renderer.
 
-![](images/worksheet_6/unity1.png)
+![](images/worksheet_6/unity_project.jpg)
 
-- Import your model by dragging and dropping the .fbx file onto your **Assets** panel, or going to **Assets > import new Asset**
+- Create a new folder in your assets panel called "barrel"
 
-![](images/worksheet_6/grey_barrel.png)
+- Import your model into this folder by dragging and dropping the .fbx file onto it, or going to **Assets > import new Asset**.
 
-If you look closely at the barrel you will see that its grey, no textures are applied to it,
+![](images/worksheet_6/import_into_unity.jpg)
 
-However, because we embedded the materials within Maya we can now extract them.
+If you look closely at the barrel you will see that its grey, no textures are applied to it.
 
-- First create a new folder in your assets panel named "Materials"
+But because we embedded the materials within Maya we can now extract them.
 
 - With the barrel selected, go to the Materials tab in the inspector.
 
 ![](images/worksheet_6/materials_tab.png)
 
-- Press **Extract Textures** and choose the new Materials folder when asked.
+- Press **Extract Textures** and put them nexxt to 
 
 You may get a pop up asking you to mark some textures as normal maps, they are.
 
